@@ -1,0 +1,158 @@
+uiopen('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_2.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',1)
+edit mmd_dnn_train_irm.m
+edit postProcBuildData.m
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD2IRM_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+{Error using <a href="matlab:helpUtils.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file
+'C:\Temp\explains\models\model.242.1024.1024.1024.1024.242.relu.sigm.ada_sgd.dropout.bestModel.irm_dataMimMel_cg03real_mfpc19_fpc11.mat':
+no such file or directory.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('processFileWithNetIrm', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m', 18)" style="font-weight:bold">processFileWithNetIrm</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m',18,0)">line 18</a>)
+load(netFileName)   % Contains: best_model, opts
+
+Error in <a href="matlab:helpUtils.errorDocCallback('testOnSomeFiles', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m', 76)" style="font-weight:bold">testOnSomeFiles</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',76,0)">line 76</a>)
+            [y fs] = processFileWithNetIrm(paths{fi}, fpc, 0);
+} 
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_D1', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+{Error using <a href="matlab:helpUtils.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file
+'C:\Temp\explains\models\model.242.1024.1024.1024.1024.242.relu.sigm.ada_sgd.dropout.bestModel.irm_dataMimMel_cg03real_mfpc19_fpc11.mat':
+no such file or directory.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('processFileWithNetIrm', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m', 18)" style="font-weight:bold">processFileWithNetIrm</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m',18,0)">line 18</a>)
+load(netFileName)   % Contains: best_model, opts
+
+Error in <a href="matlab:helpUtils.errorDocCallback('testOnSomeFiles', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m', 76)" style="font-weight:bold">testOnSomeFiles</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',76,0)">line 76</a>)
+            [y fs] = processFileWithNetIrm(paths{fi}, fpc, 0);
+} 
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_D1', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+{Error using <a href="matlab:helpUtils.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file
+'C:\Temp\explains\models\model.242.1024.1024.1024.1024.242.relu.sigm.ada_sgd.dropout.bestModel.irm_dataMimMel_cg03real_mfpc19_fpc11.mat':
+no such file or directory.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('processFileWithNetIrm', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m', 18)" style="font-weight:bold">processFileWithNetIrm</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m',18,0)">line 18</a>)
+load(netFileName)   % Contains: best_model, opts
+
+Error in <a href="matlab:helpUtils.errorDocCallback('testOnSomeFiles', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m', 76)" style="font-weight:bold">testOnSomeFiles</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',76,0)">line 76</a>)
+            [y fs] = processFileWithNetIrm(paths{fi}, fpc, 0);
+} 
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_D1', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m',7,1)">7   </a>if ~exist('prependMix', 'var') || isempty(prependMix), prependMix = 0; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_D1', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 10 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',34,1)">34  </a>chunkFn = @loadMelChunksFromWav;
+modelFile
+
+modelFile =
+
+C:\Temp\explains\models\model.242.1024.1024.1024.1024.1.relu.sigm.ada_sgd.dropout.bestModel.paired_dataMimMel_cg03real_mfpc19_D1_fpc11.mat
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_D1', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 10 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',34,1)">34  </a>chunkFn = @loadMelChunksFromWav;
+if system_dependent('IsDebugMode')==1, dbcont; end
+1: bwba5a.wav\pgbk5s.wav
+{Error using <a href="matlab:helpUtils.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file
+'C:\Temp\explains\models\model.242.1024.1024.1024.1024.1.relu.sigm.ada_sgd.dropout.bestModel.paired_dataMimMel_cg03real_mfpc19_D1_fpc11.mat':
+no such file or directory.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('processFileWithNetIrm', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m', 18)" style="font-weight:bold">processFileWithNetIrm</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m',18,0)">line 18</a>)
+load(netFileName)   % Contains: best_model, opts
+
+Error in <a href="matlab:helpUtils.errorDocCallback('testOnSomeFiles', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m', 78)" style="font-weight:bold">testOnSomeFiles</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',78,0)">line 78</a>)
+            [y fs] = processFileWithNetIrm(paths{fi}, fpc, 0, modelFile);
+} 
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_D1', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m',18,1)">18  </a>load(netFileName)   % Contains: best_model, opts
+if system_dependent('IsDebugMode')==1, dbquit; end
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_D1', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+{Error using <a href="matlab:helpUtils.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file
+'C:\Temp\explains\models\model.242.1024.1024.1024.1024.242.relu.sigm.ada_sgd.dropout.bestModel.paired_dataMimMel_cg03real_mfpc19_D1_fpc11.mat':
+no such file or directory.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('processFileWithNetIrm', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m', 18)" style="font-weight:bold">processFileWithNetIrm</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m',18,0)">line 18</a>)
+load(netFileName)   % Contains: best_model, opts
+
+Error in <a href="matlab:helpUtils.errorDocCallback('testOnSomeFiles', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m', 78)" style="font-weight:bold">testOnSomeFiles</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',78,0)">line 78</a>)
+            [y fs] = processFileWithNetIrm(paths{fi}, fpc, 0, modelFile);
+} 
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_D1', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m',18,1)">18  </a>load(netFileName)   % Contains: best_model, opts
+netFileName
+
+netFileName =
+
+C:\Temp\explains\models\model.242.1024.1024.1024.1024.242.relu.sigm.ada_sgd.dropout.bestModel.paired_dataMimMel_cg03real_mfpc19_D1_fpc11.mat
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_D1', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\processFileWithNetIrm.m',18,1)">18  </a>load(netFileName)   % Contains: best_model, opts
+if system_dependent('IsDebugMode')==1, dbcont; end
+2: lbbd8n.wav\pgwr5a.wav
+if system_dependent('IsDebugMode')==1, dbcont; end
+3: lgwgzn.wav\sbwo1a.wav
+4: lwws5a.wav\lwws5a.wav
+5: pgbk5s.wav\pgbk5s.wav
+6: pgwr5a.wav\sbwo1a.wav
+7: pwad2p.wav\srit6n.wav
+8: sbwo1a.wav\lwws5a.wav
+9: sria4n.wav\pgwr5a.wav
+10: srit6n.wav\sria4n.wav
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_D1', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+   ^^^ Skipping ^^^
+2: lbbd8n.wav\pgwr5a.wav
+   ^^^ Skipping ^^^
+3: lgwgzn.wav\sbwo1a.wav
+   ^^^ Skipping ^^^
+4: lwws5a.wav\lwws5a.wav
+   ^^^ Skipping ^^^
+5: pgbk5s.wav\pgbk5s.wav
+   ^^^ Skipping ^^^
+6: pgwr5a.wav\sbwo1a.wav
+   ^^^ Skipping ^^^
+7: pwad2p.wav\srit6n.wav
+   ^^^ Skipping ^^^
+8: sbwo1a.wav\lwws5a.wav
+   ^^^ Skipping ^^^
+9: sria4n.wav\pgwr5a.wav
+   ^^^ Skipping ^^^
+10: srit6n.wav\sria4n.wav
+   ^^^ Skipping ^^^
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_D1', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',64,1)">64  </a>    if exist(outFile, 'file') && ~overwrite
+outFile
+
+outFile =
+
+C:\Users\cho64_000\Box Sync\DNN Separation\explains\outputs\dict=MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans\fpc=11\tw=0.050\dataType=Nor_\inputTag=remixExt_cg03\noisy\testSet=train\subdev\file=bwba5a.wav\pgbk5s.wav\proc.wav
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+edit postProcBuildData.m
+edit mmd_dnn_train_irm.m
+edit rankWithIRMPairedExtNn.m

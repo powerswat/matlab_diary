@@ -1,0 +1,314 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',1)
+runMLP
+eta = 0.5, alpha = 0, Inputs = 2, Hidden units = 4
+Elapsed time = 1.075, Epoches = 483
+eta = 0.5, alpha = 0, Inputs = 3, Hidden units = 4
+Elapsed time = 1.052, Epoches = 287
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.197, Epoches = 162
+eta = 0.5, alpha = 0, Inputs = 5, Hidden units = 4
+Elapsed time = 1.957, Epoches = 126
+eta = 0.5, alpha = 0, Inputs = 6, Hidden units = 4
+Elapsed time = 1.91, Epoches = 59
+eta = 0.5, alpha = 0, Inputs = 7, Hidden units = 4
+Elapsed time = 4.768, Epoches = 82
+eta = 0.5, alpha = 0, Inputs = 8, Hidden units = 4
+Elapsed time = 5.807, Epoches = 47
+eta = 0.5, alpha = 0, Inputs = 9, Hidden units = 4
+Elapsed time = 6.011, Epoches = 26
+eta = 0.5, alpha = 0, Inputs = 10, Hidden units = 4
+Elapsed time = 12.435, Epoches = 27
+eta = 0.5, alpha = 0, Inputs = 11, Hidden units = 4
+Elapsed time = 14.585, Epoches = 16
+eta = 0.5, alpha = 0, Inputs = 12, Hidden units = 4
+Elapsed time = 21.737, Epoches = 12
+eta = 0.5, alpha = 0, Inputs = 13, Hidden units = 4
+Elapsed time = 64.699, Epoches = 17
+eta = 0.5, alpha = 0, Inputs = 14, Hidden units = 4
+Elapsed time = 123.614, Epoches = 17
+eta = 0.5, alpha = 0, Inputs = 15, Hidden units = 4
+Elapsed time = 169.97, Epoches = 12
+eta = 0.5, alpha = 0, Inputs = 16, Hidden units = 4
+Elapsed time = 606.049, Epoches = 21
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 2
+Elapsed time = 1.691, Epoches = 230
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 3
+Elapsed time = 1.29, Epoches = 179
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.157, Epoches = 162
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 5
+Elapsed time = 1.089, Epoches = 150
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 6
+Elapsed time = 1.272, Epoches = 178
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 7
+Elapsed time = 0.952, Epoches = 131
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 8
+Elapsed time = 1.043, Epoches = 144
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 9
+Elapsed time = 1.141, Epoches = 152
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 10
+Elapsed time = 0.822, Epoches = 110
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 11
+Elapsed time = 0.83, Epoches = 113
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 12
+Elapsed time = 0.851, Epoches = 117
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 13
+Elapsed time = 0.889, Epoches = 123
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 14
+Elapsed time = 0.738, Epoches = 98
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 15
+Elapsed time = 0.945, Epoches = 127
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 16
+Elapsed time = 0.972, Epoches = 133
+uiopen('C:\Users\cho64_000\Documents\MATLAB\startup.m',1)
+uiopen('C:\Users\cho64_000\Documents\MATLAB\startup.m',1)
+uiopen('C:\Users\cho64_000\Documents\MATLAB\startup.m',1)
+uiopen('C:\Users\cho64_000\Documents\MATLAB\startup.m',1)
+runMLP
+eta = 0.5, alpha = 0, Inputs = 2, Hidden units = 4
+Elapsed time = 1.522, Epoches = 562
+eta = 0.5, alpha = 0, Inputs = 3, Hidden units = 4
+Elapsed time = 1.609, Epoches = 299
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.776, Epoches = 166
+eta = 0.5, alpha = 0, Inputs = 5, Hidden units = 4
+Elapsed time = 2.27, Epoches = 107
+eta = 0.5, alpha = 0, Inputs = 6, Hidden units = 4
+Elapsed time = 3.033, Epoches = 73
+eta = 0.5, alpha = 0, Inputs = 7, Hidden units = 4
+Elapsed time = 4.51, Epoches = 52
+eta = 0.5, alpha = 0, Inputs = 8, Hidden units = 4
+Elapsed time = 10.667, Epoches = 61
+eta = 0.5, alpha = 0, Inputs = 9, Hidden units = 4
+Elapsed time = 24.712, Epoches = 75
+eta = 0.5, alpha = 0, Inputs = 10, Hidden units = 4
+Elapsed time = 33.158, Epoches = 48
+eta = 0.5, alpha = 0, Inputs = 11, Hidden units = 4
+Elapsed time = 35.501, Epoches = 37
+eta = 0.5, alpha = 0, Inputs = 12, Hidden units = 4
+Elapsed time = 40.908, Epoches = 23
+eta = 0.5, alpha = 0, Inputs = 13, Hidden units = 4
+Elapsed time = 141.231, Epoches = 39
+eta = 0.5, alpha = 0, Inputs = 14, Hidden units = 4
+Elapsed time = 231.915, Epoches = 34
+eta = 0.5, alpha = 0, Inputs = 15, Hidden units = 4
+Elapsed time = 250.143, Epoches = 18
+eta = 0.5, alpha = 0, Inputs = 16, Hidden units = 4
+Elapsed time = 623.249, Epoches = 22
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 2
+Elapsed time = 1.587, Epoches = 214
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 3
+Elapsed time = 1.503, Epoches = 200
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.326, Epoches = 166
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 5
+Elapsed time = 1.337, Epoches = 183
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 6
+Elapsed time = 1.17, Epoches = 159
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 7
+Elapsed time = 1.239, Epoches = 169
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 8
+Elapsed time = 1.11, Epoches = 150
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 9
+Elapsed time = 0.917, Epoches = 121
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 10
+Elapsed time = 0.919, Epoches = 124
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 11
+Elapsed time = 0.927, Epoches = 124
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 12
+Elapsed time = 0.968, Epoches = 131
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 13
+Elapsed time = 0.857, Epoches = 115
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 14
+Elapsed time = 0.962, Epoches = 130
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 15
+Elapsed time = 0.843, Epoches = 112
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 16
+Elapsed time = 1.036, Epoches = 133
+runMLP
+eta = 0.5, alpha = 0, Inputs = 2, Hidden units = 4
+Elapsed time = 0.871, Epoches = 478
+eta = 0.5, alpha = 0, Inputs = 3, Hidden units = 4
+Elapsed time = 0.966, Epoches = 267
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.077, Epoches = 149
+eta = 0.5, alpha = 0, Inputs = 5, Hidden units = 4
+Elapsed time = 1.485, Epoches = 104
+eta = 0.5, alpha = 0, Inputs = 6, Hidden units = 4
+Elapsed time = 2.353, Epoches = 83
+eta = 0.5, alpha = 0, Inputs = 7, Hidden units = 4
+Elapsed time = 3.251, Epoches = 56
+eta = 0.5, alpha = 0, Inputs = 8, Hidden units = 4
+Elapsed time = 10.357, Epoches = 92
+eta = 0.5, alpha = 0, Inputs = 9, Hidden units = 4
+Elapsed time = 5.73, Epoches = 25
+eta = 0.5, alpha = 0, Inputs = 10, Hidden units = 4
+Elapsed time = 9.7, Epoches = 22
+eta = 0.5, alpha = 0, Inputs = 11, Hidden units = 4
+Elapsed time = 19.771, Epoches = 22
+eta = 0.5, alpha = 0, Inputs = 12, Hidden units = 4
+Elapsed time = 31.276, Epoches = 18
+eta = 0.5, alpha = 0, Inputs = 13, Hidden units = 4
+Elapsed time = 80.401, Epoches = 23
+eta = 0.5, alpha = 0, Inputs = 14, Hidden units = 4
+Elapsed time = 76.845, Epoches = 11
+eta = 0.5, alpha = 0, Inputs = 15, Hidden units = 4
+Elapsed time = 137.466, Epoches = 10
+eta = 0.5, alpha = 0, Inputs = 16, Hidden units = 4
+Elapsed time = 807.171, Epoches = 29
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 2
+Elapsed time = 2.264, Epoches = 309
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 3
+Elapsed time = 2.073, Epoches = 289
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.054, Epoches = 149
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 5
+Elapsed time = 1.308, Epoches = 178
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 6
+Elapsed time = 1.343, Epoches = 186
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 7
+Elapsed time = 0.999, Epoches = 137
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 8
+Elapsed time = 1, Epoches = 141
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 9
+Elapsed time = 1.053, Epoches = 143
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 10
+Elapsed time = 0.739, Epoches = 101
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 11
+Elapsed time = 0.922, Epoches = 130
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 12
+Elapsed time = 0.911, Epoches = 128
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 13
+Elapsed time = 0.792, Epoches = 109
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 14
+Elapsed time = 0.873, Epoches = 120
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 15
+Elapsed time = 0.942, Epoches = 122
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 16
+Elapsed time = 0.849, Epoches = 95
+uiopen('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',1)
+runMLP
+eta = 0.5, alpha = 0, Inputs = 2, Hidden units = 4
+Elapsed time = 0.943, Epoches = 530
+eta = 0.5, alpha = 0, Inputs = 3, Hidden units = 4
+Elapsed time = 0.826, Epoches = 239
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.031, Epoches = 143
+eta = 0.5, alpha = 0, Inputs = 5, Hidden units = 4
+Elapsed time = 1.696, Epoches = 123
+eta = 0.5, alpha = 0, Inputs = 6, Hidden units = 4
+Elapsed time = 2.445, Epoches = 89
+eta = 0.5, alpha = 0, Inputs = 7, Hidden units = 4
+Elapsed time = 2.221, Epoches = 41
+eta = 0.5, alpha = 0, Inputs = 8, Hidden units = 4
+Elapsed time = 11.006, Epoches = 103
+eta = 0.5, alpha = 0, Inputs = 9, Hidden units = 4
+Elapsed time = 8.054, Epoches = 35
+eta = 0.5, alpha = 0, Inputs = 10, Hidden units = 4
+Elapsed time = 11.07, Epoches = 26
+eta = 0.5, alpha = 0, Inputs = 11, Hidden units = 4
+Elapsed time = 15.141, Epoches = 16
+eta = 0.5, alpha = 0, Inputs = 12, Hidden units = 4
+Elapsed time = 74.932, Epoches = 44
+eta = 0.5, alpha = 0, Inputs = 13, Hidden units = 4
+Elapsed time = 33.944, Epoches = 10
+eta = 0.5, alpha = 0, Inputs = 14, Hidden units = 4
+Elapsed time = 94.788, Epoches = 14
+eta = 0.5, alpha = 0, Inputs = 15, Hidden units = 4
+Elapsed time = 122.014, Epoches = 9
+eta = 0.5, alpha = 0, Inputs = 16, Hidden units = 4
+Elapsed time = 609.634, Epoches = 22
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 2
+Elapsed time = 2.544, Epoches = 297
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 3
+Elapsed time = 2.024, Epoches = 218
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.223, Epoches = 143
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 5
+Elapsed time = 1.434, Epoches = 146
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 6
+Elapsed time = 1.513, Epoches = 168
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 7
+Elapsed time = 1.05, Epoches = 138
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 8
+Elapsed time = 0.878, Epoches = 110
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 9
+Elapsed time = 0.804, Epoches = 103
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 10
+Elapsed time = 0.957, Epoches = 128
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 11
+Elapsed time = 0.986, Epoches = 136
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 12
+Elapsed time = 1.035, Epoches = 112
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 13
+Elapsed time = 1.053, Epoches = 126
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 14
+Elapsed time = 0.981, Epoches = 124
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 15
+Elapsed time = 0.801, Epoches = 110
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 16
+Elapsed time = 0.71, Epoches = 98
+runMLP
+eta = 0.5, alpha = 0, Inputs = 2, Hidden units = 4
+Elapsed time = 0.882, Epoches = 490
+eta = 0.5, alpha = 0, Inputs = 3, Hidden units = 4
+Elapsed time = 1.238, Epoches = 332
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.627, Epoches = 228
+eta = 0.5, alpha = 0, Inputs = 5, Hidden units = 4
+Elapsed time = 1.75, Epoches = 122
+eta = 0.5, alpha = 0, Inputs = 6, Hidden units = 4
+Elapsed time = 1.8, Epoches = 63
+eta = 0.5, alpha = 0, Inputs = 7, Hidden units = 4
+Elapsed time = 3.269, Epoches = 59
+eta = 0.5, alpha = 0, Inputs = 8, Hidden units = 4
+Elapsed time = 8.62, Epoches = 76
+eta = 0.5, alpha = 0, Inputs = 9, Hidden units = 4
+Elapsed time = 15.348, Epoches = 70
+eta = 0.5, alpha = 0, Inputs = 10, Hidden units = 4
+Elapsed time = 9.954, Epoches = 21
+eta = 0.5, alpha = 0, Inputs = 11, Hidden units = 4
+Elapsed time = 20.83, Epoches = 23
+eta = 0.5, alpha = 0, Inputs = 12, Hidden units = 4
+Elapsed time = 29.126, Epoches = 17
+eta = 0.5, alpha = 0, Inputs = 13, Hidden units = 4
+Elapsed time = 41.229, Epoches = 12
+eta = 0.5, alpha = 0, Inputs = 14, Hidden units = 4
+Elapsed time = 95.486, Epoches = 14
+eta = 0.5, alpha = 0, Inputs = 15, Hidden units = 4
+Elapsed time = 263.504, Epoches = 19
+eta = 0.5, alpha = 0, Inputs = 16, Hidden units = 4
+Elapsed time = 464.268, Epoches = 17
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 2
+Elapsed time = 1.701, Epoches = 245
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 3
+Elapsed time = 1.686, Epoches = 240
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.604, Epoches = 228
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 5
+Elapsed time = 1.117, Epoches = 156
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 6
+Elapsed time = 1.142, Epoches = 154
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 7
+Elapsed time = 0.887, Epoches = 124
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 8
+Elapsed time = 1.096, Epoches = 143
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 9
+Elapsed time = 0.85, Epoches = 120
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 10
+Elapsed time = 1.385, Epoches = 196
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 11
+Elapsed time = 0.838, Epoches = 116
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 12
+Elapsed time = 0.716, Epoches = 101
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 13
+Elapsed time = 0.76, Epoches = 109
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 14
+Elapsed time = 1.103, Epoches = 159
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 15
+Elapsed time = 0.761, Epoches = 107
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 16
+Elapsed time = 0.87, Epoches = 125

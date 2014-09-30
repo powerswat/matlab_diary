@@ -1,0 +1,8 @@
+ECE_779_HW_1
+Part (1) : eta = 0.05, run-time = <a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',25,1)">25  </a>             Layer1_output = sigmoid(Layer1_weights*[1; pattern']); % Layer1-output
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_1
+Part (1) : eta = 0.05, run-time = <a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',25,1)">25  </a>             Layer1_output = sigmoid(Layer1_weights*[1; pattern']); % Layer1-output
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end

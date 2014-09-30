@@ -1,0 +1,84 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\trainModule.m',1)
+runMLP
+eta = 0.05, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 21.763, Epoches = 1926
+eta = 0.1, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 10.825, Epoches = 961
+eta = 0.15, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 6.869, Epoches = 639
+eta = 0.2, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 5.265, Epoches = 479
+eta = 0.25, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 4.231, Epoches = 384
+eta = 0.3, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 3.537, Epoches = 319
+eta = 0.35, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.974, Epoches = 273
+eta = 0.4, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.634, Epoches = 239
+eta = 0.45, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.262, Epoches = 211
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.109, Epoches = 191
+eta = 0.05, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 2.097, Epoches = 195
+eta = 0.1, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 1.117, Epoches = 97
+eta = 0.15, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.743, Epoches = 68
+eta = 0.2, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.545, Epoches = 51
+eta = 0.25, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.456, Epoches = 43
+eta = 0.3, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.393, Epoches = 38
+eta = 0.35, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.33, Epoches = 27
+eta = 0.4, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.118, Epoches = 11
+eta = 0.45, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.108, Epoches = 10
+eta = 0.5, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.126, Epoches = 12
+eta = 0.5, alpha = 0, Inputs = 2, Hidden units = 4
+Elapsed time = 1.358, Epoches = 497
+eta = 0.5, alpha = 0, Inputs = 3, Hidden units = 4
+Elapsed time = 1.584, Epoches = 282
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.982, Epoches = 191
+eta = 0.5, alpha = 0, Inputs = 5, Hidden units = 4
+Elapsed time = 2.531, Epoches = 119
+eta = 0.5, alpha = 0, Inputs = 6, Hidden units = 4
+Elapsed time = 5.028, Epoches = 121
+eta = 0.5, alpha = 0, Inputs = 7, Hidden units = 4
+Elapsed time = 5.681, Epoches = 68
+eta = 0.5, alpha = 0, Inputs = 8, Hidden units = 4
+Elapsed time = 28.392, Epoches = 162
+eta = 0.5, alpha = 0, Inputs = 9, Hidden units = 4
+Elapsed time = 10.496, Epoches = 28
+eta = 0.5, alpha = 0, Inputs = 10, Hidden units = 4
+Elapsed time = 37.198, Epoches = 40
+eta = 0.5, alpha = 0, Inputs = 11, Hidden units = 4
+Elapsed time = 63.809, Epoches = 46
+eta = 0.5, alpha = 0, Inputs = 12, Hidden units = 4
+Elapsed time = 68.488, Epoches = 25
+eta = 0.5, alpha = 0, Inputs = 13, Hidden units = 4
+Elapsed time = 135.586, Epoches = 23
+eta = 0.5, alpha = 0, Inputs = 14, Hidden units = 4
+Elapsed time = 304.635, Epoches = 25
+eta = 0.5, alpha = 0, Inputs = 15, Hidden units = 4
+Elapsed time = 634.82, Epoches = 41
+eta = 0.5, alpha = 0, Inputs = 16, Hidden units = 4
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('inlineeval', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\inlineeval.m', 10)" style="font-weight:bold">inlineeval</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\inlineeval.m',10,0)">line 10</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('inline/subsref', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\@inline\subsref.m', 23)" style="font-weight:bold">inline/subsref</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\@inline\subsref.m',23,0)">line 23</a>)
+    INLINE_OUT_ = inlineeval(INLINE_INPUTS_, INLINE_OBJ_.inputExpr,
+    INLINE_OBJ_.expr);
+
+In <a href="matlab:helpUtils.errorDocCallback('trainModule', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\trainModule.m', 44)" style="font-weight:bold">trainModule</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\trainModule.m',44,0)">line 44</a>)
+        y_j = varphi(v_j);
+
+In <a href="matlab:helpUtils.errorDocCallback('runMLP', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m', 37)" style="font-weight:bold">runMLP</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',37,0)">line 37</a>)
+    [times(i), inputEpochs(i)] = trainModule(0, 0.5, numInputs(i), 4);
+} 

@@ -1,0 +1,86 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',1)
+runMLP
+eta = 0.05, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 10.73, Epoches = 1485
+eta = 0.1, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 5.521, Epoches = 742
+eta = 0.15, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 3.827, Epoches = 494
+eta = 0.2, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.897, Epoches = 372
+eta = 0.25, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.138, Epoches = 297
+eta = 0.3, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.829, Epoches = 248
+eta = 0.35, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.555, Epoches = 210
+eta = 0.4, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.359, Epoches = 188
+eta = 0.45, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.17, Epoches = 164
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.074, Epoches = 149
+eta = 0.05, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 1.041, Epoches = 146
+eta = 0.1, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.526, Epoches = 73
+eta = 0.15, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.398, Epoches = 49
+eta = 0.2, alpha = 0.9, Inputs = 4, Hidden units = 4
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('trainModule', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\trainModule.m', 43)" style="font-weight:bold">trainModule</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\trainModule.m',43,0)">line 43</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('runMLP', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m', 21)" style="font-weight:bold">runMLP</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',21,0)">line 21</a>)
+    [times(i), epochs(i)] = trainModule(0.9, etas(i), 4, 4);
+} 
+runMLP
+eta = 0.5, alpha = 0, Inputs = 2, Hidden units = 4
+Elapsed time = 0.929, Epoches = 478
+eta = 0.5, alpha = 0, Inputs = 3, Hidden units = 4
+Elapsed time = 0.956, Epoches = 267
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.041, Epoches = 149
+eta = 0.5, alpha = 0, Inputs = 5, Hidden units = 4
+Elapsed time = 1.423, Epoches = 104
+eta = 0.5, alpha = 0, Inputs = 6, Hidden units = 4
+Elapsed time = 2.234, Epoches = 83
+eta = 0.5, alpha = 0, Inputs = 7, Hidden units = 4
+Elapsed time = 2.99, Epoches = 56
+eta = 0.5, alpha = 0, Inputs = 8, Hidden units = 4
+Elapsed time = 9.997, Epoches = 92
+eta = 0.5, alpha = 0, Inputs = 9, Hidden units = 4
+Elapsed time = 5.505, Epoches = 25
+eta = 0.5, alpha = 0, Inputs = 10, Hidden units = 4
+Elapsed time = 9.859, Epoches = 22
+eta = 0.5, alpha = 0, Inputs = 11, Hidden units = 4
+Elapsed time = 19.079, Epoches = 22
+eta = 0.5, alpha = 0, Inputs = 12, Hidden units = 4
+Elapsed time = 31.356, Epoches = 18
+eta = 0.5, alpha = 0, Inputs = 13, Hidden units = 4
+Elapsed time = 83.848, Epoches = 23
+eta = 0.5, alpha = 0, Inputs = 14, Hidden units = 4
+Elapsed time = 85.092, Epoches = 11
+eta = 0.5, alpha = 0, Inputs = 15, Hidden units = 4
+Elapsed time = 148.44, Epoches = 10
+eta = 0.5, alpha = 0, Inputs = 16, Hidden units = 4
+Elapsed time = 867.286, Epoches = 29
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 2
+Elapsed time = 2.216, Epoches = 309
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 3
+Elapsed time = 2.086, Epoches = 289
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.078, Epoches = 149
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 5
+Elapsed time = 1.277, Epoches = 178
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 6
+Elapsed time = 1.331, Epoches = 186
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 7
+Elapsed time = 0.989, Epoches = 137
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 8
+Elapsed time = 1.014, Epoches = 141
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 9
+Elapsed time = 1.028, Epoches = 143
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 10
+Elapsed time = 0.73, Epoches = 101
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 11
+Elapsed time = 0.934, Ep

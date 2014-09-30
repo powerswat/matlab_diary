@@ -1,0 +1,431 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',1)
+runMLP
+eta = 0.5, alpha = 0, Inputs = 2, Hidden units = 4
+Elapsed time = 1.011, Epoches = 490
+eta = 0.5, alpha = 0, Inputs = 3, Hidden units = 4
+Elapsed time = 1.175, Epoches = 332
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.577, Epoches = 228
+eta = 0.5, alpha = 0, Inputs = 5, Hidden units = 4
+Elapsed time = 1.672, Epoches = 122
+eta = 0.5, alpha = 0, Inputs = 6, Hidden units = 4
+Elapsed time = 1.722, Epoches = 63
+eta = 0.5, alpha = 0, Inputs = 7, Hidden units = 4
+Elapsed time = 3.22, Epoches = 59
+eta = 0.5, alpha = 0, Inputs = 8, Hidden units = 4
+Elapsed time = 8.241, Epoches = 76
+eta = 0.5, alpha = 0, Inputs = 9, Hidden units = 4
+Elapsed time = 15.826, Epoches = 70
+eta = 0.5, alpha = 0, Inputs = 10, Hidden units = 4
+Elapsed time = 9.955, Epoches = 21
+eta = 0.5, alpha = 0, Inputs = 11, Hidden units = 4
+Elapsed time = 19.819, Epoches = 23
+eta = 0.5, alpha = 0, Inputs = 12, Hidden units = 4
+Elapsed time = 29.027, Epoches = 17
+eta = 0.5, alpha = 0, Inputs = 13, Hidden units = 4
+Elapsed time = 41.284, Epoches = 12
+eta = 0.5, alpha = 0, Inputs = 14, Hidden units = 4
+Elapsed time = 95.44, Epoches = 14
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 2
+Elapsed time = 1.716, Epoches = 245
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 3
+Elapsed time = 1.67, Epoches = 240
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.561, Epoches = 228
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 5
+Elapsed time = 1.092, Epoches = 156
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 6
+Elapsed time = 1.074, Epoches = 154
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 7
+Elapsed time = 0.871, Epoches = 124
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 8
+Elapsed time = 0.999, Epoches = 143
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 9
+Elapsed time = 0.843, Epoches = 120
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 10
+Elapsed time = 1.334, Epoches = 196
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 11
+Elapsed time = 0.82, Epoches = 116
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 12
+Elapsed time = 0.701, Epoches = 101
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 13
+Elapsed time = 0.762, Epoches = 109
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 14
+Elapsed time = 1.114, Epoches = 159
+runMLP
+eta = 0.5, alpha = 0, Inputs = 2, Hidden units = 4
+Elapsed time = 0.946, Epoches = 530
+eta = 0.5, alpha = 0, Inputs = 3, Hidden units = 4
+Elapsed time = 1.029, Epoches = 239
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 0.996, Epoches = 143
+eta = 0.5, alpha = 0, Inputs = 5, Hidden units = 4
+Elapsed time = 1.67, Epoches = 123
+eta = 0.5, alpha = 0, Inputs = 6, Hidden units = 4
+Elapsed time = 2.378, Epoches = 89
+eta = 0.5, alpha = 0, Inputs = 7, Hidden units = 4
+Elapsed time = 2.215, Epoches = 41
+eta = 0.5, alpha = 0, Inputs = 8, Hidden units = 4
+Elapsed time = 10.776, Epoches = 103
+eta = 0.5, alpha = 0, Inputs = 9, Hidden units = 4
+Elapsed time = 7.331, Epoches = 35
+eta = 0.5, alpha = 0, Inputs = 10, Hidden units = 4
+Elapsed time = 10.943, Epoches = 26
+eta = 0.5, alpha = 0, Inputs = 11, Hidden units = 4
+Elapsed time = 13.392, Epoches = 16
+eta = 0.5, alpha = 0, Inputs = 12, Hidden units = 4
+Elapsed time = 73.494, Epoches = 44
+eta = 0.5, alpha = 0, Inputs = 13, Hidden units = 4
+Elapsed time = 33.346, Epoches = 10
+eta = 0.5, alpha = 0, Inputs = 14, Hidden units = 4
+Elapsed time = 93.569, Epoches = 14
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 2
+Elapsed time = 2.062, Epoches = 297
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 3
+Elapsed time = 1.522, Epoches = 218
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.006, Epoches = 143
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 5
+Elapsed time = 1.023, Epoches = 146
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 6
+Elapsed time = 1.16, Epoches = 168
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 7
+Elapsed time = 0.969, Epoches = 138
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 8
+Elapsed time = 0.778, Epoches = 110
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 9
+Elapsed time = 0.736, Epoches = 103
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 10
+Elapsed time = 0.89, Epoches = 128
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 11
+Elapsed time = 0.945, Epoches = 136
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 12
+Elapsed time = 0.796, Epoches = 112
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 13
+Elapsed time = 0.873, Epoches = 126
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 14
+Elapsed time = 0.869, Epoches = 124
+runMLP
+eta = 0.5, alpha = 0, Inputs = 2, Hidden units = 4
+Elapsed time = 0.982, Epoches = 562
+eta = 0.5, alpha = 0, Inputs = 3, Hidden units = 4
+Elapsed time = 1.052, Epoches = 299
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.138, Epoches = 166
+eta = 0.5, alpha = 0, Inputs = 5, Hidden units = 4
+Elapsed time = 1.494, Epoches = 107
+eta = 0.5, alpha = 0, Inputs = 6, Hidden units = 4
+Elapsed time = 1.987, Epoches = 73
+eta = 0.5, alpha = 0, Inputs = 7, Hidden units = 4
+Elapsed time = 3.049, Epoches = 52
+eta = 0.5, alpha = 0, Inputs = 8, Hidden units = 4
+Elapsed time = 7.378, Epoches = 61
+eta = 0.5, alpha = 0, Inputs = 9, Hidden units = 4
+Elapsed time = 15.973, Epoches = 75
+eta = 0.5, alpha = 0, Inputs = 10, Hidden units = 4
+Elapsed time = 21.184, Epoches = 48
+eta = 0.5, alpha = 0, Inputs = 11, Hidden units = 4
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('inlineeval', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\inlineeval.m', 12)" style="font-weight:bold">inlineeval</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\inlineeval.m',12,0)">line 12</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('inline/subsref', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\@inline\subsref.m', 23)" style="font-weight:bold">inline/subsref</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\@inline\subsref.m',23,0)">line 23</a>)
+    INLINE_OUT_ = inlineeval(INLINE_INPUTS_, INLINE_OBJ_.inputExpr,
+    INLINE_OBJ_.expr);
+
+In <a href="matlab:helpUtils.errorDocCallback('trainModule', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\trainModule.m', 44)" style="font-weight:bold">trainModule</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\trainModule.m',44,0)">line 44</a>)
+        y_j = varphi(v_j);
+
+In <a href="matlab:helpUtils.errorDocCallback('runMLP', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m', 35)" style="font-weight:bold">runMLP</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',35,0)">line 35</a>)
+    [times(i), inputEpochs(i)] = trainModule(0, 0.5, numInputs(i), 4);
+} 
+runMLP
+eta = 0.05, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 23.995, Epoches = 2294
+eta = 0.1, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 11.818, Epoches = 1145
+eta = 0.15, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 7.879, Epoches = 764
+eta = 0.2, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 5.647, Epoches = 572
+eta = 0.25, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 3.11, Epoches = 456
+eta = 0.3, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.56, Epoches = 380
+eta = 0.35, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.274, Epoches = 326
+eta = 0.4, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.992, Epoches = 285
+eta = 0.45, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.049, Epoches = 254
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.568, Epoches = 228
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',20,1)">20  </a>for i=1:length(etas)
+if system_dependent('IsDebugMode')==1, dbquit; end
+runMLP
+eta = 0.05, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 16.32, Epoches = 2294
+eta = 0.1, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 8.147, Epoches = 1145
+eta = 0.15, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 5.547, Epoches = 764
+eta = 0.2, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 3.899, Epoches = 572
+eta = 0.25, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 3.106, Epoches = 456
+eta = 0.3, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.608, Epoches = 380
+eta = 0.35, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.225, Epoches = 326
+eta = 0.4, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.946, Epoches = 285
+eta = 0.45, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.733, Epoches = 254
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.564, Epoches = 228
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',20,1)">20  </a>for i=1:length(etas)
+if system_dependent('IsDebugMode')==1, dbquit; end
+runMLP
+eta = 0.05, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 15.644, Epoches = 2294
+eta = 0.1, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 8.268, Epoches = 1145
+eta = 0.15, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 5.466, Epoches = 764
+eta = 0.2, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 4.16, Epoches = 572
+eta = 0.25, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 3.375, Epoches = 456
+eta = 0.3, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.615, Epoches = 380
+eta = 0.35, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.275, Epoches = 326
+eta = 0.4, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.938, Epoches = 285
+eta = 0.45, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.739, Epoches = 254
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.56, Epoches = 228
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',20,1)">20  </a>for i=1:length(etas)
+if system_dependent('IsDebugMode')==1, dbquit; end
+runMLP
+eta = 0.05, alpha = 0, Inputs = 4, Hidden units = 4
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('trainModule', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\trainModule.m', 56)" style="font-weight:bold">trainModule</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\trainModule.m',56,0)">line 56</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('runMLP', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m', 8)" style="font-weight:bold">runMLP</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',8,0)">line 8</a>)
+    [times(i), epochs(i)] = trainModule(0, etas(i), 4, 4);
+} 
+runMLP
+eta = 0.05, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 16.042, Epoches = 2294
+eta = 0.1, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 8.375, Epoches = 1145
+eta = 0.15, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 5.3, Epoches = 764
+eta = 0.2, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 3.956, Epoches = 572
+eta = 0.25, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 3.189, Epoches = 456
+eta = 0.3, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.627, Epoches = 380
+eta = 0.35, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.253, Epoches = 326
+eta = 0.4, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.97, Epoches = 285
+eta = 0.45, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.779, Epoches = 254
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.597, Epoches = 228
+eta = 0.05, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 1.624, Epoches = 233
+eta = 0.1, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.787, Epoches = 113
+eta = 0.15, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.537, Epoches = 76
+eta = 0.2, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.413, Epoches = 59
+eta = 0.25, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.334, Epoches = 48
+eta = 0.3, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.281, Epoches = 40
+eta = 0.35, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.265, Epoches = 36
+eta = 0.4, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.214, Epoches = 31
+eta = 0.45, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.191, Epoches = 28
+eta = 0.5, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.168, Epoches = 24
+{Cannot find an exact (case-sensitive) match for 'For'
+
+The closest match is: for in C:\Program
+Files\MATLAB\R2014a\toolbox\matlab\lang\for.m
+
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runMLP', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m', 28)" style="font-weight:bold">runMLP</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',28,0)">line 28</a>)
+For part 3-1 (optional): Change the number of inputs
+} 
+runMLP
+eta = 0.05, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 16.508, Epoches = 2294
+eta = 0.1, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 7.901, Epoches = 1145
+eta = 0.15, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 5.261, Epoches = 764
+eta = 0.2, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 3.933, Epoches = 572
+eta = 0.25, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 3.148, Epoches = 456
+eta = 0.3, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.615, Epoches = 380
+eta = 0.35, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.227, Epoches = 326
+eta = 0.4, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.963, Epoches = 285
+eta = 0.45, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.761, Epoches = 254
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.566, Epoches = 228
+eta = 0.05, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 1.599, Epoches = 233
+eta = 0.1, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.796, Epoches = 113
+eta = 0.15, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.534, Epoches = 76
+eta = 0.2, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.414, Epoches = 59
+eta = 0.25, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.349, Epoches = 48
+eta = 0.3, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.281, Epoches = 40
+eta = 0.35, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.255, Epoches = 36
+eta = 0.4, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.219, Epoches = 31
+eta = 0.45, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.19, Epoches = 28
+eta = 0.5, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.165, Epoches = 24
+eta = 0.5, alpha = 0, Inputs = 2, Hidden units = 4
+Elapsed time = 0.862, Epoches = 490
+eta = 0.5, alpha = 0, Inputs = 3, Hidden units = 4
+Elapsed time = 1.152, Epoches = 332
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.549, Epoches = 228
+eta = 0.5, alpha = 0, Inputs = 5, Hidden units = 4
+Elapsed time = 1.652, Epoches = 122
+eta = 0.5, alpha = 0, Inputs = 6, Hidden units = 4
+Elapsed time = 1.715, Epoches = 63
+eta = 0.5, alpha = 0, Inputs = 7, Hidden units = 4
+Elapsed time = 3.154, Epoches = 59
+eta = 0.5, alpha = 0, Inputs = 8, Hidden units = 4
+Elapsed time = 8.051, Epoches = 76
+eta = 0.5, alpha = 0, Inputs = 9, Hidden units = 4
+Elapsed time = 14.783, Epoches = 70
+eta = 0.5, alpha = 0, Inputs = 10, Hidden units = 4
+Elapsed time = 8.837, Epoches = 21
+eta = 0.5, alpha = 0, Inputs = 11, Hidden units = 4
+Elapsed time = 19.497, Epoches = 23
+eta = 0.5, alpha = 0, Inputs = 12, Hidden units = 4
+Elapsed time = 28.517, Epoches = 17
+eta = 0.5, alpha = 0, Inputs = 13, Hidden units = 4
+Elapsed time = 44.1, Epoches = 12
+eta = 0.5, alpha = 0, Inputs = 14, Hidden units = 4
+Elapsed time = 96.705, Epoches = 14
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 2
+Elapsed time = 1.742, Epoches = 245
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 3
+Elapsed time = 1.71, Epoches = 240
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.593, Epoches = 228
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 5
+Elapsed time = 1.098, Epoches = 156
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 6
+Elapsed time = 1.078, Epoches = 154
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 7
+Elapsed time = 0.885, Epoches = 124
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 8
+Elapsed time = 1.012, Epoches = 143
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 9
+Elapsed time = 0.863, Epoches = 120
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 10
+Elapsed time = 1.381, Epoches = 196
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 11
+Elapsed time = 0.856, Epoches = 116
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 12
+Elapsed time = 0.722, Epoches = 101
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 13
+Elapsed time = 0.765, Epoches = 109
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 14
+Elapsed time = 1.098, Epoches = 159
+runMLP
+eta = 0.05, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 9.964, Epoches = 1416
+eta = 0.1, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 5.062, Epoches = 709
+eta = 0.15, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 3.399, Epoches = 475
+eta = 0.2, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.619, Epoches = 357
+eta = 0.25, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 2.001, Epoches = 284
+eta = 0.3, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.783, Epoches = 235
+eta = 0.35, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.457, Epoches = 202
+eta = 0.4, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.255, Epoches = 178
+eta = 0.45, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.105, Epoches = 159
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 0.983, Epoches = 143
+eta = 0.05, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 1.053, Epoches = 143
+eta = 0.1, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.506, Epoches = 72
+eta = 0.15, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.371, Epoches = 50
+eta = 0.2, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.257, Epoches = 36
+eta = 0.25, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.209, Epoches = 29
+eta = 0.3, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.163, Epoches = 22
+eta = 0.35, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.149, Epoches = 21
+eta = 0.4, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.174, Epoches = 23
+eta = 0.45, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.165, Epoches = 23
+eta = 0.5, alpha = 0.9, Inputs = 4, Hidden units = 4
+Elapsed time = 0.137, Epoches = 19
+eta = 0.5, alpha = 0, Inputs = 2, Hidden units = 4
+Elapsed time = 0.974, Epoches = 530
+eta = 0.5, alpha = 0, Inputs = 3, Hidden units = 4
+Elapsed time = 0.877, Epoches = 239
+eta = 0.5, alpha = 0, Inputs = 4, Hidden units = 4
+Elapsed time = 1.021, Epoches = 143
+eta = 0.5, alpha = 0, Inputs = 5, Hidden units = 4
+Elapsed time = 1.744, Epoches = 123
+eta = 0.5, alpha = 0, Inputs = 6, Hidden units = 4
+Elapsed time = 2.455, Epoches = 89
+eta = 0.5, alpha = 0, Inputs = 7, Hidden units = 4
+Elapsed time = 2.368, Epoches = 41
+eta = 0.5, alpha = 0, Inputs = 8, Hidden units = 4
+Elapsed time = 11.592, Epoches = 103
+eta = 0.5, alpha = 0, Inputs = 9, Hidden units = 4
+Elapsed time = 9.205, Epoches = 35
+eta = 0.5, alpha = 0, Inputs = 10, Hidden units = 4
+Elapsed time = 15.875, Epoches = 26
+eta = 0.5, alpha = 0, Inputs = 11, Hidden units = 4
+Elapsed time = 15.111, Epoches = 16
+eta = 0.5, alpha = 0, Inputs = 12, Hidden units = 4
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('inline/subsref', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\@inline\subsref.m', 0)" style="font-weight:bold">inline/subsref</a>
+
+
+In <a href="matlab:helpUtils.errorDocCallback('trainModule', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\trainModule.m', 46)" style="font-weight:bold">trainModule</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\trainModule.m',46,0)">line 46</a>)
+        y_k = varphi(v_k);
+
+In <a href="matlab:helpUtils.errorDocCallback('runMLP', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m', 36)" style="font-weight:bold">runMLP</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',36,0)">line 36</a>)
+    [times(i), inputEpochs(i)] = trainModule(0, 0.5, numInputs(i), 4);
+} 

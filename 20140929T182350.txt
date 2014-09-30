@@ -1,0 +1,20 @@
+run('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m')
+Part (1) : eta = 0.05, run-time = {Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('inlineeval', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\inlineeval.m', 12)" style="font-weight:bold">inlineeval</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\inlineeval.m',12,0)">line 12</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('inline/subsref', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\@inline\subsref.m', 23)" style="font-weight:bold">inline/subsref</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\@inline\subsref.m',23,0)">line 23</a>)
+    INLINE_OUT_ = inlineeval(INLINE_INPUTS_, INLINE_OBJ_.inputExpr,
+    INLINE_OBJ_.expr);
+
+In <a href="matlab:helpUtils.errorDocCallback('ECE_779_HW_1', 'C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m', 25)" style="font-weight:bold">ECE_779_HW_1</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',25,0)">line 25</a>)
+             Layer1_output = sigmoid(Layer1_weights*[1; pattern']); %
+             Layer1-output
+
+In <a href="matlab:helpUtils.errorDocCallback('run', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\run.m', 63)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\run.m',63,0)">line 63</a>)
+evalin('caller', [script ';']);
+} 
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD2IRM_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+Found 0 files
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD2IRM_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy')
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',15,1)">15  </a>[files,paths] = findFiles(fullfile(basePath,'inputs\', inputTag, testSet), '.wav', 1);
+if system_dependent('IsDebugMode')==1, dbquit; end
