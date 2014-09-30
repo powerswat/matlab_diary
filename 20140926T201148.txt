@@ -1,0 +1,199 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',1)
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',60,1)">60  </a>    end
+v{1,j}
+
+ans =
+
+    0.7502
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+uiopen('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',1)
+edit sigmoid
+edit sigmoid.m
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',28,1)">28  </a>while true
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+{Cell contents assignment to a non-cell array object.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('proj1', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m', 63)" style="font-weight:bold">proj1</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',63,0)">line 63</a>)
+            e_k{i, numLayer-j+1} = trn_d(i) - y{1,j};
+} 
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',63,1)">63  </a>            e_k{i, numLayer-j+1} = trn_d(i) - y{1,j};
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',26,1)">26  </a>error = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',63,1)">63  </a>        end
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',26,1)">26  </a>error = 1;
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+e_k{i, numLayer-j+1}
+
+ans =
+
+     0
+
+numLayer
+
+numLayer =
+
+     2
+
+j
+
+j =
+
+     1
+
+i
+
+i =
+
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',26,1)">26  </a>error = 1;
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+trn_d(i)
+
+ans =
+
+     1
+
+y{1,numLayer-j+1}
+
+ans =
+
+    0.6792
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',61,1)">61  </a>        for j=1:size(y, 2)
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',61,1)">61  </a>        for j=1:size(y, 2)
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+e_k{i, numLayer-j+1}
+
+ans =
+
+    0.3208
+
+y{1,numLayer-j+1}
+
+ans =
+
+    0.6792
+
+1 - y{1,numLayer-j+1}
+
+ans =
+
+    0.3208
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',62,1)">62  </a>        for j=1:size(y, 2)
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+y{i, numLayer-j}
+
+ans =
+
+    0.5932
+    0.4794
+    0.2307
+    0.4034
+
+delta{1,numLayer-j+1}
+
+ans =
+
+    0.0851
+
+eta
+
+eta =
+
+    0.0500
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',63,1)">63  </a>        for j=1:size(y, 2)
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+w{1,numLayer-j+1}
+
+ans =
+
+    0.5441
+    0.9157
+    0.4039
+   -0.4048
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+delta{1,numLayer-j+1}
+
+ans =
+
+    0.1440
+
+y{i, numLayer-j}
+
+ans =
+
+    0.3979
+    0.2260
+    0.6223
+    0.4212
+
+deltaW{1,numLayer-j+1}
+
+ans =
+
+    0.5470
+    0.9173
+    0.4084
+   -0.4018
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+w{1,numLayer-j+1}
+
+ans =
+
+    0.5470
+    0.9173
+    0.4084
+   -0.4018
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',66,1)">66  </a>        for j=1:size(y, 2)
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end

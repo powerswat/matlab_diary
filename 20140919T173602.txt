@@ -1,0 +1,33 @@
+uiopen('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',1)
+ECE_779_HW_1
+Part (1) : eta = 0.05, run-time = 13.968, # epoches : 2032
+Part (1) : eta = 0.1, run-time = 11.305, # epoches : 1674
+Part (1) : eta = 0.15, run-time = 4.209, # epoches : 607
+Part (1) : eta = 0.2, run-time = 3.595, # epoches : 513
+Part (1) : eta = 0.25, run-time = 2.578, # epoches : 360
+Part (1) : eta = 0.3, run-time = 2.289, # epoches : 323
+Part (1) : eta = 0.35, run-time = 2.373, # epoches : 331
+Part (1) : eta = 0.4, run-time = 1.348, # epoches : 179
+Part (1) : eta = 0.45, run-time = 1.733, # epoches : 239
+Part (1) : eta = 0.5, run-time = 1.463, # epoches : 197
+Part (2) : eta = 0.05, run-time = 1.585, # epoches : 217
+Part (2) : eta = 0.1, run-time = 0.705, # epoches : 84
+Part (2) : eta = 0.15, run-time = 0.661, # epoches : 80
+Part (2) : eta = 0.2, run-time = 0.493, # epoches : 55
+Part (2) : eta = 0.25, run-time = 0.428, # epoches : 43
+Part (2) : eta = 0.3, run-time = 0.379, # epoches : 37
+Part (2) : eta = 0.35, run-time = 0.403, # epoches : 40
+Part (2) : eta = 0.4, run-time = 0.374, # epoches : 38
+Part (2) : eta = 0.45, run-time = 0.29, # epoches : 24
+Part (2) : eta = 0.5, run-time = 0.231, # epoches : 16
+ECE_779_HW_1
+Part (1) : eta = 0.05, run-time = <a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',22,1)">22  </a>         for j = 1:length(inputs)
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',23,1)">23  </a>             pattern = bitget(inputs(j),1:4); % Binary input pattern
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',25,1)">25  </a>             Layer1_output = sigmoid(Layer1_weights*[1; pattern']); % Layer1-output
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',22,1)">22  </a>         for j = 1:length(inputs)
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',22,1)">22  </a>         for j = 1:length(inputs)
+if system_dependent('IsDebugMode')==1, dbquit; end

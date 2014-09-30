@@ -1,0 +1,70 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',1)
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',59,1)">59  </a>    end
+if system_dependent('IsDebugMode')==1, dbquit; end
+edit length
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',56,1)">56  </a>        end
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',56,1)">56  </a>        end
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',56,1)">56  </a>        end
+if system_dependent('IsDebugMode')==1, dbcont; end
+Ew
+
+Ew =
+
+    0.3208
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+
+trn_d(i)
+
+ans =
+
+     1
+
+y{1,j}
+
+ans =
+
+    0.6792
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+Ew
+
+Ew =
+
+    0.3208
+    0.3666
+   -0.5754
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+

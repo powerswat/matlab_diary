@@ -1,0 +1,91 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',1)
+proj1
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',12,1)">12  </a>a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',13,1)">13  </a>a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',13,1)">13  </a>a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+uiopen('C:\Users\cho64_000\Dropbox\Research\mmd_dnn_train_paired_mod.m',1)
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',15,1)">15  </a>a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+{Undefined function or variable 'pern'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('proj1', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m', 11)" style="font-weight:bold">proj1</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',11,0)">line 11</a>)
+trnData = trnData(pern, :);
+} 
+proj1
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('proj1', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m', 11)" style="font-weight:bold">proj1</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',11,0)">line 11</a>)
+trnData = trnData(perm, :);
+} 
+proj1
+{Index exceeds matrix dimensions.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('proj1', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m', 11)" style="font-weight:bold">proj1</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',11,0)">line 11</a>)
+trnData = trnData(perm, 1);
+} 
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',11,1)">11  </a>trnData = trnData(perm, :);
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',16,1)">16  </a>a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',17,1)">17  </a>a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+{Undefined function 'de2bi' for input arguments of type 'double'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('proj1', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m', 12)" style="font-weight:bold">proj1</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',12,0)">line 12</a>)
+trnData = de2bi(trnData, numInput);
+} 
+proj1
+{Undefined function 'de2bi' for input arguments of type 'double'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('proj1', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m', 12)" style="font-weight:bold">proj1</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',12,0)">line 12</a>)
+trnData = de2bi(trnData(1), numInput);
+} 
+edit de2bi
+edit decimalToBinaryVector.m
+edit de2bi.m
+edit decimalToBinaryVector.m
+edit dec2bin.m
+proj1
+{Error using <a href="matlab:helpUtils.errorDocCallback('bitget')" style="font-weight:bold">bitget</a>
+Not enough input arguments.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('proj1', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m', 12)" style="font-weight:bold">proj1</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',12,0)">line 12</a>)
+trnData = bitget(trnData);
+} 
+edit bitget.m
+edit bitget.m
+proj1
+{Error using <a href="matlab:helpUtils.errorDocCallback('bitget')" style="font-weight:bold">bitget</a>
+Inputs must have the same size.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('proj1', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m', 12)" style="font-weight:bold">proj1</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',12,0)">line 12</a>)
+trnData = bitget(trnData, 1:numInput);
+} 
+edit decimalToBinaryVector.m
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',20,1)">20  </a>a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+{Subscripted assignment dimension mismatch.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('proj1', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m', 14)" style="font-weight:bold">proj1</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',14,0)">line 14</a>)
+    trnData(i,:) = decimalToBinaryVector(rndTrnData, numInput);
+} 
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',14,1)">14  </a>    trnData(i,:) = decimalToBinaryVector(rndTrnData, numInput);
+if system_dependent('IsDebugMode')==1, dbquit; end
+proj1
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\proj1.m',20,1)">20  </a>a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end

@@ -1,0 +1,4 @@
+ECE_779_HW_1
+Part (1) : eta = 0.05, run-time = <a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_1.m',32,1)">32  </a>                 delta_k = output*(1 - output)*(desired - output); % delta for the output
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end

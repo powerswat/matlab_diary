@@ -1,0 +1,1 @@
+uiopen('C:\Users\cho64_000\Documents\MATLAB\startup.m',1)
