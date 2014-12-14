@@ -1,0 +1,179 @@
+x = [0.2 0.2 0.3 0.4 0.3]
+
+x =
+
+  Columns 1 through 4
+
+    0.2000    0.2000    0.3000    0.4000
+
+  Column 5
+
+    0.3000
+
+L06wta(x)
+y	it=0	[0.2 0.2 0.3 0.4 0.3 ]
+yl	it=1	[-0.05 -0.05 0.1 0.25 0.1 ]
+y	it=1	[0 0 0.1 0.25 0.1 ]
+yl	it=2	[-0.1125 -0.1125 0.0375 0.2625 0.0375 ]
+y	it=2	[0 0 0.0375 0.2625 0.0375 ]
+yl	it=3	[-0.084375 -0.084375 -0.028125 0.309375 -0.028125 ]
+y	it=3	[0 0 0 0.309375 0 ]
+yl	it=4	[-0.0773438 -0.0773438 -0.0773438 0.386719 -0.0773438 ]
+y	it=4	[0 0 0 0.386719 0 ]
+yl	it=5	[-0.0966797 -0.0966797 -0.0966797 0.483398 -0.0966797 ]
+y	it=5	[0 0 0 0.483398 0 ]
+L06nonLinSep
+L06nonLinSep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06nonLinSep.m',12,1)">12  </a>pts = [xg(:) yg(:)];
+dbcont
+L06nonLinSep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06nonLinSep.m',12,1)">12  </a>pts = [xg(:) yg(:)];
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06nonLinSep.m',14,1)">14  </a>mapped = xg.^2/a^2 + yg.^2/b^2;
+if system_dependent('IsDebugMode')==1, dbstep; end
+L06nonLinSep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06nonLinSep.m',12,1)">12  </a>pts = [xg(:) yg(:)];
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06nonLinSep.m',17,1)">17  </a>a = 1;
+edit meshgrid
+if system_dependent('IsDebugMode')==1, dbquit; end
+L06nonLinSep
+edit meshgrid
+if system_dependent('IsDebugMode')==1, dbquit; end
+L06wta(x)
+y	it=0	[0.2 0.2 0.3 0.4 0.3 ]
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',10,1)">10  </a>for i = 1:5
+edit lim
+if system_dependent('IsDebugMode')==1, dbstep; end
+a * x 
+
+ans =
+
+  Columns 1 through 4
+
+    0.2500    0.2500    0.3750    0.5000
+
+  Column 5
+
+    0.3750
+
+sum(x)
+
+ans =
+
+    1.4000
+
+sum(x) - x
+
+ans =
+
+  Columns 1 through 4
+
+    1.2000    1.2000    1.1000    1.0000
+
+  Column 5
+
+    1.1000
+
+b * (sum(x) - x)
+
+ans =
+
+  Columns 1 through 4
+
+    0.3000    0.3000    0.2750    0.2500
+
+  Column 5
+
+    0.2750
+
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',12,1)">12  </a>    x = lim(xl, 0, 1);
+sl
+{Error using <a href="matlab:helpUtils.errorDocCallback('feval')" style="font-weight:bold">feval</a>
+Not enough input arguments.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('sl', 'C:\Program Files\MATLAB\R2014a\toolbox\simulink\simulink\sl.m', 15)" style="font-weight:bold">sl</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\simulink\simulink\sl.m',15,0)">line 15</a>)
+[varargout{1:nargout}]=feval(varargin{:});
+} 
+xl
+
+xl =
+
+  Columns 1 through 4
+
+   -0.0500   -0.0500    0.1000    0.2500
+
+  Column 5
+
+    0.1000
+
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',13,1)">13  </a>    printVec(i, 'yl', xl);
+x
+
+x =
+
+  Columns 1 through 4
+
+         0         0    0.1000    0.2500
+
+  Column 5
+
+    0.1000
+
+dbstep
+yl	it=1	[-0.05 -0.05 0.1 0.25 0.1 ]
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',14,1)">14  </a>    printVec(i, 'y', x);
+dbstep
+y	it=1	[0 0 0.1 0.25 0.1 ]
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',15,1)">15  </a>end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',11,1)">11  </a>    xl = a * x - b * (sum(x) - x);
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',12,1)">12  </a>    x = lim(xl, 0, 1);
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',13,1)">13  </a>    printVec(i, 'yl', xl);
+dbstep
+yl	it=2	[-0.1125 -0.1125 0.0375 0.2625 0.0375 ]
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',14,1)">14  </a>    printVec(i, 'y', x);
+dbstep
+y	it=2	[0 0 0.0375 0.2625 0.0375 ]
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',15,1)">15  </a>end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',11,1)">11  </a>    xl = a * x - b * (sum(x) - x);
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',12,1)">12  </a>    x = lim(xl, 0, 1);
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',13,1)">13  </a>    printVec(i, 'yl', xl);
+dbstep
+yl	it=3	[-0.084375 -0.084375 -0.028125 0.309375 -0.028125 ]
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',14,1)">14  </a>    printVec(i, 'y', x);
+dbstep
+y	it=3	[0 0 0 0.309375 0 ]
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',15,1)">15  </a>end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',11,1)">11  </a>    xl = a * x - b * (sum(x) - x);
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',12,1)">12  </a>    x = lim(xl, 0, 1);
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',13,1)">13  </a>    printVec(i, 'yl', xl);
+dbstep
+yl	it=4	[-0.0773438 -0.0773438 -0.0773438 0.386719 -0.0773438 ]
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',14,1)">14  </a>    printVec(i, 'y', x);
+dbstep
+y	it=4	[0 0 0 0.386719 0 ]
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',15,1)">15  </a>end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',11,1)">11  </a>    xl = a * x - b * (sum(x) - x);
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',12,1)">12  </a>    x = lim(xl, 0, 1);
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',13,1)">13  </a>    printVec(i, 'yl', xl);
+dbstep
+yl	it=5	[-0.0966797 -0.0966797 -0.0966797 0.483398 -0.0966797 ]
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',14,1)">14  </a>    printVec(i, 'y', x);
+dbstep
+y	it=5	[0 0 0 0.483398 0 ]
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\cse5526-master\L06wta.m',15,1)">15  </a>end
+if system_dependent('IsDebugMode')==1, dbquit; end

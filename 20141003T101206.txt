@@ -1,0 +1,22 @@
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',35,1)">35  </a>            for i = 1:b
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',36,1)">36  </a>                KmeansNew(i) = mean(xvals(whichK == i));
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',37,1)">37  </a>            end
+xvals(whichK == i)
+
+ans =
+
+    0.9340    0.9293
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+xvals(whichK == i)
+
+ans =
+
+    0.9340    0.9293
+
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',35,1)">35  </a>            for i = 1:b
+if system_dependent('IsDebugMode')==1, dbquit; end

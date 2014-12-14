@@ -1,0 +1,8 @@
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',25,1)">25  </a>end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',25,1)">25  </a>end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',25,1)">25  </a>end

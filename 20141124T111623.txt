@@ -1,0 +1,82 @@
+demo
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\BNMF\@NMF\NMF.m',162,1)">162 </a>            nmf.M=ones(size(nmf.X));
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\BNMF\@NMF\NMF.m',163,1)">163 </a>            [nmf.AtTying nmf.BtTying nmf.AvTying nmf.BvTying nmf.update_hyper ...
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\BNMF\@NMF\NMF.m',383,1)">383 </a>            names =  {'AtTying';'BtTying';'AvTying';'BvTying';'update_hyper';...
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\BNMF\@NMF\NMF.m',582,1)">582 </a>        end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+nmf.coefBt
+
+ans =
+
+    10
+
+mean(mean(nmf.X))
+
+ans =
+
+    1.1014
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+demo
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\BNMF\@NMF\NMF.m',162,1)">162 </a>            nmf.M=ones(size(nmf.X));
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\BNMF\@NMF\NMF.m',163,1)">163 </a>            [nmf.AtTying nmf.BtTying nmf.AvTying nmf.BvTying nmf.update_hyper ...
+if system_dependent('IsDebugMode')==1, dbquit; end

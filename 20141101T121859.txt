@@ -1,0 +1,56 @@
+mex -setup
+MEX configured to use <strong>'Microsoft Windows SDK 7.1 (C)'</strong> for C language compilation.
+Warning: The MATLAB C and Fortran API has changed to support MATLAB
+	 variables with more than 2^32-1 elements. In the near future
+	 you will be required to update your code to utilize the
+	 new API. You can find more information about this at:
+	 <a href="http://www.mathworks.com/help/matlab/matlab_external/upgrading-mex-files-to-use-64-bit-api.html">http://www.mathworks.com/help/matlab/matlab_external/upgrading-mex-files-to-use-64-bit-api.html</a>.
+
+To choose a different language, select one from the following:
+ <a href="matlab:mex -setup C++">mex -setup C++</a> 
+ <a href="matlab:mex -setup FORTRAN">mex -setup FORTRAN</a>
+make
+If make.m fails, please check README about detailed instructions.
+make
+Building with 'Microsoft Windows SDK 7.1 (C)'.
+MEX completed successfully.
+Building with 'Microsoft Windows SDK 7.1 (C)'.
+MEX completed successfully.
+Building with 'Microsoft Windows SDK 7.1 (C++)'.
+Could Not Find C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\svmtrain.exp
+
+Could Not Find C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\svmtrain.exp
+
+MEX completed successfully.
+Building with 'Microsoft Windows SDK 7.1 (C++)'.
+Could Not Find C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\svmpredict.exp
+
+Could Not Find C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\svmpredict.exp
+
+MEX completed successfully.
+make
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\make.m',14,1)">14  </a>		mex CFLAGS="\$CFLAGS -std=c99" -largeArrayDims libsvmread.c
+dbstep
+Building with 'Microsoft Windows SDK 7.1 (C)'.
+MEX completed successfully.
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\make.m',15,1)">15  </a>		mex CFLAGS="\$CFLAGS -std=c99" -largeArrayDims libsvmwrite.c
+dbstep
+Building with 'Microsoft Windows SDK 7.1 (C)'.
+MEX completed successfully.
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\make.m',16,1)">16  </a>		mex CFLAGS="\$CFLAGS -std=c99" -largeArrayDims svmtrain.c ../svm.cpp svm_model_matlab.c
+dbstep
+Building with 'Microsoft Windows SDK 7.1 (C++)'.
+Could Not Find C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\svmtrain.exp
+
+Could Not Find C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\svmtrain.exp
+
+MEX completed successfully.
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\make.m',17,1)">17  </a>		mex CFLAGS="\$CFLAGS -std=c99" -largeArrayDims svmpredict.c ../svm.cpp svm_model_matlab.c
+dbstep
+Building with 'Microsoft Windows SDK 7.1 (C++)'.
+Could Not Find C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\svmpredict.exp
+
+Could Not Find C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\svmpredict.exp
+
+MEX completed successfully.
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\make.m',18,1)">18  </a>	end

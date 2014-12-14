@@ -1,0 +1,35 @@
+uiimport('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\results\result_28.mat')
+max(avg_vald_accu)
+
+ans =
+
+   95.1500
+
+max(max(avg_RBF_vald_accu))
+
+ans =
+
+   95.2500
+
+load('result_27.mat')
+load('result_26.mat')
+load('result_25.mat')
+uiimport('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\results\result_24.mat')
+load('result_24.mat')
+load('result_23.mat')
+load('result_22.mat')
+load('result_23.mat')
+load('result_24.mat')
+load('result_25.mat')
+load('result_22.mat')
+load('result_25.mat')
+load('result_26.mat')
+load('result_27.mat')
+load('result_28.mat')
+load('result_26.mat')
+max(avg_vald_accu)
+
+ans =
+
+   95.0500
+

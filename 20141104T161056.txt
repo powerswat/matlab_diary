@@ -1,0 +1,46 @@
+amr_mode = ['MR475'; 'MR515'; 'MR59'; 'MR67'; 'MR74'; 'MR795'; 'MR102'; 'MR122'];
+{Error using <a href="matlab:helpUtils.errorDocCallback('vertcat')" style="font-weight:bold">vertcat</a>
+Dimensions of matrices being concatenated are
+not consistent.
+} 
+amr_mode = ('MR475'; 'MR515'; 'MR59'; 'MR67'; 'MR74'; 'MR795'; 'MR102'; 'MR122');
+ amr_mode = ('MR475'; 'MR515'; 'MR59'; 'MR67'; 'MR74'; 'MR795'; 'MR102'; 'MR122');
+                    |
+{Error: Unbalanced or unexpected parenthesis or
+bracket.
+} 
+data = ['Allison Jones';'Development  ';'Phoenix      '];
+data
+
+data =
+
+Allison Jones
+Development  
+Phoenix      
+
+amr_mode = ('MR475'; 'MR515'; 'MR59'; 'MR67'; 'MR74'; 'MR795'; 'MR102'; 'MR122');
+ amr_mode = ('MR475'; 'MR515'; 'MR59'; 'MR67'; 'MR74'; 'MR795'; 'MR102'; 'MR122');
+                    |
+{Error: Unbalanced or unexpected parenthesis or
+bracket.
+} 
+amr_mode = ['MR475'; 'MR515'; 'MR59'; 'MR67'; 'MR74'; 'MR795'; 'MR102'; 'MR122'];
+{Error using <a href="matlab:helpUtils.errorDocCallback('vertcat')" style="font-weight:bold">vertcat</a>
+Dimensions of matrices being concatenated are
+not consistent.
+} 
+amr_mode = ['MR475'; 'MR515'; 'MR59 '; 'MR67 '; 'MR74 '; 'MR795'; 'MR102'; 'MR122'];
+amr_mode = cellstr(amr_mode);
+amr_mode
+
+amr_mode = 
+
+    'MR475'
+    'MR515'
+    'MR59'
+    'MR67'
+    'MR74'
+    'MR795'
+    'MR102'
+    'MR122'
+

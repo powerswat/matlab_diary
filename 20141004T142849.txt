@@ -1,0 +1,38 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',1)
+runRBF
+{Error using <a href="matlab:helpUtils.errorDocCallback('inputcheck', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\private\inputcheck.m', 40)" style="font-weight:bold">inputcheck</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\private\inputcheck.m',40,0)">line 40</a>)
+Multiple inputs that look like filenames: 'eta_' and 'images\0.01_bases_2.png'
+
+Error in <a href="matlab:helpUtils.errorDocCallback('print', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\print.m', 166)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\print.m',166,0)">line 166</a>)
+    [pj, devices, options ] = inputcheck( pj, inputargs{:} );
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 108)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',108,0)">line 108</a>)
+    print('-dpng','eta_', ['images\', num2str(eta) '_bases_' num2str(numBase)
+    '.png']);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 7)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',7,0)">line 7</a>)
+        trainRBFNet(etas(i), numBases(j), 0);
+} 
+runRBF
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('restorehg', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\private\restorehg.m', 70)" style="font-weight:bold">restorehg</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\private\restorehg.m',70,0)">line 70</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('restore', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\private\restore.m', 32)" style="font-weight:bold">restore</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\private\restore.m',32,0)">line 32</a>)
+        pj = restorehg( pj, h );
+
+In <a href="matlab:helpUtils.errorDocCallback('print>LocalPrint', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\print.m', 287)" style="font-weight:bold">print>LocalPrint</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\print.m',287,0)">line 287</a>)
+        pj = restore( pj, h );
+
+In <a href="matlab:helpUtils.errorDocCallback('print', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\print.m', 233)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\print.m',233,0)">line 233</a>)
+    LocalPrint(pj);
+
+In <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 108)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',108,0)">line 108</a>)
+    print('-dpng',['images\eta_', num2str(eta) num2str(eta) '_bases_'
+    num2str(numBase) '.png']);
+
+In <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 7)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',7,0)">line 7</a>)
+        trainRBFNet(etas(i), numBases(j), 0);
+} 
+runRBF

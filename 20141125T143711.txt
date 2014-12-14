@@ -1,0 +1,2005 @@
+example_usage_multinmf_inst_em
+Input time-frequency representation
+Random initialization of multichannel NMF parameters
+EM iteration 1 of 500
+   E-step
+Log-likelihood: 11.637557
+   M-step
+EM iteration 2 of 500
+   E-step
+Log-likelihood: 12.288238   Log-likelihood improvement: 0.650681
+   M-step
+EM iteration 3 of 500
+   E-step
+Log-likelihood: 12.886369   Log-likelihood improvement: 0.598131
+   M-step
+EM iteration 4 of 500
+   E-step
+Log-likelihood: 13.452629   Log-likelihood improvement: 0.566260
+   M-step
+EM iteration 5 of 500
+   E-step
+Log-likelihood: 13.994057   Log-likelihood improvement: 0.541429
+   M-step
+EM iteration 6 of 500
+   E-step
+Log-likelihood: 14.512714   Log-likelihood improvement: 0.518656
+   M-step
+EM iteration 7 of 500
+   E-step
+Log-likelihood: 15.008429   Log-likelihood improvement: 0.495716
+   M-step
+EM iteration 8 of 500
+   E-step
+Log-likelihood: 15.479958   Log-likelihood improvement: 0.471529
+   M-step
+EM iteration 9 of 500
+   E-step
+Log-likelihood: 15.925494   Log-likelihood improvement: 0.445536
+   M-step
+EM iteration 10 of 500
+   E-step
+Log-likelihood: 16.342844   Log-likelihood improvement: 0.417350
+   M-step
+EM iteration 11 of 500
+   E-step
+Log-likelihood: 16.729406   Log-likelihood improvement: 0.386562
+   M-step
+EM iteration 12 of 500
+   E-step
+Log-likelihood: 17.082166   Log-likelihood improvement: 0.352760
+   M-step
+EM iteration 13 of 500
+   E-step
+Log-likelihood: 17.398056   Log-likelihood improvement: 0.315890
+   M-step
+EM iteration 14 of 500
+   E-step
+Log-likelihood: 17.674954   Log-likelihood improvement: 0.276898
+   M-step
+EM iteration 15 of 500
+   E-step
+Log-likelihood: 17.913097   Log-likelihood improvement: 0.238144
+   M-step
+EM iteration 16 of 500
+   E-step
+Log-likelihood: 18.115825   Log-likelihood improvement: 0.202727
+   M-step
+EM iteration 17 of 500
+   E-step
+Log-likelihood: 18.288749   Log-likelihood improvement: 0.172924
+   M-step
+EM iteration 18 of 500
+   E-step
+Log-likelihood: 18.437967   Log-likelihood improvement: 0.149218
+   M-step
+EM iteration 19 of 500
+   E-step
+Log-likelihood: 18.568696   Log-likelihood improvement: 0.130729
+   M-step
+EM iteration 20 of 500
+   E-step
+Log-likelihood: 18.684860   Log-likelihood improvement: 0.116164
+   M-step
+EM iteration 21 of 500
+   E-step
+Log-likelihood: 18.789280   Log-likelihood improvement: 0.104420
+   M-step
+EM iteration 22 of 500
+   E-step
+Log-likelihood: 18.884001   Log-likelihood improvement: 0.094720
+   M-step
+EM iteration 23 of 500
+   E-step
+Log-likelihood: 18.970549   Log-likelihood improvement: 0.086549
+   M-step
+EM iteration 24 of 500
+   E-step
+Log-likelihood: 19.050104   Log-likelihood improvement: 0.079555
+   M-step
+EM iteration 25 of 500
+   E-step
+Log-likelihood: 19.123594   Log-likelihood improvement: 0.073490
+   M-step
+EM iteration 26 of 500
+   E-step
+Log-likelihood: 19.191760   Log-likelihood improvement: 0.068166
+   M-step
+EM iteration 27 of 500
+   E-step
+Log-likelihood: 19.255200   Log-likelihood improvement: 0.063440
+   M-step
+EM iteration 28 of 500
+   E-step
+Log-likelihood: 19.314398   Log-likelihood improvement: 0.059199
+   M-step
+EM iteration 29 of 500
+   E-step
+Log-likelihood: 19.369752   Log-likelihood improvement: 0.055354
+   M-step
+EM iteration 30 of 500
+   E-step
+Log-likelihood: 19.421589   Log-likelihood improvement: 0.051836
+   M-step
+EM iteration 31 of 500
+   E-step
+Log-likelihood: 19.470180   Log-likelihood improvement: 0.048591
+   M-step
+EM iteration 32 of 500
+   E-step
+Log-likelihood: 19.515755   Log-likelihood improvement: 0.045575
+   M-step
+EM iteration 33 of 500
+   E-step
+Log-likelihood: 19.558511   Log-likelihood improvement: 0.042756
+   M-step
+EM iteration 34 of 500
+   E-step
+Log-likelihood: 19.598620   Log-likelihood improvement: 0.040109
+   M-step
+EM iteration 35 of 500
+   E-step
+Log-likelihood: 19.636236   Log-likelihood improvement: 0.037616
+   M-step
+EM iteration 36 of 500
+   E-step
+Log-likelihood: 19.671498   Log-likelihood improvement: 0.035263
+   M-step
+EM iteration 37 of 500
+   E-step
+Log-likelihood: 19.704540   Log-likelihood improvement: 0.033041
+   M-step
+EM iteration 38 of 500
+   E-step
+Log-likelihood: 19.735486   Log-likelihood improvement: 0.030946
+   M-step
+EM iteration 39 of 500
+   E-step
+Log-likelihood: 19.764457   Log-likelihood improvement: 0.028972
+   M-step
+EM iteration 40 of 500
+   E-step
+Log-likelihood: 19.791574   Log-likelihood improvement: 0.027116
+   M-step
+EM iteration 41 of 500
+   E-step
+Log-likelihood: 19.816951   Log-likelihood improvement: 0.025378
+   M-step
+EM iteration 42 of 500
+   E-step
+Log-likelihood: 19.840704   Log-likelihood improvement: 0.023753
+   M-step
+EM iteration 43 of 500
+   E-step
+Log-likelihood: 19.862941   Log-likelihood improvement: 0.022237
+   M-step
+EM iteration 44 of 500
+   E-step
+Log-likelihood: 19.883767   Log-likelihood improvement: 0.020826
+   M-step
+EM iteration 45 of 500
+   E-step
+Log-likelihood: 19.903281   Log-likelihood improvement: 0.019514
+   M-step
+EM iteration 46 of 500
+   E-step
+Log-likelihood: 19.921576   Log-likelihood improvement: 0.018295
+   M-step
+EM iteration 47 of 500
+   E-step
+Log-likelihood: 19.938741   Log-likelihood improvement: 0.017165
+   M-step
+EM iteration 48 of 500
+   E-step
+Log-likelihood: 19.954862   Log-likelihood improvement: 0.016121
+   M-step
+EM iteration 49 of 500
+   E-step
+Log-likelihood: 19.970025   Log-likelihood improvement: 0.015163
+   M-step
+EM iteration 50 of 500
+   E-step
+Log-likelihood: 19.984315   Log-likelihood improvement: 0.014290
+   M-step
+EM iteration 51 of 500
+   E-step
+Log-likelihood: 19.997815   Log-likelihood improvement: 0.013501
+   M-step
+EM iteration 52 of 500
+   E-step
+Log-likelihood: 20.010607   Log-likelihood improvement: 0.012792
+   M-step
+EM iteration 53 of 500
+   E-step
+Log-likelihood: 20.022765   Log-likelihood improvement: 0.012158
+   M-step
+EM iteration 54 of 500
+   E-step
+Log-likelihood: 20.034362   Log-likelihood improvement: 0.011597
+   M-step
+EM iteration 55 of 500
+   E-step
+Log-likelihood: 20.045464   Log-likelihood improvement: 0.011101
+   M-step
+EM iteration 56 of 500
+   E-step
+Log-likelihood: 20.056132   Log-likelihood improvement: 0.010668
+   M-step
+EM iteration 57 of 500
+   E-step
+Log-likelihood: 20.066424   Log-likelihood improvement: 0.010292
+   M-step
+EM iteration 58 of 500
+   E-step
+Log-likelihood: 20.076394   Log-likelihood improvement: 0.009970
+   M-step
+EM iteration 59 of 500
+   E-step
+Log-likelihood: 20.086093   Log-likelihood improvement: 0.009698
+   M-step
+EM iteration 60 of 500
+   E-step
+Log-likelihood: 20.095566   Log-likelihood improvement: 0.009473
+   M-step
+EM iteration 61 of 500
+   E-step
+Log-likelihood: 20.104858   Log-likelihood improvement: 0.009292
+   M-step
+EM iteration 62 of 500
+   E-step
+Log-likelihood: 20.114012   Log-likelihood improvement: 0.009153
+   M-step
+EM iteration 63 of 500
+   E-step
+Log-likelihood: 20.123065   Log-likelihood improvement: 0.009054
+   M-step
+EM iteration 64 of 500
+   E-step
+Log-likelihood: 20.132057   Log-likelihood improvement: 0.008992
+   M-step
+EM iteration 65 of 500
+   E-step
+Log-likelihood: 20.141023   Log-likelihood improvement: 0.008966
+   M-step
+EM iteration 66 of 500
+   E-step
+Log-likelihood: 20.149999   Log-likelihood improvement: 0.008976
+   M-step
+EM iteration 67 of 500
+   E-step
+Log-likelihood: 20.159017   Log-likelihood improvement: 0.009018
+   M-step
+EM iteration 68 of 500
+   E-step
+Log-likelihood: 20.168109   Log-likelihood improvement: 0.009092
+   M-step
+EM iteration 69 of 500
+   E-step
+Log-likelihood: 20.177302   Log-likelihood improvement: 0.009194
+   M-step
+EM iteration 70 of 500
+   E-step
+Log-likelihood: 20.186623   Log-likelihood improvement: 0.009321
+   M-step
+EM iteration 71 of 500
+   E-step
+Log-likelihood: 20.196094   Log-likelihood improvement: 0.009471
+   M-step
+EM iteration 72 of 500
+   E-step
+Log-likelihood: 20.205734   Log-likelihood improvement: 0.009640
+   M-step
+EM iteration 73 of 500
+   E-step
+Log-likelihood: 20.215561   Log-likelihood improvement: 0.009827
+   M-step
+EM iteration 74 of 500
+   E-step
+Log-likelihood: 20.225590   Log-likelihood improvement: 0.010029
+   M-step
+EM iteration 75 of 500
+   E-step
+Log-likelihood: 20.235836   Log-likelihood improvement: 0.010246
+   M-step
+EM iteration 76 of 500
+   E-step
+Log-likelihood: 20.246312   Log-likelihood improvement: 0.010476
+   M-step
+EM iteration 77 of 500
+   E-step
+Log-likelihood: 20.257029   Log-likelihood improvement: 0.010717
+   M-step
+EM iteration 78 of 500
+   E-step
+Log-likelihood: 20.267998   Log-likelihood improvement: 0.010968
+   M-step
+EM iteration 79 of 500
+   E-step
+Log-likelihood: 20.279226   Log-likelihood improvement: 0.011228
+   M-step
+EM iteration 80 of 500
+   E-step
+Log-likelihood: 20.290720   Log-likelihood improvement: 0.011494
+   M-step
+EM iteration 81 of 500
+   E-step
+Log-likelihood: 20.302484   Log-likelihood improvement: 0.011764
+   M-step
+EM iteration 82 of 500
+   E-step
+Log-likelihood: 20.314520   Log-likelihood improvement: 0.012036
+   M-step
+EM iteration 83 of 500
+   E-step
+Log-likelihood: 20.326826   Log-likelihood improvement: 0.012307
+   M-step
+EM iteration 84 of 500
+   E-step
+Log-likelihood: 20.339401   Log-likelihood improvement: 0.012575
+   M-step
+EM iteration 85 of 500
+   E-step
+Log-likelihood: 20.352238   Log-likelihood improvement: 0.012837
+   M-step
+EM iteration 86 of 500
+   E-step
+Log-likelihood: 20.365332   Log-likelihood improvement: 0.013093
+   M-step
+EM iteration 87 of 500
+   E-step
+Log-likelihood: 20.378673   Log-likelihood improvement: 0.013342
+   M-step
+EM iteration 88 of 500
+   E-step
+Log-likelihood: 20.392255   Log-likelihood improvement: 0.013581
+   M-step
+EM iteration 89 of 500
+   E-step
+Log-likelihood: 20.406067   Log-likelihood improvement: 0.013812
+   M-step
+EM iteration 90 of 500
+   E-step
+Log-likelihood: 20.420100   Log-likelihood improvement: 0.014034
+   M-step
+EM iteration 91 of 500
+   E-step
+Log-likelihood: 20.434346   Log-likelihood improvement: 0.014246
+   M-step
+EM iteration 92 of 500
+   E-step
+Log-likelihood: 20.448796   Log-likelihood improvement: 0.014449
+   M-step
+EM iteration 93 of 500
+   E-step
+Log-likelihood: 20.463439   Log-likelihood improvement: 0.014643
+   M-step
+EM iteration 94 of 500
+   E-step
+Log-likelihood: 20.478266   Log-likelihood improvement: 0.014827
+   M-step
+EM iteration 95 of 500
+   E-step
+Log-likelihood: 20.493267   Log-likelihood improvement: 0.015001
+   M-step
+EM iteration 96 of 500
+   E-step
+Log-likelihood: 20.508428   Log-likelihood improvement: 0.015162
+   M-step
+EM iteration 97 of 500
+   E-step
+Log-likelihood: 20.523738   Log-likelihood improvement: 0.015309
+   M-step
+EM iteration 98 of 500
+   E-step
+Log-likelihood: 20.539178   Log-likelihood improvement: 0.015440
+   M-step
+EM iteration 99 of 500
+   E-step
+Log-likelihood: 20.554731   Log-likelihood improvement: 0.015553
+   M-step
+EM iteration 100 of 500
+   E-step
+Log-likelihood: 20.570373   Log-likelihood improvement: 0.015642
+   M-step
+EM iteration 101 of 500
+   E-step
+Log-likelihood: 20.586077   Log-likelihood improvement: 0.015705
+   M-step
+EM iteration 102 of 500
+   E-step
+Log-likelihood: 20.601814   Log-likelihood improvement: 0.015737
+   M-step
+EM iteration 103 of 500
+   E-step
+Log-likelihood: 20.617548   Log-likelihood improvement: 0.015734
+   M-step
+EM iteration 104 of 500
+   E-step
+Log-likelihood: 20.633239   Log-likelihood improvement: 0.015691
+   M-step
+EM iteration 105 of 500
+   E-step
+Log-likelihood: 20.648846   Log-likelihood improvement: 0.015606
+   M-step
+EM iteration 106 of 500
+   E-step
+Log-likelihood: 20.664322   Log-likelihood improvement: 0.015476
+   M-step
+EM iteration 107 of 500
+   E-step
+Log-likelihood: 20.679621   Log-likelihood improvement: 0.015300
+   M-step
+EM iteration 108 of 500
+   E-step
+Log-likelihood: 20.694699   Log-likelihood improvement: 0.015077
+   M-step
+EM iteration 109 of 500
+   E-step
+Log-likelihood: 20.709511   Log-likelihood improvement: 0.014812
+   M-step
+EM iteration 110 of 500
+   E-step
+Log-likelihood: 20.724019   Log-likelihood improvement: 0.014509
+   M-step
+EM iteration 111 of 500
+   E-step
+Log-likelihood: 20.738193   Log-likelihood improvement: 0.014173
+   M-step
+EM iteration 112 of 500
+   E-step
+Log-likelihood: 20.752007   Log-likelihood improvement: 0.013814
+   M-step
+EM iteration 113 of 500
+   E-step
+Log-likelihood: 20.765448   Log-likelihood improvement: 0.013441
+   M-step
+EM iteration 114 of 500
+   E-step
+Log-likelihood: 20.778508   Log-likelihood improvement: 0.013061
+   M-step
+EM iteration 115 of 500
+   E-step
+Log-likelihood: 20.791191   Log-likelihood improvement: 0.012683
+   M-step
+EM iteration 116 of 500
+   E-step
+Log-likelihood: 20.803505   Log-likelihood improvement: 0.012314
+   M-step
+EM iteration 117 of 500
+   E-step
+Log-likelihood: 20.815465   Log-likelihood improvement: 0.011960
+   M-step
+EM iteration 118 of 500
+   E-step
+Log-likelihood: 20.827090   Log-likelihood improvement: 0.011625
+   M-step
+EM iteration 119 of 500
+   E-step
+Log-likelihood: 20.838403   Log-likelihood improvement: 0.011313
+   M-step
+EM iteration 120 of 500
+   E-step
+Log-likelihood: 20.849428   Log-likelihood improvement: 0.011025
+   M-step
+EM iteration 121 of 500
+   E-step
+Log-likelihood: 20.860190   Log-likelihood improvement: 0.010762
+   M-step
+EM iteration 122 of 500
+   E-step
+Log-likelihood: 20.870712   Log-likelihood improvement: 0.010523
+   M-step
+EM iteration 123 of 500
+   E-step
+Log-likelihood: 20.881020   Log-likelihood improvement: 0.010307
+   M-step
+EM iteration 124 of 500
+   E-step
+Log-likelihood: 20.891134   Log-likelihood improvement: 0.010114
+   M-step
+EM iteration 125 of 500
+   E-step
+Log-likelihood: 20.901074   Log-likelihood improvement: 0.009940
+   M-step
+EM iteration 126 of 500
+   E-step
+Log-likelihood: 20.910858   Log-likelihood improvement: 0.009785
+   M-step
+EM iteration 127 of 500
+   E-step
+Log-likelihood: 20.920504   Log-likelihood improvement: 0.009645
+   M-step
+EM iteration 128 of 500
+   E-step
+Log-likelihood: 20.930025   Log-likelihood improvement: 0.009521
+   M-step
+EM iteration 129 of 500
+   E-step
+Log-likelihood: 20.939434   Log-likelihood improvement: 0.009409
+   M-step
+EM iteration 130 of 500
+   E-step
+Log-likelihood: 20.948743   Log-likelihood improvement: 0.009309
+   M-step
+EM iteration 131 of 500
+   E-step
+Log-likelihood: 20.957962   Log-likelihood improvement: 0.009219
+   M-step
+EM iteration 132 of 500
+   E-step
+Log-likelihood: 20.967099   Log-likelihood improvement: 0.009137
+   M-step
+EM iteration 133 of 500
+   E-step
+Log-likelihood: 20.976162   Log-likelihood improvement: 0.009063
+   M-step
+EM iteration 134 of 500
+   E-step
+Log-likelihood: 20.985156   Log-likelihood improvement: 0.008994
+   M-step
+EM iteration 135 of 500
+   E-step
+Log-likelihood: 20.994085   Log-likelihood improvement: 0.008929
+   M-step
+EM iteration 136 of 500
+   E-step
+Log-likelihood: 21.002952   Log-likelihood improvement: 0.008867
+   M-step
+EM iteration 137 of 500
+   E-step
+Log-likelihood: 21.011760   Log-likelihood improvement: 0.008808
+   M-step
+EM iteration 138 of 500
+   E-step
+Log-likelihood: 21.020511   Log-likelihood improvement: 0.008751
+   M-step
+EM iteration 139 of 500
+   E-step
+Log-likelihood: 21.029207   Log-likelihood improvement: 0.008695
+   M-step
+EM iteration 140 of 500
+   E-step
+Log-likelihood: 21.037847   Log-likelihood improvement: 0.008640
+   M-step
+EM iteration 141 of 500
+   E-step
+Log-likelihood: 21.046433   Log-likelihood improvement: 0.008586
+   M-step
+EM iteration 142 of 500
+   E-step
+Log-likelihood: 21.054965   Log-likelihood improvement: 0.008531
+   M-step
+EM iteration 143 of 500
+   E-step
+Log-likelihood: 21.063441   Log-likelihood improvement: 0.008476
+   M-step
+EM iteration 144 of 500
+   E-step
+Log-likelihood: 21.071862   Log-likelihood improvement: 0.008421
+   M-step
+EM iteration 145 of 500
+   E-step
+Log-likelihood: 21.080226   Log-likelihood improvement: 0.008364
+   M-step
+EM iteration 146 of 500
+   E-step
+Log-likelihood: 21.088533   Log-likelihood improvement: 0.008307
+   M-step
+EM iteration 147 of 500
+   E-step
+Log-likelihood: 21.096783   Log-likelihood improvement: 0.008249
+   M-step
+EM iteration 148 of 500
+   E-step
+Log-likelihood: 21.104974   Log-likelihood improvement: 0.008191
+   M-step
+EM iteration 149 of 500
+   E-step
+Log-likelihood: 21.113108   Log-likelihood improvement: 0.008133
+   M-step
+EM iteration 150 of 500
+   E-step
+Log-likelihood: 21.121183   Log-likelihood improvement: 0.008075
+   M-step
+EM iteration 151 of 500
+   E-step
+Log-likelihood: 21.129200   Log-likelihood improvement: 0.008017
+   M-step
+EM iteration 152 of 500
+   E-step
+Log-likelihood: 21.137160   Log-likelihood improvement: 0.007960
+   M-step
+EM iteration 153 of 500
+   E-step
+Log-likelihood: 21.145063   Log-likelihood improvement: 0.007903
+   M-step
+EM iteration 154 of 500
+   E-step
+Log-likelihood: 21.152909   Log-likelihood improvement: 0.007846
+   M-step
+EM iteration 155 of 500
+   E-step
+Log-likelihood: 21.160699   Log-likelihood improvement: 0.007790
+   M-step
+EM iteration 156 of 500
+   E-step
+Log-likelihood: 21.168434   Log-likelihood improvement: 0.007735
+   M-step
+EM iteration 157 of 500
+   E-step
+Log-likelihood: 21.176113   Log-likelihood improvement: 0.007679
+   M-step
+EM iteration 158 of 500
+   E-step
+Log-likelihood: 21.183738   Log-likelihood improvement: 0.007625
+   M-step
+EM iteration 159 of 500
+   E-step
+Log-likelihood: 21.191309   Log-likelihood improvement: 0.007571
+   M-step
+EM iteration 160 of 500
+   E-step
+Log-likelihood: 21.198827   Log-likelihood improvement: 0.007518
+   M-step
+EM iteration 161 of 500
+   E-step
+Log-likelihood: 21.206292   Log-likelihood improvement: 0.007465
+   M-step
+EM iteration 162 of 500
+   E-step
+Log-likelihood: 21.213705   Log-likelihood improvement: 0.007413
+   M-step
+EM iteration 163 of 500
+   E-step
+Log-likelihood: 21.221067   Log-likelihood improvement: 0.007362
+   M-step
+EM iteration 164 of 500
+   E-step
+Log-likelihood: 21.228379   Log-likelihood improvement: 0.007312
+   M-step
+EM iteration 165 of 500
+   E-step
+Log-likelihood: 21.235641   Log-likelihood improvement: 0.007262
+   M-step
+EM iteration 166 of 500
+   E-step
+Log-likelihood: 21.242855   Log-likelihood improvement: 0.007214
+   M-step
+EM iteration 167 of 500
+   E-step
+Log-likelihood: 21.250021   Log-likelihood improvement: 0.007166
+   M-step
+EM iteration 168 of 500
+   E-step
+Log-likelihood: 21.257141   Log-likelihood improvement: 0.007120
+   M-step
+EM iteration 169 of 500
+   E-step
+Log-likelihood: 21.264215   Log-likelihood improvement: 0.007074
+   M-step
+EM iteration 170 of 500
+   E-step
+Log-likelihood: 21.271244   Log-likelihood improvement: 0.007029
+   M-step
+EM iteration 171 of 500
+   E-step
+Log-likelihood: 21.278230   Log-likelihood improvement: 0.006985
+   M-step
+EM iteration 172 of 500
+   E-step
+Log-likelihood: 21.285172   Log-likelihood improvement: 0.006943
+   M-step
+EM iteration 173 of 500
+   E-step
+Log-likelihood: 21.292073   Log-likelihood improvement: 0.006901
+   M-step
+EM iteration 174 of 500
+   E-step
+Log-likelihood: 21.298933   Log-likelihood improvement: 0.006860
+   M-step
+EM iteration 175 of 500
+   E-step
+Log-likelihood: 21.305753   Log-likelihood improvement: 0.006820
+   M-step
+EM iteration 176 of 500
+   E-step
+Log-likelihood: 21.312534   Log-likelihood improvement: 0.006781
+   M-step
+EM iteration 177 of 500
+   E-step
+Log-likelihood: 21.319277   Log-likelihood improvement: 0.006743
+   M-step
+EM iteration 178 of 500
+   E-step
+Log-likelihood: 21.325982   Log-likelihood improvement: 0.006706
+   M-step
+EM iteration 179 of 500
+   E-step
+Log-likelihood: 21.332652   Log-likelihood improvement: 0.006669
+   M-step
+EM iteration 180 of 500
+   E-step
+Log-likelihood: 21.339286   Log-likelihood improvement: 0.006634
+   M-step
+EM iteration 181 of 500
+   E-step
+Log-likelihood: 21.345885   Log-likelihood improvement: 0.006599
+   M-step
+EM iteration 182 of 500
+   E-step
+Log-likelihood: 21.352451   Log-likelihood improvement: 0.006566
+   M-step
+EM iteration 183 of 500
+   E-step
+Log-likelihood: 21.358984   Log-likelihood improvement: 0.006533
+   M-step
+EM iteration 184 of 500
+   E-step
+Log-likelihood: 21.365484   Log-likelihood improvement: 0.006501
+   M-step
+EM iteration 185 of 500
+   E-step
+Log-likelihood: 21.371953   Log-likelihood improvement: 0.006469
+   M-step
+EM iteration 186 of 500
+   E-step
+Log-likelihood: 21.378391   Log-likelihood improvement: 0.006438
+   M-step
+EM iteration 187 of 500
+   E-step
+Log-likelihood: 21.384799   Log-likelihood improvement: 0.006408
+   M-step
+EM iteration 188 of 500
+   E-step
+Log-likelihood: 21.391177   Log-likelihood improvement: 0.006378
+   M-step
+EM iteration 189 of 500
+   E-step
+Log-likelihood: 21.397526   Log-likelihood improvement: 0.006348
+   M-step
+EM iteration 190 of 500
+   E-step
+Log-likelihood: 21.403845   Log-likelihood improvement: 0.006319
+   M-step
+EM iteration 191 of 500
+   E-step
+Log-likelihood: 21.410135   Log-likelihood improvement: 0.006290
+   M-step
+EM iteration 192 of 500
+   E-step
+Log-likelihood: 21.416396   Log-likelihood improvement: 0.006261
+   M-step
+EM iteration 193 of 500
+   E-step
+Log-likelihood: 21.422628   Log-likelihood improvement: 0.006232
+   M-step
+EM iteration 194 of 500
+   E-step
+Log-likelihood: 21.428832   Log-likelihood improvement: 0.006203
+   M-step
+EM iteration 195 of 500
+   E-step
+Log-likelihood: 21.435006   Log-likelihood improvement: 0.006175
+   M-step
+EM iteration 196 of 500
+   E-step
+Log-likelihood: 21.441152   Log-likelihood improvement: 0.006146
+   M-step
+EM iteration 197 of 500
+   E-step
+Log-likelihood: 21.447271   Log-likelihood improvement: 0.006118
+   M-step
+EM iteration 198 of 500
+   E-step
+Log-likelihood: 21.453361   Log-likelihood improvement: 0.006091
+   M-step
+EM iteration 199 of 500
+   E-step
+Log-likelihood: 21.459425   Log-likelihood improvement: 0.006064
+   M-step
+EM iteration 200 of 500
+   E-step
+Log-likelihood: 21.465463   Log-likelihood improvement: 0.006037
+   M-step
+EM iteration 201 of 500
+   E-step
+Log-likelihood: 21.471474   Log-likelihood improvement: 0.006012
+   M-step
+EM iteration 202 of 500
+   E-step
+Log-likelihood: 21.477461   Log-likelihood improvement: 0.005987
+   M-step
+EM iteration 203 of 500
+   E-step
+Log-likelihood: 21.483423   Log-likelihood improvement: 0.005962
+   M-step
+EM iteration 204 of 500
+   E-step
+Log-likelihood: 21.489362   Log-likelihood improvement: 0.005938
+   M-step
+EM iteration 205 of 500
+   E-step
+Log-likelihood: 21.495277   Log-likelihood improvement: 0.005915
+   M-step
+EM iteration 206 of 500
+   E-step
+Log-likelihood: 21.501169   Log-likelihood improvement: 0.005892
+   M-step
+EM iteration 207 of 500
+   E-step
+Log-likelihood: 21.507039   Log-likelihood improvement: 0.005870
+   M-step
+EM iteration 208 of 500
+   E-step
+Log-likelihood: 21.512888   Log-likelihood improvement: 0.005848
+   M-step
+EM iteration 209 of 500
+   E-step
+Log-likelihood: 21.518715   Log-likelihood improvement: 0.005827
+   M-step
+EM iteration 210 of 500
+   E-step
+Log-likelihood: 21.524522   Log-likelihood improvement: 0.005807
+   M-step
+EM iteration 211 of 500
+   E-step
+Log-likelihood: 21.530308   Log-likelihood improvement: 0.005786
+   M-step
+EM iteration 212 of 500
+   E-step
+Log-likelihood: 21.536075   Log-likelihood improvement: 0.005767
+   M-step
+EM iteration 213 of 500
+   E-step
+Log-likelihood: 21.541822   Log-likelihood improvement: 0.005748
+   M-step
+EM iteration 214 of 500
+   E-step
+Log-likelihood: 21.547551   Log-likelihood improvement: 0.005729
+   M-step
+EM iteration 215 of 500
+   E-step
+Log-likelihood: 21.553262   Log-likelihood improvement: 0.005711
+   M-step
+EM iteration 216 of 500
+   E-step
+Log-likelihood: 21.558955   Log-likelihood improvement: 0.005693
+   M-step
+EM iteration 217 of 500
+   E-step
+Log-likelihood: 21.564631   Log-likelihood improvement: 0.005676
+   M-step
+EM iteration 218 of 500
+   E-step
+Log-likelihood: 21.570290   Log-likelihood improvement: 0.005659
+   M-step
+EM iteration 219 of 500
+   E-step
+Log-likelihood: 21.575934   Log-likelihood improvement: 0.005643
+   M-step
+EM iteration 220 of 500
+   E-step
+Log-likelihood: 21.581561   Log-likelihood improvement: 0.005628
+   M-step
+EM iteration 221 of 500
+   E-step
+Log-likelihood: 21.587174   Log-likelihood improvement: 0.005613
+   M-step
+EM iteration 222 of 500
+   E-step
+Log-likelihood: 21.592772   Log-likelihood improvement: 0.005598
+   M-step
+EM iteration 223 of 500
+   E-step
+Log-likelihood: 21.598356   Log-likelihood improvement: 0.005584
+   M-step
+EM iteration 224 of 500
+   E-step
+Log-likelihood: 21.603926   Log-likelihood improvement: 0.005570
+   M-step
+EM iteration 225 of 500
+   E-step
+Log-likelihood: 21.609484   Log-likelihood improvement: 0.005557
+   M-step
+EM iteration 226 of 500
+   E-step
+Log-likelihood: 21.615028   Log-likelihood improvement: 0.005545
+   M-step
+EM iteration 227 of 500
+   E-step
+Log-likelihood: 21.620561   Log-likelihood improvement: 0.005533
+   M-step
+EM iteration 228 of 500
+   E-step
+Log-likelihood: 21.626082   Log-likelihood improvement: 0.005521
+   M-step
+EM iteration 229 of 500
+   E-step
+Log-likelihood: 21.631591   Log-likelihood improvement: 0.005509
+   M-step
+EM iteration 230 of 500
+   E-step
+Log-likelihood: 21.637089   Log-likelihood improvement: 0.005498
+   M-step
+EM iteration 231 of 500
+   E-step
+Log-likelihood: 21.642577   Log-likelihood improvement: 0.005487
+   M-step
+EM iteration 232 of 500
+   E-step
+Log-likelihood: 21.648054   Log-likelihood improvement: 0.005477
+   M-step
+EM iteration 233 of 500
+   E-step
+Log-likelihood: 21.653521   Log-likelihood improvement: 0.005467
+   M-step
+EM iteration 234 of 500
+   E-step
+Log-likelihood: 21.658978   Log-likelihood improvement: 0.005457
+   M-step
+EM iteration 235 of 500
+   E-step
+Log-likelihood: 21.664426   Log-likelihood improvement: 0.005448
+   M-step
+EM iteration 236 of 500
+   E-step
+Log-likelihood: 21.669864   Log-likelihood improvement: 0.005438
+   M-step
+EM iteration 237 of 500
+   E-step
+Log-likelihood: 21.675294   Log-likelihood improvement: 0.005429
+   M-step
+EM iteration 238 of 500
+   E-step
+Log-likelihood: 21.680714   Log-likelihood improvement: 0.005420
+   M-step
+EM iteration 239 of 500
+   E-step
+Log-likelihood: 21.686124   Log-likelihood improvement: 0.005410
+   M-step
+EM iteration 240 of 500
+   E-step
+Log-likelihood: 21.691524   Log-likelihood improvement: 0.005400
+   M-step
+EM iteration 241 of 500
+   E-step
+Log-likelihood: 21.696914   Log-likelihood improvement: 0.005390
+   M-step
+EM iteration 242 of 500
+   E-step
+Log-likelihood: 21.702293   Log-likelihood improvement: 0.005379
+   M-step
+EM iteration 243 of 500
+   E-step
+Log-likelihood: 21.707660   Log-likelihood improvement: 0.005367
+   M-step
+EM iteration 244 of 500
+   E-step
+Log-likelihood: 21.713016   Log-likelihood improvement: 0.005356
+   M-step
+EM iteration 245 of 500
+   E-step
+Log-likelihood: 21.718361   Log-likelihood improvement: 0.005345
+   M-step
+EM iteration 246 of 500
+   E-step
+Log-likelihood: 21.723695   Log-likelihood improvement: 0.005334
+   M-step
+EM iteration 247 of 500
+   E-step
+Log-likelihood: 21.729018   Log-likelihood improvement: 0.005323
+   M-step
+EM iteration 248 of 500
+   E-step
+Log-likelihood: 21.734332   Log-likelihood improvement: 0.005314
+   M-step
+EM iteration 249 of 500
+   E-step
+Log-likelihood: 21.739637   Log-likelihood improvement: 0.005305
+   M-step
+EM iteration 250 of 500
+   E-step
+Log-likelihood: 21.744933   Log-likelihood improvement: 0.005296
+   M-step
+EM iteration 251 of 500
+   E-step
+Log-likelihood: 21.750221   Log-likelihood improvement: 0.005288
+   M-step
+EM iteration 252 of 500
+   E-step
+Log-likelihood: 21.755502   Log-likelihood improvement: 0.005281
+   M-step
+EM iteration 253 of 500
+   E-step
+Log-likelihood: 21.760777   Log-likelihood improvement: 0.005274
+   M-step
+EM iteration 254 of 500
+   E-step
+Log-likelihood: 21.766044   Log-likelihood improvement: 0.005268
+   M-step
+EM iteration 255 of 500
+   E-step
+Log-likelihood: 21.771306   Log-likelihood improvement: 0.005261
+   M-step
+EM iteration 256 of 500
+   E-step
+Log-likelihood: 21.776561   Log-likelihood improvement: 0.005256
+   M-step
+EM iteration 257 of 500
+   E-step
+Log-likelihood: 21.781811   Log-likelihood improvement: 0.005250
+   M-step
+EM iteration 258 of 500
+   E-step
+Log-likelihood: 21.787056   Log-likelihood improvement: 0.005245
+   M-step
+EM iteration 259 of 500
+   E-step
+Log-likelihood: 21.792295   Log-likelihood improvement: 0.005240
+   M-step
+EM iteration 260 of 500
+   E-step
+Log-likelihood: 21.797530   Log-likelihood improvement: 0.005235
+   M-step
+EM iteration 261 of 500
+   E-step
+Log-likelihood: 21.802760   Log-likelihood improvement: 0.005230
+   M-step
+EM iteration 262 of 500
+   E-step
+Log-likelihood: 21.807986   Log-likelihood improvement: 0.005226
+   M-step
+EM iteration 263 of 500
+   E-step
+Log-likelihood: 21.813207   Log-likelihood improvement: 0.005222
+   M-step
+EM iteration 264 of 500
+   E-step
+Log-likelihood: 21.818425   Log-likelihood improvement: 0.005218
+   M-step
+EM iteration 265 of 500
+   E-step
+Log-likelihood: 21.823639   Log-likelihood improvement: 0.005214
+   M-step
+EM iteration 266 of 500
+   E-step
+Log-likelihood: 21.828849   Log-likelihood improvement: 0.005210
+   M-step
+EM iteration 267 of 500
+   E-step
+Log-likelihood: 21.834056   Log-likelihood improvement: 0.005207
+   M-step
+EM iteration 268 of 500
+   E-step
+Log-likelihood: 21.839260   Log-likelihood improvement: 0.005204
+   M-step
+EM iteration 269 of 500
+   E-step
+Log-likelihood: 21.844461   Log-likelihood improvement: 0.005201
+   M-step
+EM iteration 270 of 500
+   E-step
+Log-likelihood: 21.849659   Log-likelihood improvement: 0.005198
+   M-step
+EM iteration 271 of 500
+   E-step
+Log-likelihood: 21.854855   Log-likelihood improvement: 0.005196
+   M-step
+EM iteration 272 of 500
+   E-step
+Log-likelihood: 21.860048   Log-likelihood improvement: 0.005193
+   M-step
+EM iteration 273 of 500
+   E-step
+Log-likelihood: 21.865239   Log-likelihood improvement: 0.005191
+   M-step
+EM iteration 274 of 500
+   E-step
+Log-likelihood: 21.870428   Log-likelihood improvement: 0.005189
+   M-step
+EM iteration 275 of 500
+   E-step
+Log-likelihood: 21.875615   Log-likelihood improvement: 0.005187
+   M-step
+EM iteration 276 of 500
+   E-step
+Log-likelihood: 21.880800   Log-likelihood improvement: 0.005185
+   M-step
+EM iteration 277 of 500
+   E-step
+Log-likelihood: 21.885984   Log-likelihood improvement: 0.005184
+   M-step
+EM iteration 278 of 500
+   E-step
+Log-likelihood: 21.891166   Log-likelihood improvement: 0.005182
+   M-step
+EM iteration 279 of 500
+   E-step
+Log-likelihood: 21.896347   Log-likelihood improvement: 0.005181
+   M-step
+EM iteration 280 of 500
+   E-step
+Log-likelihood: 21.901527   Log-likelihood improvement: 0.005180
+   M-step
+EM iteration 281 of 500
+   E-step
+Log-likelihood: 21.906705   Log-likelihood improvement: 0.005179
+   M-step
+EM iteration 282 of 500
+   E-step
+Log-likelihood: 21.911883   Log-likelihood improvement: 0.005178
+   M-step
+EM iteration 283 of 500
+   E-step
+Log-likelihood: 21.917060   Log-likelihood improvement: 0.005177
+   M-step
+EM iteration 284 of 500
+   E-step
+Log-likelihood: 21.922236   Log-likelihood improvement: 0.005176
+   M-step
+EM iteration 285 of 500
+   E-step
+Log-likelihood: 21.927411   Log-likelihood improvement: 0.005175
+   M-step
+EM iteration 286 of 500
+   E-step
+Log-likelihood: 21.932586   Log-likelihood improvement: 0.005175
+   M-step
+EM iteration 287 of 500
+   E-step
+Log-likelihood: 21.937761   Log-likelihood improvement: 0.005175
+   M-step
+EM iteration 288 of 500
+   E-step
+Log-likelihood: 21.942935   Log-likelihood improvement: 0.005174
+   M-step
+EM iteration 289 of 500
+   E-step
+Log-likelihood: 21.948110   Log-likelihood improvement: 0.005174
+   M-step
+EM iteration 290 of 500
+   E-step
+Log-likelihood: 21.953284   Log-likelihood improvement: 0.005175
+   M-step
+EM iteration 291 of 500
+   E-step
+Log-likelihood: 21.958459   Log-likelihood improvement: 0.005175
+   M-step
+EM iteration 292 of 500
+   E-step
+Log-likelihood: 21.963634   Log-likelihood improvement: 0.005175
+   M-step
+EM iteration 293 of 500
+   E-step
+Log-likelihood: 21.968810   Log-likelihood improvement: 0.005176
+   M-step
+EM iteration 294 of 500
+   E-step
+Log-likelihood: 21.973986   Log-likelihood improvement: 0.005176
+   M-step
+EM iteration 295 of 500
+   E-step
+Log-likelihood: 21.979163   Log-likelihood improvement: 0.005177
+   M-step
+EM iteration 296 of 500
+   E-step
+Log-likelihood: 21.984342   Log-likelihood improvement: 0.005178
+   M-step
+EM iteration 297 of 500
+   E-step
+Log-likelihood: 21.989521   Log-likelihood improvement: 0.005179
+   M-step
+EM iteration 298 of 500
+   E-step
+Log-likelihood: 21.994701   Log-likelihood improvement: 0.005180
+   M-step
+EM iteration 299 of 500
+   E-step
+Log-likelihood: 21.999883   Log-likelihood improvement: 0.005182
+   M-step
+EM iteration 300 of 500
+   E-step
+Log-likelihood: 22.005066   Log-likelihood improvement: 0.005183
+   M-step
+EM iteration 301 of 500
+   E-step
+Log-likelihood: 22.010251   Log-likelihood improvement: 0.005185
+   M-step
+EM iteration 302 of 500
+   E-step
+Log-likelihood: 22.015437   Log-likelihood improvement: 0.005187
+   M-step
+EM iteration 303 of 500
+   E-step
+Log-likelihood: 22.020626   Log-likelihood improvement: 0.005188
+   M-step
+EM iteration 304 of 500
+   E-step
+Log-likelihood: 22.025816   Log-likelihood improvement: 0.005190
+   M-step
+EM iteration 305 of 500
+   E-step
+Log-likelihood: 22.031009   Log-likelihood improvement: 0.005193
+   M-step
+EM iteration 306 of 500
+   E-step
+Log-likelihood: 22.036204   Log-likelihood improvement: 0.005195
+   M-step
+EM iteration 307 of 500
+   E-step
+Log-likelihood: 22.041401   Log-likelihood improvement: 0.005197
+   M-step
+EM iteration 308 of 500
+   E-step
+Log-likelihood: 22.046600   Log-likelihood improvement: 0.005200
+   M-step
+EM iteration 309 of 500
+   E-step
+Log-likelihood: 22.051803   Log-likelihood improvement: 0.005202
+   M-step
+EM iteration 310 of 500
+   E-step
+Log-likelihood: 22.057008   Log-likelihood improvement: 0.005205
+   M-step
+EM iteration 311 of 500
+   E-step
+Log-likelihood: 22.062216   Log-likelihood improvement: 0.005208
+   M-step
+EM iteration 312 of 500
+   E-step
+Log-likelihood: 22.067427   Log-likelihood improvement: 0.005211
+   M-step
+EM iteration 313 of 500
+   E-step
+Log-likelihood: 22.072641   Log-likelihood improvement: 0.005214
+   M-step
+EM iteration 314 of 500
+   E-step
+Log-likelihood: 22.077858   Log-likelihood improvement: 0.005217
+   M-step
+EM iteration 315 of 500
+   E-step
+Log-likelihood: 22.083079   Log-likelihood improvement: 0.005221
+   M-step
+EM iteration 316 of 500
+   E-step
+Log-likelihood: 22.088303   Log-likelihood improvement: 0.005224
+   M-step
+EM iteration 317 of 500
+   E-step
+Log-likelihood: 22.093530   Log-likelihood improvement: 0.005228
+   M-step
+EM iteration 318 of 500
+   E-step
+Log-likelihood: 22.098762   Log-likelihood improvement: 0.005231
+   M-step
+EM iteration 319 of 500
+   E-step
+Log-likelihood: 22.103997   Log-likelihood improvement: 0.005235
+   M-step
+EM iteration 320 of 500
+   E-step
+Log-likelihood: 22.109237   Log-likelihood improvement: 0.005239
+   M-step
+EM iteration 321 of 500
+   E-step
+Log-likelihood: 22.114480   Log-likelihood improvement: 0.005243
+   M-step
+EM iteration 322 of 500
+   E-step
+Log-likelihood: 22.119727   Log-likelihood improvement: 0.005248
+   M-step
+EM iteration 323 of 500
+   E-step
+Log-likelihood: 22.124979   Log-likelihood improvement: 0.005252
+   M-step
+EM iteration 324 of 500
+   E-step
+Log-likelihood: 22.130236   Log-likelihood improvement: 0.005256
+   M-step
+EM iteration 325 of 500
+   E-step
+Log-likelihood: 22.135497   Log-likelihood improvement: 0.005261
+   M-step
+EM iteration 326 of 500
+   E-step
+Log-likelihood: 22.140762   Log-likelihood improvement: 0.005266
+   M-step
+EM iteration 327 of 500
+   E-step
+Log-likelihood: 22.146033   Log-likelihood improvement: 0.005270
+   M-step
+EM iteration 328 of 500
+   E-step
+Log-likelihood: 22.151308   Log-likelihood improvement: 0.005275
+   M-step
+EM iteration 329 of 500
+   E-step
+Log-likelihood: 22.156588   Log-likelihood improvement: 0.005280
+   M-step
+EM iteration 330 of 500
+   E-step
+Log-likelihood: 22.161873   Log-likelihood improvement: 0.005285
+   M-step
+EM iteration 331 of 500
+   E-step
+Log-likelihood: 22.167164   Log-likelihood improvement: 0.005291
+   M-step
+EM iteration 332 of 500
+   E-step
+Log-likelihood: 22.172460   Log-likelihood improvement: 0.005296
+   M-step
+EM iteration 333 of 500
+   E-step
+Log-likelihood: 22.177761   Log-likelihood improvement: 0.005301
+   M-step
+EM iteration 334 of 500
+   E-step
+Log-likelihood: 22.183068   Log-likelihood improvement: 0.005307
+   M-step
+EM iteration 335 of 500
+   E-step
+Log-likelihood: 22.188381   Log-likelihood improvement: 0.005313
+   M-step
+EM iteration 336 of 500
+   E-step
+Log-likelihood: 22.193699   Log-likelihood improvement: 0.005318
+   M-step
+EM iteration 337 of 500
+   E-step
+Log-likelihood: 22.199023   Log-likelihood improvement: 0.005324
+   M-step
+EM iteration 338 of 500
+   E-step
+Log-likelihood: 22.204353   Log-likelihood improvement: 0.005330
+   M-step
+EM iteration 339 of 500
+   E-step
+Log-likelihood: 22.209689   Log-likelihood improvement: 0.005336
+   M-step
+EM iteration 340 of 500
+   E-step
+Log-likelihood: 22.215031   Log-likelihood improvement: 0.005342
+   M-step
+EM iteration 341 of 500
+   E-step
+Log-likelihood: 22.220379   Log-likelihood improvement: 0.005348
+   M-step
+EM iteration 342 of 500
+   E-step
+Log-likelihood: 22.225733   Log-likelihood improvement: 0.005354
+   M-step
+EM iteration 343 of 500
+   E-step
+Log-likelihood: 22.231094   Log-likelihood improvement: 0.005360
+   M-step
+EM iteration 344 of 500
+   E-step
+Log-likelihood: 22.236460   Log-likelihood improvement: 0.005367
+   M-step
+EM iteration 345 of 500
+   E-step
+Log-likelihood: 22.241833   Log-likelihood improvement: 0.005373
+   M-step
+EM iteration 346 of 500
+   E-step
+Log-likelihood: 22.247212   Log-likelihood improvement: 0.005379
+   M-step
+EM iteration 347 of 500
+   E-step
+Log-likelihood: 22.252598   Log-likelihood improvement: 0.005386
+   M-step
+EM iteration 348 of 500
+   E-step
+Log-likelihood: 22.257990   Log-likelihood improvement: 0.005392
+   M-step
+EM iteration 349 of 500
+   E-step
+Log-likelihood: 22.263388   Log-likelihood improvement: 0.005398
+   M-step
+EM iteration 350 of 500
+   E-step
+Log-likelihood: 22.268793   Log-likelihood improvement: 0.005405
+   M-step
+EM iteration 351 of 500
+   E-step
+Log-likelihood: 22.274204   Log-likelihood improvement: 0.005411
+   M-step
+EM iteration 352 of 500
+   E-step
+Log-likelihood: 22.279621   Log-likelihood improvement: 0.005417
+   M-step
+EM iteration 353 of 500
+   E-step
+Log-likelihood: 22.285045   Log-likelihood improvement: 0.005424
+   M-step
+EM iteration 354 of 500
+   E-step
+Log-likelihood: 22.290475   Log-likelihood improvement: 0.005430
+   M-step
+EM iteration 355 of 500
+   E-step
+Log-likelihood: 22.295911   Log-likelihood improvement: 0.005436
+   M-step
+EM iteration 356 of 500
+   E-step
+Log-likelihood: 22.301354   Log-likelihood improvement: 0.005443
+   M-step
+EM iteration 357 of 500
+   E-step
+Log-likelihood: 22.306803   Log-likelihood improvement: 0.005449
+   M-step
+EM iteration 358 of 500
+   E-step
+Log-likelihood: 22.312259   Log-likelihood improvement: 0.005456
+   M-step
+EM iteration 359 of 500
+   E-step
+Log-likelihood: 22.317721   Log-likelihood improvement: 0.005462
+   M-step
+EM iteration 360 of 500
+   E-step
+Log-likelihood: 22.323189   Log-likelihood improvement: 0.005468
+   M-step
+EM iteration 361 of 500
+   E-step
+Log-likelihood: 22.328664   Log-likelihood improvement: 0.005475
+   M-step
+EM iteration 362 of 500
+   E-step
+Log-likelihood: 22.334145   Log-likelihood improvement: 0.005481
+   M-step
+EM iteration 363 of 500
+   E-step
+Log-likelihood: 22.339633   Log-likelihood improvement: 0.005488
+   M-step
+EM iteration 364 of 500
+   E-step
+Log-likelihood: 22.345128   Log-likelihood improvement: 0.005494
+   M-step
+EM iteration 365 of 500
+   E-step
+Log-likelihood: 22.350628   Log-likelihood improvement: 0.005501
+   M-step
+EM iteration 366 of 500
+   E-step
+Log-likelihood: 22.356136   Log-likelihood improvement: 0.005507
+   M-step
+EM iteration 367 of 500
+   E-step
+Log-likelihood: 22.361650   Log-likelihood improvement: 0.005514
+   M-step
+EM iteration 368 of 500
+   E-step
+Log-likelihood: 22.367170   Log-likelihood improvement: 0.005521
+   M-step
+EM iteration 369 of 500
+   E-step
+Log-likelihood: 22.372698   Log-likelihood improvement: 0.005527
+   M-step
+EM iteration 370 of 500
+   E-step
+Log-likelihood: 22.378231   Log-likelihood improvement: 0.005534
+   M-step
+EM iteration 371 of 500
+   E-step
+Log-likelihood: 22.383772   Log-likelihood improvement: 0.005540
+   M-step
+EM iteration 372 of 500
+   E-step
+Log-likelihood: 22.389319   Log-likelihood improvement: 0.005547
+   M-step
+EM iteration 373 of 500
+   E-step
+Log-likelihood: 22.394873   Log-likelihood improvement: 0.005554
+   M-step
+EM iteration 374 of 500
+   E-step
+Log-likelihood: 22.400433   Log-likelihood improvement: 0.005560
+   M-step
+EM iteration 375 of 500
+   E-step
+Log-likelihood: 22.406000   Log-likelihood improvement: 0.005567
+   M-step
+EM iteration 376 of 500
+   E-step
+Log-likelihood: 22.411574   Log-likelihood improvement: 0.005574
+   M-step
+EM iteration 377 of 500
+   E-step
+Log-likelihood: 22.417155   Log-likelihood improvement: 0.005580
+   M-step
+EM iteration 378 of 500
+   E-step
+Log-likelihood: 22.422742   Log-likelihood improvement: 0.005587
+   M-step
+EM iteration 379 of 500
+   E-step
+Log-likelihood: 22.428336   Log-likelihood improvement: 0.005594
+   M-step
+EM iteration 380 of 500
+   E-step
+Log-likelihood: 22.433936   Log-likelihood improvement: 0.005600
+   M-step
+EM iteration 381 of 500
+   E-step
+Log-likelihood: 22.439543   Log-likelihood improvement: 0.005607
+   M-step
+EM iteration 382 of 500
+   E-step
+Log-likelihood: 22.445157   Log-likelihood improvement: 0.005614
+   M-step
+EM iteration 383 of 500
+   E-step
+Log-likelihood: 22.450777   Log-likelihood improvement: 0.005620
+   M-step
+EM iteration 384 of 500
+   E-step
+Log-likelihood: 22.456404   Log-likelihood improvement: 0.005627
+   M-step
+EM iteration 385 of 500
+   E-step
+Log-likelihood: 22.462038   Log-likelihood improvement: 0.005634
+   M-step
+EM iteration 386 of 500
+   E-step
+Log-likelihood: 22.467678   Log-likelihood improvement: 0.005640
+   M-step
+EM iteration 387 of 500
+   E-step
+Log-likelihood: 22.473325   Log-likelihood improvement: 0.005647
+   M-step
+EM iteration 388 of 500
+   E-step
+Log-likelihood: 22.478978   Log-likelihood improvement: 0.005653
+   M-step
+EM iteration 389 of 500
+   E-step
+Log-likelihood: 22.484637   Log-likelihood improvement: 0.005660
+   M-step
+EM iteration 390 of 500
+   E-step
+Log-likelihood: 22.490303   Log-likelihood improvement: 0.005666
+   M-step
+EM iteration 391 of 500
+   E-step
+Log-likelihood: 22.495976   Log-likelihood improvement: 0.005672
+   M-step
+EM iteration 392 of 500
+   E-step
+Log-likelihood: 22.501655   Log-likelihood improvement: 0.005679
+   M-step
+EM iteration 393 of 500
+   E-step
+Log-likelihood: 22.507340   Log-likelihood improvement: 0.005685
+   M-step
+EM iteration 394 of 500
+   E-step
+Log-likelihood: 22.513031   Log-likelihood improvement: 0.005691
+   M-step
+EM iteration 395 of 500
+   E-step
+Log-likelihood: 22.518729   Log-likelihood improvement: 0.005698
+   M-step
+EM iteration 396 of 500
+   E-step
+Log-likelihood: 22.524433   Log-likelihood improvement: 0.005704
+   M-step
+EM iteration 397 of 500
+   E-step
+Log-likelihood: 22.530143   Log-likelihood improvement: 0.005710
+   M-step
+EM iteration 398 of 500
+   E-step
+Log-likelihood: 22.535859   Log-likelihood improvement: 0.005716
+   M-step
+EM iteration 399 of 500
+   E-step
+Log-likelihood: 22.541581   Log-likelihood improvement: 0.005722
+   M-step
+EM iteration 400 of 500
+   E-step
+Log-likelihood: 22.547310   Log-likelihood improvement: 0.005728
+   M-step
+EM iteration 401 of 500
+   E-step
+Log-likelihood: 22.553044   Log-likelihood improvement: 0.005734
+   M-step
+EM iteration 402 of 500
+   E-step
+Log-likelihood: 22.558784   Log-likelihood improvement: 0.005740
+   M-step
+EM iteration 403 of 500
+   E-step
+Log-likelihood: 22.564530   Log-likelihood improvement: 0.005746
+   M-step
+EM iteration 404 of 500
+   E-step
+Log-likelihood: 22.570281   Log-likelihood improvement: 0.005752
+   M-step
+EM iteration 405 of 500
+   E-step
+Log-likelihood: 22.576039   Log-likelihood improvement: 0.005757
+   M-step
+EM iteration 406 of 500
+   E-step
+Log-likelihood: 22.581802   Log-likelihood improvement: 0.005763
+   M-step
+EM iteration 407 of 500
+   E-step
+Log-likelihood: 22.587571   Log-likelihood improvement: 0.005769
+   M-step
+EM iteration 408 of 500
+   E-step
+Log-likelihood: 22.593345   Log-likelihood improvement: 0.005774
+   M-step
+EM iteration 409 of 500
+   E-step
+Log-likelihood: 22.599125   Log-likelihood improvement: 0.005780
+   M-step
+EM iteration 410 of 500
+   E-step
+Log-likelihood: 22.604911   Log-likelihood improvement: 0.005786
+   M-step
+EM iteration 411 of 500
+   E-step
+Log-likelihood: 22.610702   Log-likelihood improvement: 0.005791
+   M-step
+EM iteration 412 of 500
+   E-step
+Log-likelihood: 22.616499   Log-likelihood improvement: 0.005797
+   M-step
+EM iteration 413 of 500
+   E-step
+Log-likelihood: 22.622301   Log-likelihood improvement: 0.005802
+   M-step
+EM iteration 414 of 500
+   E-step
+Log-likelihood: 22.628108   Log-likelihood improvement: 0.005808
+   M-step
+EM iteration 415 of 500
+   E-step
+Log-likelihood: 22.633921   Log-likelihood improvement: 0.005813
+   M-step
+EM iteration 416 of 500
+   E-step
+Log-likelihood: 22.639740   Log-likelihood improvement: 0.005818
+   M-step
+EM iteration 417 of 500
+   E-step
+Log-likelihood: 22.645564   Log-likelihood improvement: 0.005824
+   M-step
+EM iteration 418 of 500
+   E-step
+Log-likelihood: 22.651393   Log-likelihood improvement: 0.005829
+   M-step
+EM iteration 419 of 500
+   E-step
+Log-likelihood: 22.657228   Log-likelihood improvement: 0.005835
+   M-step
+EM iteration 420 of 500
+   E-step
+Log-likelihood: 22.663068   Log-likelihood improvement: 0.005840
+   M-step
+EM iteration 421 of 500
+   E-step
+Log-likelihood: 22.668913   Log-likelihood improvement: 0.005846
+   M-step
+EM iteration 422 of 500
+   E-step
+Log-likelihood: 22.674764   Log-likelihood improvement: 0.005851
+   M-step
+EM iteration 423 of 500
+   E-step
+Log-likelihood: 22.680621   Log-likelihood improvement: 0.005856
+   M-step
+EM iteration 424 of 500
+   E-step
+Log-likelihood: 22.686483   Log-likelihood improvement: 0.005862
+   M-step
+EM iteration 425 of 500
+   E-step
+Log-likelihood: 22.692350   Log-likelihood improvement: 0.005867
+   M-step
+EM iteration 426 of 500
+   E-step
+Log-likelihood: 22.698223   Log-likelihood improvement: 0.005873
+   M-step
+EM iteration 427 of 500
+   E-step
+Log-likelihood: 22.704100   Log-likelihood improvement: 0.005878
+   M-step
+EM iteration 428 of 500
+   E-step
+Log-likelihood: 22.709983   Log-likelihood improvement: 0.005883
+   M-step
+EM iteration 429 of 500
+   E-step
+Log-likelihood: 22.715871   Log-likelihood improvement: 0.005888
+   M-step
+EM iteration 430 of 500
+   E-step
+Log-likelihood: 22.721764   Log-likelihood improvement: 0.005892
+   M-step
+EM iteration 431 of 500
+   E-step
+Log-likelihood: 22.727660   Log-likelihood improvement: 0.005897
+   M-step
+EM iteration 432 of 500
+   E-step
+Log-likelihood: 22.733561   Log-likelihood improvement: 0.005900
+   M-step
+EM iteration 433 of 500
+   E-step
+Log-likelihood: 22.739464   Log-likelihood improvement: 0.005903
+   M-step
+EM iteration 434 of 500
+   E-step
+Log-likelihood: 22.745369   Log-likelihood improvement: 0.005905
+   M-step
+EM iteration 435 of 500
+   E-step
+Log-likelihood: 22.751276   Log-likelihood improvement: 0.005907
+   M-step
+EM iteration 436 of 500
+   E-step
+Log-likelihood: 22.757183   Log-likelihood improvement: 0.005907
+   M-step
+EM iteration 437 of 500
+   E-step
+Log-likelihood: 22.763089   Log-likelihood improvement: 0.005906
+   M-step
+EM iteration 438 of 500
+   E-step
+Log-likelihood: 22.768994   Log-likelihood improvement: 0.005905
+   M-step
+EM iteration 439 of 500
+   E-step
+Log-likelihood: 22.774897   Log-likelihood improvement: 0.005902
+   M-step
+EM iteration 440 of 500
+   E-step
+Log-likelihood: 22.780796   Log-likelihood improvement: 0.005899
+   M-step
+EM iteration 441 of 500
+   E-step
+Log-likelihood: 22.786691   Log-likelihood improvement: 0.005895
+   M-step
+EM iteration 442 of 500
+   E-step
+Log-likelihood: 22.792582   Log-likelihood improvement: 0.005891
+   M-step
+EM iteration 443 of 500
+   E-step
+Log-likelihood: 22.798469   Log-likelihood improvement: 0.005887
+   M-step
+EM iteration 444 of 500
+   E-step
+Log-likelihood: 22.804351   Log-likelihood improvement: 0.005882
+   M-step
+EM iteration 445 of 500
+   E-step
+Log-likelihood: 22.810229   Log-likelihood improvement: 0.005878
+   M-step
+EM iteration 446 of 500
+   E-step
+Log-likelihood: 22.816103   Log-likelihood improvement: 0.005874
+   M-step
+EM iteration 447 of 500
+   E-step
+Log-likelihood: 22.821972   Log-likelihood improvement: 0.005870
+   M-step
+EM iteration 448 of 500
+   E-step
+Log-likelihood: 22.827838   Log-likelihood improvement: 0.005866
+   M-step
+EM iteration 449 of 500
+   E-step
+Log-likelihood: 22.833701   Log-likelihood improvement: 0.005862
+   M-step
+EM iteration 450 of 500
+   E-step
+Log-likelihood: 22.839560   Log-likelihood improvement: 0.005859
+   M-step
+EM iteration 451 of 500
+   E-step
+Log-likelihood: 22.845416   Log-likelihood improvement: 0.005856
+   M-step
+EM iteration 452 of 500
+   E-step
+Log-likelihood: 22.851269   Log-likelihood improvement: 0.005853
+   M-step
+EM iteration 453 of 500
+   E-step
+Log-likelihood: 22.857119   Log-likelihood improvement: 0.005850
+   M-step
+EM iteration 454 of 500
+   E-step
+Log-likelihood: 22.862966   Log-likelihood improvement: 0.005847
+   M-step
+EM iteration 455 of 500
+   E-step
+Log-likelihood: 22.868809   Log-likelihood improvement: 0.005843
+   M-step
+EM iteration 456 of 500
+   E-step
+Log-likelihood: 22.874647   Log-likelihood improvement: 0.005839
+   M-step
+EM iteration 457 of 500
+   E-step
+Log-likelihood: 22.880480   Log-likelihood improvement: 0.005833
+   M-step
+EM iteration 458 of 500
+   E-step
+Log-likelihood: 22.886306   Log-likelihood improvement: 0.005826
+   M-step
+EM iteration 459 of 500
+   E-step
+Log-likelihood: 22.892123   Log-likelihood improvement: 0.005816
+   M-step
+EM iteration 460 of 500
+   E-step
+Log-likelihood: 22.897926   Log-likelihood improvement: 0.005804
+   M-step
+EM iteration 461 of 500
+   E-step
+Log-likelihood: 22.903714   Log-likelihood improvement: 0.005788
+   M-step
+EM iteration 462 of 500
+   E-step
+Log-likelihood: 22.909481   Log-likelihood improvement: 0.005767
+   M-step
+EM iteration 463 of 500
+   E-step
+Log-likelihood: 22.915223   Log-likelihood improvement: 0.005742
+   M-step
+EM iteration 464 of 500
+   E-step
+Log-likelihood: 22.920935   Log-likelihood improvement: 0.005712
+   M-step
+EM iteration 465 of 500
+   E-step
+Log-likelihood: 22.926613   Log-likelihood improvement: 0.005678
+   M-step
+EM iteration 466 of 500
+   E-step
+Log-likelihood: 22.932252   Log-likelihood improvement: 0.005640
+   M-step
+EM iteration 467 of 500
+   E-step
+Log-likelihood: 22.937850   Log-likelihood improvement: 0.005598
+   M-step
+EM iteration 468 of 500
+   E-step
+Log-likelihood: 22.943403   Log-likelihood improvement: 0.005553
+   M-step
+EM iteration 469 of 500
+   E-step
+Log-likelihood: 22.948909   Log-likelihood improvement: 0.005506
+   M-step
+EM iteration 470 of 500
+   E-step
+Log-likelihood: 22.954364   Log-likelihood improvement: 0.005455
+   M-step
+EM iteration 471 of 500
+   E-step
+Log-likelihood: 22.959766   Log-likelihood improvement: 0.005402
+   M-step
+EM iteration 472 of 500
+   E-step
+Log-likelihood: 22.965112   Log-likelihood improvement: 0.005345
+   M-step
+EM iteration 473 of 500
+   E-step
+Log-likelihood: 22.970397   Log-likelihood improvement: 0.005286
+   M-step
+EM iteration 474 of 500
+   E-step
+Log-likelihood: 22.975620   Log-likelihood improvement: 0.005222
+   M-step
+EM iteration 475 of 500
+   E-step
+Log-likelihood: 22.980774   Log-likelihood improvement: 0.005155
+   M-step
+EM iteration 476 of 500
+   E-step
+Log-likelihood: 22.985857   Log-likelihood improvement: 0.005083
+   M-step
+EM iteration 477 of 500
+   E-step
+Log-likelihood: 22.990862   Log-likelihood improvement: 0.005005
+   M-step
+EM iteration 478 of 500
+   E-step
+Log-likelihood: 22.995785   Log-likelihood improvement: 0.004923
+   M-step
+EM iteration 479 of 500
+   E-step
+Log-likelihood: 23.000619   Log-likelihood improvement: 0.004834
+   M-step
+EM iteration 480 of 500
+   E-step
+Log-likelihood: 23.005357   Log-likelihood improvement: 0.004738
+   M-step
+EM iteration 481 of 500
+   E-step
+Log-likelihood: 23.009992   Log-likelihood improvement: 0.004635
+   M-step
+EM iteration 482 of 500
+   E-step
+Log-likelihood: 23.014517   Log-likelihood improvement: 0.004525
+   M-step
+EM iteration 483 of 500
+   E-step
+Log-likelihood: 23.018922   Log-likelihood improvement: 0.004405
+   M-step
+EM iteration 484 of 500
+   E-step
+Log-likelihood: 23.023199   Log-likelihood improvement: 0.004277
+   M-step
+EM iteration 485 of 500
+   E-step
+Log-likelihood: 23.027338   Log-likelihood improvement: 0.004139
+   M-step
+EM iteration 486 of 500
+   E-step
+Log-likelihood: 23.031330   Log-likelihood improvement: 0.003992
+   M-step
+EM iteration 487 of 500
+   E-step
+Log-likelihood: 23.035164   Log-likelihood improvement: 0.003834
+   M-step
+EM iteration 488 of 500
+   E-step
+Log-likelihood: 23.038830   Log-likelihood improvement: 0.003666
+   M-step
+EM iteration 489 of 500
+   E-step
+Log-likelihood: 23.042319   Log-likelihood improvement: 0.003489
+   M-step
+EM iteration 490 of 500
+   E-step
+Log-likelihood: 23.045621   Log-likelihood improvement: 0.003302
+   M-step
+EM iteration 491 of 500
+   E-step
+Log-likelihood: 23.048728   Log-likelihood improvement: 0.003107
+   M-step
+EM iteration 492 of 500
+   E-step
+Log-likelihood: 23.051635   Log-likelihood improvement: 0.002907
+   M-step
+EM iteration 493 of 500
+   E-step
+Log-likelihood: 23.054337   Log-likelihood improvement: 0.002702
+   M-step
+EM iteration 494 of 500
+   E-step
+Log-likelihood: 23.056835   Log-likelihood improvement: 0.002498
+   M-step
+EM iteration 495 of 500
+   E-step
+Log-likelihood: 23.059132   Log-likelihood improvement: 0.002297
+   M-step
+EM iteration 496 of 500
+   E-step
+Log-likelihood: 23.061236   Log-likelihood improvement: 0.002104
+   M-step
+EM iteration 497 of 500
+   E-step
+Log-likelihood: 23.063158   Log-likelihood improvement: 0.001922
+   M-step
+EM iteration 498 of 500
+   E-step
+Log-likelihood: 23.064913   Log-likelihood improvement: 0.001755
+   M-step
+EM iteration 499 of 500
+   E-step
+Log-likelihood: 23.066516   Log-likelihood improvement: 0.001602
+   M-step
+EM iteration 500 of 500
+   E-step
+Log-likelihood: 23.067979   Log-likelihood improvement: 0.001463
+   M-step
+Computation of the spatial source images
+Plot estimated W and H

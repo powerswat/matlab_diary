@@ -1,0 +1,3 @@
+edit wavread.m
+edit startup.m
+edit testOnSomeFiles.m

@@ -1,0 +1,6 @@
+load('C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_ExtdWavRmxD2ExtDBIrm_nF1000_200000.mat')
+load('C:\Temp\explains\datasets\clsDevelMimMel_cg03real_mfpc19_ExtdWavRmxD2ExtDBIrm_nF1000_20000.mat')
+load('C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_ExtdWavRmxD2ExtDBIrm_nF1000_200000.mat')
+imagesc(newCmbChunk16k)
+colorbar
+imagesc(zscore(newCmbChunk16k))

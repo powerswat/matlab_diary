@@ -1,0 +1,19 @@
+postProcBuildData('ExtDBIrm', 'C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2_nF1000_200000.mat', 'C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2ExtDBIrm_nF1000_200000.mat', 'D1', 11)
+{Out of memory. Type HELP MEMORY for your options.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('relu', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\relu.m', 9)" style="font-weight:bold">relu</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\relu.m',9,0)">line 9</a>)
+   y = x.*mask;
+
+Error in <a href="matlab:helpUtils.errorDocCallback('compute_unit_activation', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\compute_unit_activation.m', 14)" style="font-weight:bold">compute_unit_activation</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\compute_unit_activation.m',14,0)">line 14</a>)
+        net_activation = relu(net_potential);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('getOutputFromNet', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\getOutputFromNet.m', 35)" style="font-weight:bold">getOutputFromNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\getOutputFromNet.m',35,0)">line 35</a>)
+            net_activation = compute_unit_activation(net_potential,
+            opts.unit_type_hidden,bound);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('postProcBuildData', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m', 45)" style="font-weight:bold">postProcBuildData</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m',45,0)">line 45</a>)
+    melMask = pow2db(gather(getOutputFromNet(best_model, test_x, opts)));
+} 
+runMLP
+{Undefined function or variable 'runMLP'.
+} 

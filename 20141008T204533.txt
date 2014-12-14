@@ -1,0 +1,17 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',1)
+uiopen('C:\Users\cho64_000\AppData\Local\Temp\Temp1_NNProj_2.zip\NNProj_2\runRBF.m',1)
+runRBF
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('inlineeval', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\inlineeval.m', 12)" style="font-weight:bold">inlineeval</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\inlineeval.m',12,0)">line 12</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('inline/subsref', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\@inline\subsref.m', 23)" style="font-weight:bold">inline/subsref</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\funfun\@inline\subsref.m',23,0)">line 23</a>)
+    INLINE_OUT_ = inlineeval(INLINE_INPUTS_, INLINE_OBJ_.inputExpr,
+    INLINE_OBJ_.expr);
+
+In <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 92)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',92,0)">line 92</a>)
+        v_p = varphi_gauss(var_j', x_p(input_idx(j), 1), new_u_j);
+
+In <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 11)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',11,0)">line 11</a>)
+            trainRBFNet(rngVals(i), etas(j), numBases(k), var_types(1));
+} 
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',1)

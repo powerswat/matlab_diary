@@ -1,0 +1,4 @@
+run_NNMF
+Found 490 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\NNMF_speech\run_NNMF.m',28,1)">28  </a>end
+imagesc(V)

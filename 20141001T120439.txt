@@ -1,0 +1,68 @@
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD1_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', '', 0.05, 'develOps', 'offset0')
+Found 0 files
+edit testOnSomeFiles.m
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD1_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', '', 0.05, 'develOps', 'offset0')
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',16,1)">16  </a>[files,paths] = findFiles(fullfile(basePath,'inputs\', inputTag, testSet), '.wav', 1);
+if system_dependent('IsDebugMode')==1, dbquit; end
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD1_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', '', 0.05, '', 'offset0')
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',16,1)">16  </a>[files,paths] = findFiles(fullfile(basePath,'inputs\', inputTag, testSet), '.wav', 1);
+if system_dependent('IsDebugMode')==1, dbcont; end
+Found 0 files
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD1_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', '', 0.05, '', 'offset0')
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',16,1)">16  </a>[files,paths] = findFiles(fullfile(basePath,'inputs\', inputTag, testSet), '.wav', 1);
+if system_dependent('IsDebugMode')==1, dbquit; end
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD1_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', '', 0.05, '', 'offset0')
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',16,1)">16  </a>[files,paths] = findFiles(fullfile(basePath,'inputs\', inputTag, testSet), '.wav', 1);
+if system_dependent('IsDebugMode')==1, dbcont; end
+Found 24 files
+1: 0dB\bbafzn.wav
+2: 0dB\brbs8n.wav
+3: 0dB\bwis6n.wav
+4: 0dB\pgwe7a.wav
+5: 0dB\prbc9s.wav
+6: 3dB\lbwr3a.wav
+7: 3dB\srin2n.wav
+8: 6dB\brbm4n.wav
+9: 6dB\lbip9s.wav
+10: 6dB\lrwe8n.wav
+11: 6dB\srbo2p.wav
+12: 6dB\swih5s.wav
+13: 9dB\briz6p.wav
+14: 9dB\lwik9a.wav
+15: m3dB\bbizzp.wav
+16: m3dB\bgwb5a.wav
+17: m3dB\bwam7s.wav
+18: m3dB\lbwk6n.wav
+19: m3dB\prbxzn.wav
+20: m6dB\brbg1s.wav
+21: m6dB\bwam8p.wav
+22: m6dB\lbaq2n.wav
+23: m6dB\pbwc7s.wav
+24: m6dB\sgwdzp.wav
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD1_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', '', 0.05, 'isolatedExt_cg03', 'offset0')
+Found 24 files
+1: 0dB\bbafzn.wav\sbwu5a.wav
+2: 0dB\brbs8n.wav\pbbp2p.wav
+3: 0dB\bwis6n.wav\sbat4n.wav
+4: 0dB\pgwe7a.wav\sgao8n.wav
+5: 0dB\prbc9s.wav\bwbg8p.wav
+6: 3dB\lbwr3a.wav\lrwl2n.wav
+7: 3dB\srin2n.wav\lwws2n_clean.wav
+8: 6dB\brbm4n.wav\srwu8n.wav
+9: 6dB\lbip9s.wav\pgwe6p.wav
+10: 6dB\lrwe8n.wav\pbbv4n.wav
+11: 6dB\srbo2p.wav\sbba8p.wav
+12: 6dB\swih5s.wav\bbiy8n.wav
+13: 9dB\briz6p.wav\srah4p.wav
+14: 9dB\lwik9a.wav\pwwk5a.wav
+15: m3dB\bbizzp.wav\bbwm5a.wav
+16: m3dB\bgwb5a.wav\bris3a.wav
+17: m3dB\bwam7s.wav\lgbs4n.wav
+18: m3dB\lbwk6n.wav\lrak6p.wav
+19: m3dB\prbxzn.wav\swwv4n.wav
+20: m6dB\brbg1s.wav\sbim9a.wav
+21: m6dB\bwam8p.wav\lriq4n.wav
+22: m6dB\lbaq2n.wav\srbh7s.wav
+23: m6dB\pbwc7s.wav\pwwk5a.wav
+24: m6dB\sgwdzp.wav\pbib5s.wav
+edit testOnSomeFiles.m

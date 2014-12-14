@@ -1,0 +1,55 @@
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',24,1)">24  </a>        while (running)
+which
+
+which =
+
+    24    25     2    20    40
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+which
+
+which =
+
+    24    25     2    20    40
+
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',19,1)">19  </a>        which = randperm(numPts);
+if system_dependent('IsDebugMode')==1, dbstep; end
+which
+
+which =
+
+  Columns 1 through 13
+
+    73    21    33    65    34    48    27    44    15     1    50    24    25
+
+  Columns 14 through 26
+
+    67     3    60     6    66    19     9    49    51    62     7    23    35
+
+  Columns 27 through 39
+
+    43    13    70     4    75    38    26    47    22    52    54    29    56
+
+  Columns 40 through 52
+
+    53    36    42     5    14     2    20    28    74    45     8    58    32
+
+  Columns 53 through 65
+
+    37    68    63    72    61    64    30    31    40    12    46    71    18
+
+  Columns 66 through 75
+
+    39    10    69    55    17    16    57    59    41    11
+
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',21,1)">21  </a>        Kmeans = xvals(which); % Random centers from input patters
+which
+
+which =
+
+    73    21    33    65    34
+
+if system_dependent('IsDebugMode')==1, dbquit; end

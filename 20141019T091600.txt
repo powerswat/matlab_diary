@@ -1,0 +1,299 @@
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03_amr\devel')
+Found 0 files
+Found 0 files
+Kept all 0 files
+
+{Undefined variable cc.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('buildClsDataset', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m', 57)" style="font-weight:bold">buildClsDataset</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',57,0)">line 57</a>)
+cc = single(cat(1, cc{:}));
+} 
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+..{Error using <a href="matlab:helpUtils.errorDocCallback('buildClsDataset', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m', 51)" style="font-weight:bold">buildClsDataset</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',51,0)">line 51</a>)
+Assertion failed.
+} 
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',51,1)">51  </a>    assert(all(size(cc{i}) == size(nc{i})))
+dbcont
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',51,1)">51  </a>    assert(all(size(cc{i}) == size(nc{i})))
+imagesc(cc{i})
+holdon
+{Undefined function or variable 'holdon'.
+} 
+hold on
+imagesc(nc{i})
+imagesc(cc{i})
+imagesc(nc{i})
+imagesc(cc{i})
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',52,1)">52  </a>    assert(all(size(cc{i}) == size(nc{i})))
+size(cc{i})
+
+ans =
+
+   119   418
+
+size(nc{i})
+
+ans =
+
+   119   418
+
+length(nc{i})
+
+ans =
+
+   418
+
+length(nc{i})
+
+ans =
+
+   418
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',53,1)">53  </a>        a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+..{Error using <a href="matlab:helpUtils.errorDocCallback('buildClsDataset', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m', 55)" style="font-weight:bold">buildClsDataset</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',55,0)">line 55</a>)
+Assertion failed.
+} 
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+..{Error using <a href="matlab:helpUtils.errorDocCallback('buildClsDataset', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m', 55)" style="font-weight:bold">buildClsDataset</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',55,0)">line 55</a>)
+Assertion failed.
+} 
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+..<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',53,1)">53  </a>        a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',56,1)">56  </a>    assert(all(size(cc{i}) == size(nc{i})))
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset
+Found 0 files
+Found 0 files
+Kept all 0 files
+
+{Undefined variable cc.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('buildClsDataset', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m', 62)" style="font-weight:bold">buildClsDataset</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',62,0)">line 62</a>)
+cc = single(cat(1, cc{:}));
+} 
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.[Warning: Colon operands should not be
+logical.] 
+[> In <a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',53,1)">buildClsDataset at 53</a>] 
+[Warning: Colon operands should not be
+logical.] 
+[> In <a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',54,1)">buildClsDataset at 54</a>] 
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',56,1)">56  </a>    assert(all(size(cc{i}) == size(nc{i})))
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',53,1)">53  </a>    cc{i} = cc{i}(1:min(size(cc{i},1) ~= size(nc{i},1)), :);
+min(size(cc{i},1) ~= size(nc{i},1))
+
+ans =
+
+     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',53,1)">53  </a>    cc{i} = cc{i}(1:min(size(cc{i},1), size(nc{i},1)), :);
+min(size(cc{i},1), size(nc{i},1))
+
+ans =
+
+   119
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+.if system_dependent('IsDebugMode')==1, dbquit; end
+min(size(cc{i},1), size(nc{i},1))
+{Undefined variable "cc" or class "cc".
+} 
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',53,1)">53  </a>    cc{i} = cc{i}(1:min(size(cc{i},1), size(nc{i},1)), :);
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',56,1)">56  </a>    assert(all(size(cc{i}) == size(nc{i})))
+dbcont
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',53,1)">53  </a>    cc{i} = cc{i}(1:min(size(cc{i},1), size(nc{i},1)), :);
+imagesc(cc{i})
+imagesc(nc{i})
+imagesc(cc{i})
+figure1 = imagesc(cc{i})
+
+figure1 =
+
+    2.0026
+
+figure2 = imagesc(nc{i})
+
+figure2 =
+
+  177.0043
+
+figure 1
+{Error using <a href="matlab:helpUtils.errorDocCallback('figure')" style="font-weight:bold">figure</a>
+Single input must be an existing figure
+handle or a scalar integer from 1 to
+2147483646
+} 
+figure
+figure
+figure1 = imagesc(cc{i})
+
+figure1 =
+
+  348.0010
+
+figure2 = imagesc(cc{i})
+
+figure2 =
+
+  350.0015
+
+figure2 = imagesc(nc{i})
+
+figure2 =
+
+  348.0016
+
+edit subplot.m
+figure
+subplot(1,2,1)
+imagesc(cc{i})
+imagesc(nc{i})
+figure
+imagesc(cc{i})
+subplot(1,2,2)
+imagesc(nc{i})
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',54,1)">54  </a>    nc{i} = nc{i}(1:min(size(cc{i},1), size(nc{i},1)), :);
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',56,1)">56  </a>    assert(all(size(cc{i}) == size(nc{i})))
+subplot(1,2,1)
+imagesc(cc{i})
+subplot(1,2,2)
+imagesc(nc{i})
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',59,1)">59  </a>    assert(all(size(cc{i}) == size(nc{i})))
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',64,1)">64  </a>    assert(all(size(cc{i}) == size(nc{i})))
+dbcont
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',53,1)">53  </a>        nc{i} = nc{i}(end-min(size(cc{i},1), size(nc{i},1)):end, :);
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',64,1)">64  </a>    assert(all(size(cc{i}) == size(nc{i})))
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Error using <a href="matlab:helpUtils.errorDocCallback('buildClsDataset', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m', 64)" style="font-weight:bold">buildClsDataset</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',64,0)">line 64</a>)
+Assertion failed.
+} 
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',64,1)">64  </a>    assert(all(size(cc{i}) == size(nc{i})))
+if system_dependent('IsDebugMode')==1, dbcont; end
+.if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',64,1)">64  </a>    assert(all(size(cc{i}) == size(nc{i})))
+dbcont
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',54,1)">54  </a>        nc{i} = nc{i}(end-min(size(cc{i},1), size(nc{i},1))+1:end, :);
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',64,1)">64  </a>    assert(all(size(cc{i}) == size(nc{i})))
+dbcont
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',54,1)">54  </a>        nc{i} = nc{i}(1:min(size(cc{i},1), size(nc{i},1)), :);
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',64,1)">64  </a>    assert(all(size(cc{i}) == size(nc{i})))
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+......................................................................
+......................................................................
+....
+Kept all 32484 data points
+{Error using <a href="matlab:helpUtils.errorDocCallback('save')" style="font-weight:bold">save</a>
+Cannot create
+'clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat'
+because 'C:\Temp\datasets' does not exist.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('buildClsDataset', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m', 107)" style="font-weight:bold">buildClsDataset</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',107,0)">line 107</a>)
+save(outFile, 'newCmbChunk16k',
+'newTarget16k', 'fs', 'hop', 'win', ...
+} 
+buildClsDataset('C:\Temp\explains\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\devel', 'C:\Temp\explains\inputs\isolatedAMR_cg03\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+......................................................................
+......................................................................
+....
+Kept all 32484 data points
+buildClsDataset('C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_AMR_200000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\clean_cg03\train\subtrain', 'C:\Temp\explains\inputs\isolatedAMR_cg03\train\subtrain\')
+Found 490 files
+Found 490 files
+Kept all 490 files
+......................................................................
+......................................................................
+......................................................................
+......................................................................
+......................................................................
+......................................................................
+......................................................................
+
+Kept all 113762 data points

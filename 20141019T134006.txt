@@ -1,0 +1,729 @@
+load('C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_AMR_200000.mat')
+imagesc(newCmbChunk16k)
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+{Error using <a href="matlab:helpUtils.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file 'C:\Users\cho64_000\Box
+Sync\Independent Study (Audio Source
+Separation)\explains\/datasets/clsTrainMimMel_cg03real_mfpc19_AMR_200000.mat':
+no such file or directory.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('mmd_dnn_train_paired', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\mmd_dnn_train_paired.m', 75)" style="font-weight:bold">mmd_dnn_train_paired</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\mmd_dnn_train_paired.m',75,0)">line 75</a>)
+trmat = load([data_path '/datasets/'
+'clsTrain' dataTag '_200000.mat']);
+} 
+edit mmd_dnn_train_paired.m
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\mmd_dnn_train_paired.m',75,1)">75  </a>trmat = load([data_path '/datasets/' 'clsTrain' dataTag '_200000.mat']);
+[data_path '/datasets/' 'clsTrain' dataTag '_200000.mat']
+
+ans =
+
+C:\Users\cho64_000\Box Sync\Independent Study (Audio Source Separation)\explains\/datasets/clsTrainMimMel_cg03real_mfpc19_AMR_200000.mat
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\expla...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dataMi...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+Objective cost at epoch 1: NaN 
+Predicting...
+Dev set metrics at epoch 1 --> acc: 0.5043 hit: 0.0000 fa: 0.0000 
+Test set metrics at epoch 1 --> acc: 0.5000 hit: 0.0000 fa: 0.0000 
+saved best model so far to C:\Temp\explains\/models//model.484.1024.1024.1024.1024.1.relu.sigm.ada_sgd.dropout.bestModel.paired_dataMimMel_cg03real_mfpc19_AMR_fpc11.mat
+{Operation terminated by user during
+<a href="matlab:helpUtils.errorDocCallback('computeNetGradientNoRolling', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\computeNetGradientNoRolling.m', 37)" style="font-weight:bold">computeNetGradientNoRolling</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\computeNetGradientNoRolling.m',37,0)">line 37</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('funcDNNTrain_mmd', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\funcDNNTrain_mmd.m', 57)" style="font-weight:bold">funcDNNTrain_mmd</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\funcDNNTrain_mmd.m',57,0)">line 57</a>)
+        [cost,net_grad] =
+        computeNetGradientNoRolling(net_iterative,
+        batch_data, batch_label, opts);
+
+In <a href="matlab:helpUtils.errorDocCallback('mmd_dnn_train_paired', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\mmd_dnn_train_paired.m', 122)" style="font-weight:bold">mmd_dnn_train_paired</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\mmd_dnn_train_paired.m',122,0)">line 122</a>)
+[best_model, pre_net] =
+funcDNNTrain_mmd(train_x, train_y,
+dev_x,dev_y,test_x, test_y, opts);
+} 
+load('C:\Temp\explains\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat')
+imagesc(newCmbChunk16k)
+uiopen('C:\Users\cho64_000\Documents\MATLAB\concatResyn\runObjectiveMetrics.m',1)
+uiopen('C:\Users\cho64_000\Documents\MATLAB\concatResyn\runObjectiveMetricsCat.m',1)
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\funcDNNTrain_mmd.m',80,1)">80  </a>        cost_sum = cost_sum + cost;
+if system_dependent('IsDebugMode')==1, dbquit; end
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\funcDNNTrain_mmd.m',66,1)">66  </a>                    net_grad_ssqr(ll).W = net_grad_ssqr(ll).W + (net_grad(ll).W).^2;
+if system_dependent('IsDebugMode')==1, dbquit; end
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\funcDNNTrain_mmd.m',80,1)">80  </a>        cost_sum = cost_sum + cost;
+if system_dependent('IsDebugMode')==1, dbquit; end
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\computeNetGradientNoRolling.m',20,1)">20  </a>        cost = -sum(mean(label.*log(output) + (1-label).*log(1-output)));
+if system_dependent('IsDebugMode')==1, dbquit; end
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\computeNetGradientNoRolling.m',12,1)">12  </a>num_sample = size(data,1);
+if system_dependent('IsDebugMode')==1, dbquit; end
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\computeNetGradientNoRolling.m',12,1)">12  </a>num_sample = size(data,1);
+if system_dependent('IsDebugMode')==1, dbquit; end
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\compute_unit_activation.m',14,1)">14  </a>        net_activation = relu(net_potential);
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\relu.m',8,1)">8   </a>   mask = single(x>0);
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\relu.m',9,1)">9   </a>   y = x.*mask;
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\relu.m',10,1)">10  </a>end
+dbstep in
+End of function relu.
+dbstep in
+End of function compute_unit_activation.
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\forwardPass.m',32,1)">32  </a>        end
+if system_dependent('IsDebugMode')==1, dbquit; end
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\funcDNNTrain_mmd.m',45,1)">45  </a>            batch_data = train_data(perm_idx,:);
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\funcDNNTrain_mmd.m',45,1)">45  </a>            batch_data = train_data(perm_idx,:);
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\funcDNNTrain_mmd.m',57,1)">57  </a>        [cost,net_grad] = computeNetGradientNoRolling(net_iterative, batch_data, batch_label, opts);
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\computeNetGradientNoRolling.m',11,1)">11  </a>forward_path = forwardPass(net, data, opts);
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\funcDNNTrain_mmd.m',57,1)">57  </a>        [cost,net_grad] = computeNetGradientNoRolling(net_iterative, batch_data, batch_label, opts);
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+forwardPass
+{Error using <a href="matlab:helpUtils.errorDocCallback('forwardPass', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\forwardPass.m', 3)" style="font-weight:bold">forwardPass</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\forwardPass.m',3,0)">line 3</a>)
+Not enough input arguments.
+} 
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\forwardPass.m',37,1)">37  </a>    if drop_flag
+if system_dependent('IsDebugMode')==1, dbquit; end
+mmd_dnn_train_paired('MimMel_cg03real_mfpc19_AMR', 11)
+Loading data...
+mean var normalize...
+Training set loading done...
+Training network...
+
+opts = 
+
+              isNormalize: 1
+               ARMA_order: 0
+              cv_interval: 1
+               isPretrain: 0
+            rbm_max_epoch: 0
+           rbm_batch_size: 512
+    rbm_learn_rate_binary: 0.0100
+      rbm_learn_rate_real: 0.0040
+                  learner: 'ada_sgd'
+            sgd_max_epoch: 70
+           sgd_batch_size: 1024
+            ada_sgd_scale: 0.0050
+           sgd_learn_rate: [1x70 double]
+         initial_momentum: 0.5000
+           final_momentum: 0.9000
+    change_momentum_point: 5
+            cost_function: 'xentropy'
+               hid_struct: [1x4 double]
+         unit_type_output: 'sigm'
+         unit_type_hidden: 'relu'
+                isDropout: 1
+           isDropoutInput: 0
+               drop_ratio: 0.2000
+                    isGPU: 0
+              eval_on_gpu: 0
+              save_on_fly: 1
+          save_model_path: 'C:\Temp\ex...'
+                    tr_mu: [1x484 single]
+                   tr_std: [1x484 single]
+               net_struct: [1x6 double]
+             ada_grad_eps: 2.2204e-16
+                 note_str: 'paired_dat...'
+
+use random weight initialization.
+
+Num of Training Samples:105230
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\forwardPass.m',37,1)">37  </a>    if drop_flag
+if system_dependent('IsDebugMode')==1, dbquit; end

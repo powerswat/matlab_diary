@@ -1,0 +1,1333 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',1)
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',27,1)">27  </a>end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',27,1)">27  </a>    end
+idc
+
+idc =
+
+     1
+     2
+     5
+     7
+     9
+    11
+    12
+    13
+    15
+    16
+    17
+    18
+    20
+    22
+    23
+    26
+    27
+    28
+    30
+    31
+    35
+    37
+    39
+    42
+    43
+    44
+    46
+    47
+    54
+    55
+    57
+    58
+    59
+    62
+    63
+    64
+    66
+    69
+    71
+    72
+    74
+    75
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+idc
+
+idc =
+
+     3
+     4
+     6
+     8
+    10
+    14
+    19
+    21
+    24
+    25
+    29
+    32
+    33
+    34
+    36
+    38
+    40
+    41
+    45
+    48
+    49
+    50
+    51
+    52
+    53
+    56
+    60
+    61
+    65
+    67
+    68
+    70
+    73
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+{Undefined function or variable 'numBases'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 15)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',15,0)">line 15</a>)
+new_centers = zeros(1, numBases);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 6)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',6,0)">line 6</a>)
+        trainRBFNet(etas(i), numBases(j));
+} 
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',28,1)">28  </a>    end
+x_p(find(class == i))
+
+ans =
+
+    0.4716
+    0.0789
+    0.0520
+    0.4309
+    0.3765
+    0.2771
+    0.1789
+    0.5117
+    0.5083
+    0.3400
+    0.1879
+    0.0435
+    0.4837
+    0.4079
+    0.2612
+    0.0627
+    0.3158
+    0.0828
+    0.2531
+    0.3509
+    0.4059
+    0.3881
+    0.1820
+    0.4643
+    0.2250
+    0.0060
+    0.5092
+    0.0467
+    0.4482
+    0.3953
+    0.0986
+    0.1908
+    0.0856
+    0.4533
+    0.1806
+    0.0044
+    0.4428
+    0.1340
+    0.0341
+    0.5091
+    0.4359
+    0.4691
+
+new_centers
+
+new_centers =
+
+    0.2806         0
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',28,1)">28  </a>    end
+if system_dependent('IsDebugMode')==1, dbcont; end
+find(new_centers == centers)
+{Error using <a href="matlab:helpUtils.errorDocCallback('eq')" style="font-weight:bold"> == </a>
+Matrix dimensions must agree.
+} 
+if system_dependent('IsDebugMode')==1, dbquit; end
+find(new_centers == centers)
+{Undefined function or variable 'new_centers'.
+} 
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',30,1)">30  </a>    if(find(new_centers == centers(1,:)))
+find(new_centers == centers(1,:))
+
+ans =
+
+   Empty matrix: 1-by-0
+
+centers(1,:)
+
+ans =
+
+    0.1775    0.8592
+
+new_centers
+
+new_centers =
+
+    0.2806    0.7617
+
+a = [0.2806 0.7717];
+find(new_centers == a(1,:))
+
+ans =
+
+   Empty matrix: 1-by-0
+
+a(1,1) = new_centers(1,1);
+find(new_centers == a(1,:))
+
+ans =
+
+     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',30,1)">30  </a>    if(length(find(new_centers == centers(1,:))) == numBase)
+length(find(new_centers == centers(1,:))) == numBase
+
+ans =
+
+     0
+
+a = new_centers
+
+a =
+
+    0.2806    0.7617
+
+length(find(new_centers == a(1,:))) == numBase
+
+ans =
+
+     1
+
+a(1,2) = 0.114
+
+a =
+
+    0.2806    0.1140
+
+length(find(new_centers == a(1,:))) == numBase
+
+ans =
+
+     0
+
+a = new_centers
+
+a =
+
+    0.2806    0.7617
+
+length(find(new_centers == a(1,:))) == numBase
+
+ans =
+
+     1
+
+a(1,1) = 0.114
+
+a =
+
+    0.1140    0.7617
+
+length(find(new_centers == a(1,:))) == numBase
+
+ans =
+
+     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',35,1)">35  </a>end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',35,1)">35  </a>end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',35,1)">35  </a>end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>end
+runRBF
+{Error using <a href="matlab:helpUtils.errorDocCallback('scatter', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\scatter.m', 56)" style="font-weight:bold">scatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\scatter.m',56,0)">line 56</a>)
+Not enough input arguments.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 29)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',29,0)">line 29</a>)
+    scatter(x_p);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 6)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',6,0)">line 6</a>)
+        trainRBFNet(etas(i), numBases(j));
+} 
+runRBF
+{Error using <a href="matlab:helpUtils.errorDocCallback('scatter', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\scatter.m', 63)" style="font-weight:bold">scatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\scatter.m',63,0)">line 63</a>)
+X and Y must be vectors of the same length.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 29)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',29,0)">line 29</a>)
+    scatter(x_p, d_p);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 6)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',6,0)">line 6</a>)
+        trainRBFNet(etas(i), numBases(j));
+} 
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',29,1)">29  </a>    scatter(x_p, d_p);
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',29,1)">29  </a>    scatter(x_p(:,1), d_p);
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',39,1)">39  </a>end
+runRBF
+{Error using <a href="matlab:helpUtils.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 33)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',33,0)">line 33</a>)
+    cent_d_p = h(new_centers') + u_p;
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 6)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',6,0)">line 6</a>)
+        trainRBFNet(etas(i), numBases(j));
+} 
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',33,1)">33  </a>    cent_d_p = h(new_centers') + u_p;
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',41,1)">41  </a>end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',37,1)">37  </a>        break;
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',41,1)">41  </a>end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+{Error using <a href="matlab:helpUtils.errorDocCallback('scatter', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\scatter.m', 63)" style="font-weight:bold">scatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\scatter.m',63,0)">line 63</a>)
+X and Y must be vectors of the same length.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 29)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',29,0)">line 29</a>)
+    scatter(x_p(:,1), ones(length(x_p(:,1))));
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 6)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',6,0)">line 6</a>)
+        trainRBFNet(etas(i), numBases(j));
+} 
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',29,1)">29  </a>    scatter(x_p(:,1), ones(length(x_p(:,1))));
+ones(length(x_p(:,1)))
+
+ans =
+
+  Columns 1 through 12
+
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+
+  Columns 13 through 24
+
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+
+  Columns 25 through 36
+
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+
+  Columns 37 through 48
+
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+
+  Columns 49 through 60
+
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+
+  Columns 61 through 72
+
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1     1     1     1     1
+
+  Columns 73 through 75
+
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+{Error using <a href="matlab:helpUtils.errorDocCallback('length')" style="font-weight:bold">length</a>
+Too many input arguments.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 29)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',29,0)">line 29</a>)
+    scatter(x_p(:,1), ones(length(x_p(:,1), 1)));
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 6)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',6,0)">line 6</a>)
+        trainRBFNet(etas(i), numBases(j));
+} 
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',29,1)">29  </a>    scatter(x_p(:,1), ones(length(x_p(:,1), 1)));
+ones(length(x_p(:,1), 1))
+{Error using <a href="matlab:helpUtils.errorDocCallback('length')" style="font-weight:bold">length</a>
+Too many input arguments.
+} 
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+{Error using <a href="matlab:helpUtils.errorDocCallback('length')" style="font-weight:bold">length</a>
+Too many input arguments.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 29)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',29,0)">line 29</a>)
+    scatter(x_p(:,1), ones(length(x_p(:,1), 1)));
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 6)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',6,0)">line 6</a>)
+        trainRBFNet(etas(i), numBases(j));
+} 
+runRBF
+{Error using <a href="matlab:helpUtils.errorDocCallback('length')" style="font-weight:bold">length</a>
+Too many input arguments.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 32)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',32,0)">line 32</a>)
+    scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i)),1)),
+    'r');
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 6)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',6,0)">line 6</a>)
+        trainRBFNet(etas(i), numBases(j));
+} 
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',40,1)">40  </a>end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>        break;
+if system_dependent('IsDebugMode')==1, dbquit; end
+x = linspace(0,3*pi,200);
+y = cos(x) + rand(1,200);
+c = linspace(1,10,length(x));
+edit linspace.m
+c = linspace(1,10,length(2));
+c = linspace(1,10,length(7));
+c = linspace(1,10,7);
+c
+
+c =
+
+    1.0000    2.5000    4.0000    5.5000    7.0000    8.5000   10.0000
+
+c
+
+c =
+
+    1.0000    2.5000    4.0000    5.5000    7.0000    8.5000   10.0000
+
+runRBF
+{Error using <a href="matlab:helpUtils.errorDocCallback('scatter', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\scatter.m', 71)" style="font-weight:bold">scatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\scatter.m',71,0)">line 71</a>)
+S must be a scalar or a vector the same length as X.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 34)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',34,0)">line 34</a>)
+        scatter(x_p(find(class == i),1), ones(length(x_p(find(class ==
+        i))),1), c);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 6)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',6,0)">line 6</a>)
+        trainRBFNet(etas(i), numBases(j));
+} 
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',34,1)">34  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), [], c);
+dbcont
+{Error using <a href="matlab:helpUtils.errorDocCallback('scatter', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\scatter.m', 80)" style="font-weight:bold">scatter</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\scatter.m',80,0)">line 80</a>)
+C must be a single color, a vector the same length as X, or an M-by-3
+matrix.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 34)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',34,0)">line 34</a>)
+        scatter(x_p(find(class == i),1), ones(length(x_p(find(class ==
+        i))),1), [], c);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 6)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',6,0)">line 6</a>)
+        trainRBFNet(etas(i), numBases(j));
+} 
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',34,1)">34  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',34,1)">34  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',34,1)">34  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbcont; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',34,1)">34  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',43,1)">43  </a>end
+if system_dependent('IsDebugMode')==1, dbcont; end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',39,1)">39  </a>        break;
+if system_dependent('IsDebugMode')==1, dbcont; end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',34,1)">34  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',43,1)">43  </a>end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',39,1)">39  </a>        break;
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',43,1)">43  </a>end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',44,1)">44  </a>end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',40,1)">40  </a>        break;
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',44,1)">44  </a>end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',44,1)">44  </a>end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',44,1)">44  </a>end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',40,1)">40  </a>        break;
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',44,1)">44  </a>end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',44,1)">44  </a>end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',44,1)">44  </a>end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',40,1)">40  </a>        break;
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',44,1)">44  </a>end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',44,1)">44  </a>end
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',44,1)">44  </a>end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',34,1)">34  </a>    for i=2:numBase
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',35,1)">35  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',34,1)">34  </a>    for i=2:numBase
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',35,1)">35  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>    end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',34,1)">34  </a>    for i=2:numBase
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',35,1)">35  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',37,1)">37  </a>    scatter(new_centers(1,:)', ones(length(new_centers(1,:)'),1), 'g');
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',32,1)">32  </a>    hold on;
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+runRBF
+
+numBase =
+
+     7
+
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',35,1)">35  </a>    for i=2:numBase
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',35,1)">35  </a>    for i=2:numBase
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',24,1)">24  </a>    dists = (x_p - centers).^2;
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',33,1)">33  </a>    hold on;
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',34,1)">34  </a>    grid on;
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',37,1)">37  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',33,1)">33  </a>    hold on;
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',33,1)">33  </a>    hold on;
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',37,1)">37  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',35,1)">35  </a>    for i=2:numBase
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',37,1)">37  </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',36,1)">36  </a>        scatter(x_p(find(class == i),1), ones(length(x_p(find(class == i))),1), c(i));
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end

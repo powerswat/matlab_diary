@@ -1,0 +1,136 @@
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',56,1)">56  </a>        for i = 1:100 % Train for 100 epochs
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',60,1)">60  </a>            for j = 1:numPts
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',62,1)">62  </a>                hlouts = G(Kmeans, kvars, xvals(inputs(j)));
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',62,1)">62  </a>                hlouts = G(Kmeans, kvars, xvals(inputs(j)));
+xvals(inputs(j))
+
+ans =
+
+    0.0078
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',62,1)">62  </a>                hlouts = G(Kmeans, kvars, xvals(inputs(j)));
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',62,1)">62  </a>                hlouts = G(Kmeans, kvars, xvals(inputs(j)));
+if system_dependent('IsDebugMode')==1, dbcont; end
+h(inputs(j))
+
+ans =
+
+    0.7019
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('ECE_779_HW_2', 'C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m', 30)" style="font-weight:bold">ECE_779_HW_2</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',30,0)">line 30</a>)
+
+} 
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',60,1)">60  </a>            for j = 1:numPts
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',18,1)">18  </a>        noise = -0.1 + 0.2*rand(1, numPts); % Random noise, in uniform [-0.1,0.1]
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',20,1)">20  </a>        h = 0.5 + 0.4.*sin(2.*pi.*xvals)+noise; % Noisy samples
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',20,1)">20  </a>        h = 0.5 + 0.4.*sin(2.*pi.*xvals)+noise; % Noisy samples
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Error using <a href="matlab:helpUtils.errorDocCallback('eq')" style="font-weight:bold"> == </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('ECE_779_HW_2', 'C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m', 44)" style="font-weight:bold">ECE_779_HW_2</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',44,0)">line 44</a>)
+            if (~isempty(find([Kmeans == KmeansNew] ==0, 1 )))
+} 
+ECE_779_HW_2
+{Error using <a href="matlab:helpUtils.errorDocCallback('eq')" style="font-weight:bold"> == </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('ECE_779_HW_2', 'C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m', 44)" style="font-weight:bold">ECE_779_HW_2</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',44,0)">line 44</a>)
+            if (~isempty(find([Kmeans == KmeansNew] ==0, 1 )))
+} 
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',44,1)">44  </a>            if (~isempty(find([Kmeans == KmeansNew] ==0, 1 )))
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',44,1)">44  </a>            if (~isempty(find([Kmeans == KmeansNew] ==0, 1 )))
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',20,1)">20  </a>        h = 0.5 + 0.4.*sin(2.*pi.*xvals)+noise; % Noisy samples
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('ECE_779_HW_2', 'C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m', 66)" style="font-weight:bold">ECE_779_HW_2</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',66,0)">line 66</a>)
+
+} 
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',20,1)">20  </a>        h = 0.5 + 0.4.*sin(2.*pi.*xvals)+noise; % Noisy samples
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',23,1)">23  </a>        which = randperm(numPts);
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',86,1)">86  </a>    end
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',85,1)">85  </a>    end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',24,1)">24  </a>        which = which(1:b);
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',25,1)">25  </a>        Kmeans = xvals(which); % Random centers from input patters
+if system_dependent('IsDebugMode')==1, dbquit; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',26,1)">26  </a>        Kmeans = xvals(which); % Random centers from input patters
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',52,1)">52  </a>        kvars = zeros(1,b);
+whichK
+
+whichK =
+
+  Columns 1 through 12
+
+     1     1     1     2     1     1     1     2     1     2     1     2
+
+  Columns 13 through 24
+
+     2     2     1     1     2     2     2     1     2     2     1     2
+
+  Columns 25 through 36
+
+     1     2     2     1     2     2     2     2     1     1     2     2
+
+  Columns 37 through 48
+
+     2     1     1     2     1     1     1     1     1     2     2     1
+
+  Columns 49 through 60
+
+     1     1     1     2     2     1     2     2     1     1     2     1
+
+  Columns 61 through 72
+
+     2     1     1     1     2     2     2     1     2     1     1     2
+
+  Columns 73 through 75
+
+     2     1     2
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',35,1)">35  </a>                whichK(i) = find(d==min(d), 1 );
+if system_dependent('IsDebugMode')==1, dbquit; end

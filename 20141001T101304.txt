@@ -1,0 +1,65 @@
+edit testOnSomeFiles.m
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD1_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy', 'offset0')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+2: lbbd8n.wav\pgwr5a.wav
+3: lgwgzn.wav\sbwo1a.wav
+4: lwws5a.wav\lwws5a.wav
+5: pgbk5s.wav\pgbk5s.wav
+6: pgwr5a.wav\sbwo1a.wav
+7: pwad2p.wav\srit6n.wav
+8: sbwo1a.wav\lwws5a.wav
+9: sria4n.wav\pgwr5a.wav
+10: srit6n.wav\sria4n.wav
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD1_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy', 'offset0')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+   ^^^ Skipping ^^^
+2: lbbd8n.wav\pgwr5a.wav
+   ^^^ Skipping ^^^
+3: lgwgzn.wav\sbwo1a.wav
+   ^^^ Skipping ^^^
+4: lwws5a.wav\lwws5a.wav
+   ^^^ Skipping ^^^
+5: pgbk5s.wav\pgbk5s.wav
+   ^^^ Skipping ^^^
+6: pgwr5a.wav\sbwo1a.wav
+   ^^^ Skipping ^^^
+7: pwad2p.wav\srit6n.wav
+   ^^^ Skipping ^^^
+8: sbwo1a.wav\lwws5a.wav
+   ^^^ Skipping ^^^
+9: sria4n.wav\pgwr5a.wav
+   ^^^ Skipping ^^^
+10: srit6n.wav\sria4n.wav
+   ^^^ Skipping ^^^
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD1_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy', 'offset0')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',70,1)">70  </a>    if exist(outFile, 'file') && ~overwrite
+outFile
+
+outFile =
+
+C:\Temp\explains\explains\outputs\dict=MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans\fpc=11\tw=0.050\dataType=Nor_nF250\inputTag=remixExt_cg03\noisy\irmOffset=offset0\testSet=train\subdev\file=bwba5a.wav\pgbk5s.wav\proc.wav
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+outFile
+{Undefined function or variable 'outFile'.
+} 
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD1_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', 'train/subdev', 0.05, 'remixExt_cg03/noisy', 'offset0')
+Found 10 files
+1: bwba5a.wav\pgbk5s.wav
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',70,1)">70  </a>    if exist(outFile, 'file') && ~overwrite
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+2: lbbd8n.wav\pgwr5a.wav
+3: lgwgzn.wav\sbwo1a.wav
+4: lwws5a.wav\lwws5a.wav
+5: pgbk5s.wav\pgbk5s.wav
+6: pgwr5a.wav\sbwo1a.wav
+7: pwad2p.wav\srit6n.wav
+8: sbwo1a.wav\lwws5a.wav
+9: sria4n.wav\pgwr5a.wav
+10: srit6n.wav\sria4n.wav
+edit testOnSomeFiles.m

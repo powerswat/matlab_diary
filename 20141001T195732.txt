@@ -1,0 +1,6 @@
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',19,1)">19  </a>        which = randperm(numPts);
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end

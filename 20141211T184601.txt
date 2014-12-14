@@ -1,0 +1,148 @@
+Q = [1 2 3 4; 5 6 7 8; 9 10 11 12]
+
+Q =
+
+     1     2     3     4
+     5     6     7     8
+     9    10    11    12
+
+x = [1 2 3]
+
+x =
+
+     1     2     3
+
+x = x'
+
+x =
+
+     1
+     2
+     3
+
+Qx
+{Undefined function or variable 'Qx'.
+} 
+Q*x
+{Error using <a href="matlab:helpUtils.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Inner matrix dimensions must agree.
+} 
+x = [1 2 3 4]
+
+x =
+
+     1     2     3     4
+
+x = x'
+
+x =
+
+     1
+     2
+     3
+     4
+
+Q *x
+{Error: "Q" was previously used as a
+variable, conflicting with its use here as
+the name of a function or command.
+See <a href="matlab: helpview([docroot '/techdoc/matlab_prog/matlab_prog.map'],'function_call_command_syntax')">"How MATLAB Recognizes Command Syntax"
+in the MATLAB documentation</a> for details.
+} 
+Q * x
+
+ans =
+
+    30
+    70
+   110
+
+x' * Q'
+
+ans =
+
+    30    70   110
+
+Q' * x'
+{Error using <a href="matlab:helpUtils.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Inner matrix dimensions must agree.
+} 
+Q_1 = inverse(Q)
+{Undefined function 'inverse' for input
+arguments of type 'double'.
+} 
+Q_i = inv(Q)
+{Error using <a href="matlab:helpUtils.errorDocCallback('inv')" style="font-weight:bold">inv</a>
+Matrix must be square.
+} 
+Q
+
+Q =
+
+     1     2     3     4
+     5     6     7     8
+     9    10    11    12
+
+Q = [1 2 3 4; 5 6 7 8; 9 10 11 12; 13 14 15 116]
+
+Q =
+
+     1     2     3     4
+     5     6     7     8
+     9    10    11    12
+    13    14    15   116
+
+Q = [1 2 3 4; 5 6 7 8; 9 10 11 12; 13 14 15 16]
+
+Q =
+
+     1     2     3     4
+     5     6     7     8
+     9    10    11    12
+    13    14    15    16
+
+Q_i = inv(Q)
+[Warning: Matrix is close to singular or
+badly scaled. Results may be
+inaccurate. RCOND =  1.387779e-18.] 
+
+Q_i =
+
+   1.0e+15 *
+
+  Columns 1 through 3
+
+    3.9406   -4.5036   -2.8147
+   -4.1283    4.5036    3.3777
+   -3.5653    4.5036    1.6888
+    3.7530   -4.5036   -2.2518
+
+  Column 4
+
+    3.3777
+   -3.7530
+   -2.6271
+    3.0024
+
+Q_i = inv(Q)
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate.
+RCOND =  1.387779e-18.] 
+
+Q_i =
+
+   1.0e+15 *
+
+    3.9406   -4.5036   -2.8147    3.3777
+   -4.1283    4.5036    3.3777   -3.7530
+   -3.5653    4.5036    1.6888   -2.6271
+    3.7530   -4.5036   -2.2518    3.0024
+
+Q * Q_i
+
+ans =
+
+     2     0     0     0
+     0    -4     0     8
+     0    -8    -4     0
+     8    -8     0    16
+

@@ -1,0 +1,4 @@
+edit makeAmrWav.m
+edit mmd_dnn_train_paired.m
+load('D:\Temp\clsSubdevMimMel_cg03real_mfpc19_AMR_20000.mat')
+imagesc(newCmbChunk16k)

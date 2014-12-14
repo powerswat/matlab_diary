@@ -1,0 +1,2302 @@
+script_EM
+Please enter 1 for dataset1, 2 for dataset2, 3 for dataset3 ->>> Select 1 for random intialization or 2 for KMEAN intialization for EM ->>> Select r value ->>> Select k value ->>> Reading training data
+
+sses =
+
+     []
+
+{Undefined variable "P_tracker" or class
+"P_tracker".
+
+Error in <a href="matlab:helpUtils.errorDocCallback('script_EM', 'C:\Users\cho64_000\Documents\MATLAB\ExpectationMaximization Algorithm\ExpectationMaximization Algorithm\Matlab\script_EM.m', 67)" style="font-weight:bold">script_EM</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ExpectationMaximization Algorithm\ExpectationMaximization Algorithm\Matlab\script_EM.m',67,0)">line 67</a>)
+best_P =  P_tracker{idx};
+} 
+script_EM
+Please enter 1 for dataset1, 2 for dataset2, 3 for dataset3 ->>> 1
+Select 1 for random intialization or 2 for KMEAN intialization for EM ->>> 1
+Select r value ->>> 2
+Select k value ->>> 3
+Reading training data
+
+sses =
+
+     []
+
+
+r =
+
+     2
+
+Instailization
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+     1
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+     2
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+     3
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+     4
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+     5
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+     6
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+     7
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+     8
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+     9
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    10
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    11
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    12
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    13
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    14
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    15
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    16
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    17
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    18
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    19
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    20
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    21
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    22
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    23
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    24
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    25
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    26
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    27
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    28
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    29
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    30
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    31
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    32
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    33
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    34
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    35
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    36
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    37
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    38
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    39
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    40
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    41
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    42
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    43
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    44
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    45
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    46
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    47
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    48
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    49
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    50
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    51
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    52
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    53
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    54
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    55
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    56
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    57
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    58
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    59
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    60
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    61
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    62
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    63
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    64
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    65
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    66
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    67
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    68
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    69
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    70
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    71
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    72
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    73
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    74
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    75
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    76
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    77
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    78
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    79
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    80
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    81
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    82
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    83
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    84
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    85
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    86
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    87
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    88
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    89
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    90
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    91
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    92
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    93
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    94
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    95
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    96
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    97
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    98
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+    99
+
+Keep looping
+
+r =
+
+     1
+
+
+i =
+
+   100
+
+
+vect =
+
+  -5.3439e+03
+
+
+r =
+
+     2
+
+Instailization
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+     1
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+     2
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+     3
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+     4
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+     5
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+     6
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+     7
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+     8
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+     9
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    10
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    11
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    12
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    13
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    14
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    15
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    16
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    17
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    18
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    19
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    20
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    21
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    22
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    23
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    24
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    25
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    26
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    27
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    28
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    29
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    30
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    31
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    32
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    33
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    34
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    35
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    36
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    37
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    38
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    39
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    40
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    41
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    42
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    43
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    44
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    45
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    46
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    47
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    48
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    49
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    50
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    51
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    52
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    53
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    54
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    55
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    56
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    57
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    58
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    59
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    60
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    61
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    62
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    63
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    64
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    65
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    66
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    67
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    68
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    69
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    70
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    71
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    72
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    73
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    74
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    75
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    76
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    77
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    78
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    79
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    80
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    81
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    82
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    83
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    84
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    85
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    86
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    87
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    88
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    89
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    90
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    91
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    92
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    93
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    94
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    95
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    96
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    97
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    98
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+    99
+
+Keep looping
+
+r =
+
+     2
+
+
+i =
+
+   100
+
+
+vect =
+
+   1.0e+03 *
+
+   -5.3439   -5.3431
+
+intialization means are as follows: (each row is a correspondance mean for a cluster)
+
+best_means_init =
+
+    0.6757   -0.8282
+    3.5665    1.7737
+    2.5605   -1.2121
+
+Intial converiances are as follows: 
+
+ans =
+
+    1.0935    0.0234
+    0.0234    0.3213
+
+
+ans =
+
+    1.0935    0.0234
+    0.0234    0.3213
+
+
+ans =
+
+    1.0935    0.0234
+    0.0234    0.3213
+
+Last updated means are as follows: (each row is a correspondance mean for a cluster)
+
+best_means =
+
+   -0.0634   -0.0517
+    2.8917    0.7073
+    3.0302   -0.3016
+
+Last updated converiances are as follows: 
+
+ans =
+
+    0.9864   -0.0179
+   -0.0179    0.9675
+
+
+ans =
+
+    0.8154    0.1062
+    0.1062    0.7050
+
+
+ans =
+
+    0.9854    0.0087
+    0.0087    0.7351
+

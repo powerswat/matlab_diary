@@ -1,0 +1,12 @@
+[y_475, fs_475] = wavread('C:\Users\cho64_000\Desktop\swih5s_amr.wav');
+{Error using <a href="matlab:helpUtils.errorDocCallback('wavread', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\wavread.m', 167)" style="font-weight:bold">wavread</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\wavread.m',167,0)">line 167</a>)
+Not a WAVE file.
+} 
+[y_475, fs_475] = wavread('C:\Users\cho64_000\Desktop\swih5s_amr.wav');
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\wavread.m',167,1)">167 </a>    throw(exception);
+dbquit
+[y_475, fs_475] = wavread('C:\Users\cho64_000\Desktop\srit6n_MR59.wav');
+p = audioplayer(y_475, fs_475);
+play(p)
+p = audioplayer(y_475, 16000);
+play(p)

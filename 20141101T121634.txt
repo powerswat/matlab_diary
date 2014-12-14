@@ -1,0 +1,30 @@
+edit startup
+make
+If make.m fails, please check README about detailed instructions.
+mex -setup
+MEX configured to use <strong>'Microsoft Windows SDK 7.1 (C)'</strong> for C language compilation.
+Warning: The MATLAB C and Fortran API has changed to support MATLAB
+	 variables with more than 2^32-1 elements. In the near future
+	 you will be required to update your code to utilize the
+	 new API. You can find more information about this at:
+	 <a href="http://www.mathworks.com/help/matlab/matlab_external/upgrading-mex-files-to-use-64-bit-api.html">http://www.mathworks.com/help/matlab/matlab_external/upgrading-mex-files-to-use-64-bit-api.html</a>.
+
+To choose a different language, select one from the following:
+ <a href="matlab:mex -setup C++">mex -setup C++</a> 
+ <a href="matlab:mex -setup FORTRAN">mex -setup FORTRAN</a>
+make
+If make.m fails, please check README about detailed instructions.
+make
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\make.m',14,1)">14  </a>		mex CFLAGS="\$CFLAGS -std=c99" -largeArrayDims libsvmread.c
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\make.m',19,1)">19  </a>catch
+if system_dependent('IsDebugMode')==1, dbquit; end
+make
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\make.m',14,1)">14  </a>		mex CFLAGS="\$CFLAGS -std=c99" -largeArrayDims libsvmread.c
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\make.m',19,1)">19  </a>catch
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\make.m',20,1)">20  </a>	fprintf('If make.m fails, please check README about detailed instructions.\n');
+dbstep in
+If make.m fails, please check README about detailed instructions.
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\make.m',21,1)">21  </a>end

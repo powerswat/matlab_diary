@@ -1,0 +1,4 @@
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',15,1)">15  </a>        noise = -0.1 + 0.2*rand(1, numPts); % Random noise, in uniform [-0.1,0.1]
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end

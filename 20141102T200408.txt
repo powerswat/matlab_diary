@@ -1,0 +1,311 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\runSVM.m',1)
+runSVM
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\runSVM.m',18,1)">18  </a>for i=1:length(C)
+if system_dependent('IsDebugMode')==1, dbquit; end
+runSVM
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\runSVM.m',19,1)">19  </a>for i=1:length(C)
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runSVM
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',14,1)">14  </a>end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runSVM
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',23,1)">23  </a>        for j=1:5
+if system_dependent('IsDebugMode')==1, dbquit; end
+runSVM
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',24,1)">24  </a>        for j=1:5
+if system_dependent('IsDebugMode')==1, dbquit; end
+runSVM
+{Subscripted assignment dimension mismatch.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainSVM', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m', 29)" style="font-weight:bold">trainSVM</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',29,0)">line 29</a>)
+                sub_trn_x(next_line:length(trn_x_set{j}),:)
+                = trn_x_set{j};
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runSVM', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\runSVM.m', 21)" style="font-weight:bold">runSVM</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\runSVM.m',21,0)">line 21</a>)
+        trainSVM(Cross_val(j), Kernel_func(1),
+        tr_full_x, tr_full_d, C(i));
+} 
+runSVM
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',29,1)">29  </a>                sub_trn_x(next_line:length(trn_x_set{j}),:) = trn_x_set{j};
+length(trn_x_set{j})
+
+ans =
+
+   400
+
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',30,1)">30  </a>                sub_trn_d(next_line:length(trn_d_set{j}),:) = trn_d_set{j};
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+{Subscripted assignment dimension mismatch.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainSVM', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m', 29)" style="font-weight:bold">trainSVM</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',29,0)">line 29</a>)
+                sub_trn_x(next_line:length(trn_x_set{j}),:)
+                = trn_x_set{j};
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runSVM', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\runSVM.m', 21)" style="font-weight:bold">runSVM</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\runSVM.m',21,0)">line 21</a>)
+        trainSVM(Cross_val(j), Kernel_func(1),
+        tr_full_x, tr_full_d, C(i));
+} 
+length(trn_x_set{j})
+{Undefined variable "trn_x_set" or class
+"trn_x_set".
+} 
+runSVM
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',29,1)">29  </a>                sub_trn_x(next_line:length(trn_x_set{j}),:) = trn_x_set{j};
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',29,1)">29  </a>                sub_trn_x(next_line:length(trn_x_set{j}),:) = trn_x_set{j};
+length(trn_x_set{j})
+
+ans =
+
+   400
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+length(trn_x_set{j})
+{Undefined variable "trn_x_set" or class
+"trn_x_set".
+} 
+runSVM
+{Subscripted assignment dimension mismatch.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('trainSVM', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m', 29)" style="font-weight:bold">trainSVM</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',29,0)">line 29</a>)
+                sub_trn_x(next_line:next_line+length(trn_x_set{j}),:)
+                = trn_x_set{j};
+
+Error in <a href="matlab:helpUtils.errorDocCallback('runSVM', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\runSVM.m', 21)" style="font-weight:bold">runSVM</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\runSVM.m',21,0)">line 21</a>)
+        trainSVM(Cross_val(j),
+        Kernel_func(1), tr_full_x,
+        tr_full_d, C(i));
+} 
+runSVM
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',34,1)">34  </a>    end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runSVM
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',44,1)">44  </a>    end
+if system_dependent('IsDebugMode')==1, dbquit; end
+svmtrain
+Usage: model = svmtrain(training_label_vector, training_instance_matrix, 'libsvm_options');
+libsvm_options:
+-s svm_type : set type of SVM (default 0)
+	0 -- C-SVC		(multi-class classification)
+	1 -- nu-SVC		(multi-class classification)
+	2 -- one-class SVM
+	3 -- epsilon-SVR	(regression)
+	4 -- nu-SVR		(regression)
+-t kernel_type : set type of kernel function (default 2)
+	0 -- linear: u'*v
+	1 -- polynomial: (gamma*u'*v + coef0)^degree
+	2 -- radial basis function: exp(-gamma*|u-v|^2)
+	3 -- sigmoid: tanh(gamma*u'*v + coef0)
+	4 -- precomputed kernel (kernel values in training_instance_matrix)
+-d degree : set degree in kernel function (default 3)
+-g gamma : set gamma in kernel function (default 1/num_features)
+-r coef0 : set coef0 in kernel function (default 0)
+-c cost : set the parameter C of C-SVC, epsilon-SVR, and nu-SVR (default 1)
+-n nu : set the parameter nu of nu-SVC, one-class SVM, and nu-SVR (default 0.5)
+-p epsilon : set the epsilon in loss function of epsilon-SVR (default 0.1)
+-m cachesize : set cache memory size in MB (default 100)
+-e epsilon : set tolerance of termination criterion (default 0.001)
+-h shrinking : whether to use the shrinking heuristics, 0 or 1 (default 1)
+-b probability_estimates : whether to train a SVC or SVR model for probability estimates, 0 or 1 (default 0)
+-wi weight : set the parameter C of class i to weight*C, for C-SVC (default 1)
+-v n : n-fold cross validation mode
+-q : quiet mode (no outputs)
+svmtrain
+Usage: model = svmtrain(training_label_vector, training_instance_matrix, 'libsvm_options');
+libsvm_options:
+-s svm_type : set type of SVM (default 0)
+	0 -- C-SVC		(multi-class classification)
+	1 -- nu-SVC		(multi-class classification)
+	2 -- one-class SVM
+	3 -- epsilon-SVR	(regression)
+	4 -- nu-SVR		(regression)
+-t kernel_type : set type of kernel function (default 2)
+	0 -- linear: u'*v
+	1 -- polynomial: (gamma*u'*v + coef0)^degree
+	2 -- radial basis function: exp(-gamma*|u-v|^2)
+	3 -- sigmoid: tanh(gamma*u'*v + coef0)
+	4 -- precomputed kernel (kernel values in training_instance_matrix)
+-d degree : set degree in kernel function (default 3)
+-g gamma : set gamma in kernel function (default 1/num_features)
+-r coef0 : set coef0 in kernel function (default 0)
+-c cost : set the parameter C of C-SVC, epsilon-SVR, and nu-SVR (default 1)
+-n nu : set the parameter nu of nu-SVC, one-class SVM, and nu-SVR (default 0.5)
+-p epsilon : set the epsilon in loss function of epsilon-SVR (default 0.1)
+-m cachesize : set cache memory size in MB (default 100)
+-e epsilon : set tolerance of termination criterion (default 0.001)
+-h shrinking : whether to use the shrinking heuristics, 0 or 1 (default 1)
+-b probability_estimates : whether to train a SVC or SVR model for probability estimates, 0 or 1 (default 0)
+-wi weight : set the parameter C of class i to weight*C, for C-SVC (default 1)
+-v n : n-fold cross validation mode
+-q : quiet mode (no outputs)
+svmtrain
+Usage: model = svmtrain(training_label_vector, training_instance_matrix, 'libsvm_options');
+libsvm_options:
+-s svm_type : set type of SVM (default 0)
+	0 -- C-SVC		(multi-class classification)
+	1 -- nu-SVC		(multi-class classification)
+	2 -- one-class SVM
+	3 -- epsilon-SVR	(regression)
+	4 -- nu-SVR		(regression)
+-t kernel_type : set type of kernel function (default 2)
+	0 -- linear: u'*v
+	1 -- polynomial: (gamma*u'*v + coef0)^degree
+	2 -- radial basis function: exp(-gamma*|u-v|^2)
+	3 -- sigmoid: tanh(gamma*u'*v + coef0)
+	4 -- precomputed kernel (kernel values in training_instance_matrix)
+-d degree : set degree in kernel function (default 3)
+-g gamma : set gamma in kernel function (default 1/num_features)
+-r coef0 : set coef0 in kernel function (default 0)
+-c cost : set the parameter C of C-SVC, epsilon-SVR, and nu-SVR (default 1)
+-n nu : set the parameter nu of nu-SVC, one-class SVM, and nu-SVR (default 0.5)
+-p epsilon : set the epsilon in loss function of epsilon-SVR (default 0.1)
+-m cachesize : set cache memory size in MB (default 100)
+-e epsilon : set tolerance of termination criterion (default 0.001)
+-h shrinking : whether to use the shrinking heuristics, 0 or 1 (default 1)
+-b probability_estimates : whether to train a SVC or SVR model for probability estimates, 0 or 1 (default 0)
+-wi weight : set the parameter C of class i to weight*C, for C-SVC (default 1)
+-v n : n-fold cross validation mode
+-q : quiet mode (no outputs)
+svmtrain
+Usage: model = svmtrain(training_label_vector, training_instance_matrix, 'libsvm_options');
+libsvm_options:
+-s svm_type : set type of SVM (default 0)
+	0 -- C-SVC		(multi-class classification)
+	1 -- nu-SVC		(multi-class classification)
+	2 -- one-class SVM
+	3 -- epsilon-SVR	(regression)
+	4 -- nu-SVR		(regression)
+-t kernel_type : set type of kernel function (default 2)
+	0 -- linear: u'*v
+	1 -- polynomial: (gamma*u'*v + coef0)^degree
+	2 -- radial basis function: exp(-gamma*|u-v|^2)
+	3 -- sigmoid: tanh(gamma*u'*v + coef0)
+	4 -- precomputed kernel (kernel values in training_instance_matrix)
+-d degree : set degree in kernel function (default 3)
+-g gamma : set gamma in kernel function (default 1/num_features)
+-r coef0 : set coef0 in kernel function (default 0)
+-c cost : set the parameter C of C-SVC, epsilon-SVR, and nu-SVR (default 1)
+-n nu : set the parameter nu of nu-SVC, one-class SVM, and nu-SVR (default 0.5)
+-p epsilon : set the epsilon in loss function of epsilon-SVR (default 0.1)
+-m cachesize : set cache memory size in MB (default 100)
+-e epsilon : set tolerance of termination criterion (default 0.001)
+-h shrinking : whether to use the shrinking heuristics, 0 or 1 (default 1)
+-b probability_estimates : whether to train a SVC or SVR model for probability estimates, 0 or 1 (default 0)
+-wi weight : set the parameter C of class i to weight*C, for C-SVC (default 1)
+-v n : n-fold cross validation mode
+-q : quiet mode (no outputs)
+runSVM
+Usage: model = svmtrain(training_label_vector, training_instance_matrix, 'libsvm_options');
+libsvm_options:
+-s svm_type : set type of SVM (default 0)
+	0 -- C-SVC		(multi-class classification)
+	1 -- nu-SVC		(multi-class classification)
+	2 -- one-class SVM
+	3 -- epsilon-SVR	(regression)
+	4 -- nu-SVR		(regression)
+-t kernel_type : set type of kernel function (default 2)
+	0 -- linear: u'*v
+	1 -- polynomial: (gamma*u'*v + coef0)^degree
+	2 -- radial basis function: exp(-gamma*|u-v|^2)
+	3 -- sigmoid: tanh(gamma*u'*v + coef0)
+	4 -- precomputed kernel (kernel values in training_instance_matrix)
+-d degree : set degree in kernel function (default 3)
+-g gamma : set gamma in kernel function (default 1/num_features)
+-r coef0 : set coef0 in kernel function (default 0)
+-c cost : set the parameter C of C-SVC, epsilon-SVR, and nu-SVR (default 1)
+-n nu : set the parameter nu of nu-SVC, one-class SVM, and nu-SVR (default 0.5)
+-p epsilon : set the epsilon in loss function of epsilon-SVR (default 0.1)
+-m cachesize : set cache memory size in MB (default 100)
+-e epsilon : set tolerance of termination criterion (default 0.001)
+-h shrinking : whether to use the shrinking heuristics, 0 or 1 (default 1)
+-b probability_estimates : whether to train a SVC or SVR model for probability estimates, 0 or 1 (default 0)
+-wi weight : set the parameter C of class i to weight*C, for C-SVC (default 1)
+-v n : n-fold cross validation mode
+-q : quiet mode (no outputs)
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',51,1)">51  </a>    end
+if system_dependent('IsDebugMode')==1, dbquit; end
+trainSVM
+{Error using <a href="matlab:helpUtils.errorDocCallback('trainSVM', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m', 8)" style="font-weight:bold">trainSVM</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',8,0)">line 8</a>)
+Not enough input arguments.
+} 
+runSVM
+Usage: model = svmtrain(training_label_vector, training_instance_matrix, 'libsvm_options');
+libsvm_options:
+-s svm_type : set type of SVM (default 0)
+	0 -- C-SVC		(multi-class classification)
+	1 -- nu-SVC		(multi-class classification)
+	2 -- one-class SVM
+	3 -- epsilon-SVR	(regression)
+	4 -- nu-SVR		(regression)
+-t kernel_type : set type of kernel function (default 2)
+	0 -- linear: u'*v
+	1 -- polynomial: (gamma*u'*v + coef0)^degree
+	2 -- radial basis function: exp(-gamma*|u-v|^2)
+	3 -- sigmoid: tanh(gamma*u'*v + coef0)
+	4 -- precomputed kernel (kernel values in training_instance_matrix)
+-d degree : set degree in kernel function (default 3)
+-g gamma : set gamma in kernel function (default 1/num_features)
+-r coef0 : set coef0 in kernel function (default 0)
+-c cost : set the parameter C of C-SVC, epsilon-SVR, and nu-SVR (default 1)
+-n nu : set the parameter nu of nu-SVC, one-class SVM, and nu-SVR (default 0.5)
+-p epsilon : set the epsilon in loss function of epsilon-SVR (default 0.1)
+-m cachesize : set cache memory size in MB (default 100)
+-e epsilon : set tolerance of termination criterion (default 0.001)
+-h shrinking : whether to use the shrinking heuristics, 0 or 1 (default 1)
+-b probability_estimates : whether to train a SVC or SVR model for probability estimates, 0 or 1 (default 0)
+-wi weight : set the parameter C of class i to weight*C, for C-SVC (default 1)
+-v n : n-fold cross validation mode
+-q : quiet mode (no outputs)
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',51,1)">51  </a>    end
+if system_dependent('IsDebugMode')==1, dbquit; end
+trainSVM
+{Error using <a href="matlab:helpUtils.errorDocCallback('trainSVM', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m', 8)" style="font-weight:bold">trainSVM</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',8,0)">line 8</a>)
+Not enough input arguments.
+} 
+runSVM
+Error: C <= 0
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',51,1)">51  </a>    end
+if system_dependent('IsDebugMode')==1, dbquit; end
+trainSVM
+{Error using <a href="matlab:helpUtils.errorDocCallback('trainSVM', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m', 8)" style="font-weight:bold">trainSVM</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',8,0)">line 8</a>)
+Not enough input arguments.
+} 
+runSVM
+Error: C <= 0
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',51,1)">51  </a>    end
+if system_dependent('IsDebugMode')==1, dbquit; end
+svmtrain
+Usage: model = svmtrain(training_label_vector, training_instance_matrix, 'libsvm_options');
+libsvm_options:
+-s svm_type : set type of SVM (default 0)
+	0 -- C-SVC		(multi-class classification)
+	1 -- nu-SVC		(multi-class classification)
+	2 -- one-class SVM
+	3 -- epsilon-SVR	(regression)
+	4 -- nu-SVR		(regression)
+-t kernel_type : set type of kernel function (default 2)
+	0 -- linear: u'*v
+	1 -- polynomial: (gamma*u'*v + coef0)^degree
+	2 -- radial basis function: exp(-gamma*|u-v|^2)
+	3 -- sigmoid: tanh(gamma*u'*v + coef0)
+	4 -- precomputed kernel (kernel values in training_instance_matrix)
+-d degree : set degree in kernel function (default 3)
+-g gamma : set gamma in kernel function (default 1/num_features)
+-r coef0 : set coef0 in kernel function (default 0)
+-c cost : set the parameter C of C-SVC, epsilon-SVR, and nu-SVR (default 1)
+-n nu : set the parameter nu of nu-SVC, one-class SVM, and nu-SVR (default 0.5)
+-p epsilon : set the epsilon in loss function of epsilon-SVR (default 0.1)
+-m cachesize : set cache memory size in MB (default 100)
+-e epsilon : set tolerance of termination criterion (default 0.001)
+-h shrinking : whether to use the shrinking heuristics, 0 or 1 (default 1)
+-b probability_estimates : whether to train a SVC or SVR model for probability estimates, 0 or 1 (default 0)
+-wi weight : set the parameter C of class i to weight*C, for C-SVC (default 1)
+-v n : n-fold cross validation mode
+-q : quiet mode (no outputs)
+runSVM
+Error: label vector should not be in sparse format
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\trainSVM.m',50,1)">50  </a>    end
+if system_dependent('IsDebugMode')==1, dbquit; end

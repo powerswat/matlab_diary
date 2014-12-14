@@ -1,0 +1,15 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',1)
+load('C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2ExtDBIrm_nF1000_200000.mat')
+imagesc(newCmbChunk16k);
+imagesc(newCmbChunk16k(1:size(newCmbChunk16k,1)/2,:);
+ imagesc(newCmbChunk16k(1:size(newCmbChunk16k,1)/2,:);
+                                                     |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+imagesc(newCmbChunk16k(1:size(newCmbChunk16k,1)/2,:));
+colorbar
+load('C:\Temp\explains\datasets\clsDevelMimMel_cg03real_mfpc19_D2ExtDBIrm_nF1000_20000.mat')
+imagesc(newCmbChunk16k);
+colorbar

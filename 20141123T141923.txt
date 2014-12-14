@@ -1,0 +1,11 @@
+demo
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\BNMF\@NMF\NMF.m',125,1)">125 </a>                        nmf.X=arg1;
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\BNMF\@NMF\NMF.m',126,1)">126 </a>                        nmf.order=arg2;
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+End of function NMF.NMF>NMF.NMF.
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\BNMF\BayesianNMF_with_HMM\demo.m',38,1)">38  </a>setParameters(speech_nmf,'max_it',100,'update_boundFlag',1);

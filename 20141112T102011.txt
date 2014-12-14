@@ -1,0 +1,162 @@
+edit testOnSomeFiles.m
+resampleWav
+{Undefined function or variable 'inputTag'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('resampleWav', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m', 7)" style="font-weight:bold">resampleWav</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',7,0)">line 7</a>)
+[files,paths] =
+findFiles(fullfile(basePath,'inputs\',
+inputTag, wavType), '.wav', 1);
+} 
+resampleWav
+Found 0 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',9,1)">9   </a>a = 1;
+fullfile(basePath,'inputs', wavType)
+
+ans =
+
+D:\Temp\explains\inputs\develOps
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+load('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\results\result_26.mat')
+resampleWav
+Found 0 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',10,1)">10  </a>a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+resampleWav
+Found 668 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',10,1)">10  </a>a = 1;
+fullfile(basePath,'inputs', wavType)
+
+ans =
+
+D:\Temp\explains\inputs\clean_cg03
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+resampleWav
+Found 0 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',10,1)">10  </a>a = 1;
+findFiles(fullfile(basePath,'inputs', wavType)
+ findFiles(fullfile(basePath,'inputs', wavType)
+                                               |
+{Error: Expression or statement is
+incorrect--possibly unbalanced (, {, or [.
+} 
+fullfile(basePath,'inputs', wavType)
+
+ans =
+
+D:\Temp\explains\inputs\develOps
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+resampleWav
+Found 24 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',10,1)">10  </a>a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+resampleWav
+Found 24 files
+if system_dependent('IsDebugMode')==1, dbquit; end
+resampleWav
+Found 24 files
+{Error using <a href="matlab:helpUtils.errorDocCallback('which')" style="font-weight:bold">which</a>
+Argument must
+contain a string.
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('audiovideo.internal.absolutePathForReading', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\+audiovideo\+internal\absolutePathForReading.m', 7)" style="font-weight:bold">audiovideo.internal.absolutePathForReading</a>
+(<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\+audiovideo\+internal\absolutePathForReading.m',7,0)">line 7</a>)
+whichFileName =
+which(filename);
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('audioread', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\audioread.m', 74)" style="font-weight:bold">audioread</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\audioread.m',74,0)">line
+74</a>)
+filename =
+audiovideo.internal.absolutePathForReading(...
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('resampleWav', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m', 11)" style="font-weight:bold">resampleWav</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',11,0)">line
+11</a>)
+    [y,fs] =
+    audioread(paths(i));} 
+resampleWav
+Found 24 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',11,1)">11  </a>    [y,fs] = audioread(paths(i));
+paths(i)
+
+ans = 
+
+    'D:\Temp\explains...'
+
+paths(i)
+
+ans = 
+
+    'D:\Temp\explains\inputs\clean_cg03...'
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+{Error using <a href="matlab:helpUtils.errorDocCallback('which')" style="font-weight:bold">which</a>
+Argument must contain a string.
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('audiovideo.internal.absolutePathForReading', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\+audiovideo\+internal\absolutePathForReading.m', 7)" style="font-weight:bold">audiovideo.internal.absolutePathForReading</a>
+(<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\+audiovideo\+internal\absolutePathForReading.m',7,0)">line 7</a>)
+whichFileName = which(filename);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('audioread', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\audioread.m', 74)" style="font-weight:bold">audioread</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\audioread.m',74,0)">line 74</a>)
+filename =
+audiovideo.internal.absolutePathForReading(...
+
+Error in <a href="matlab:helpUtils.errorDocCallback('resampleWav', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m', 11)" style="font-weight:bold">resampleWav</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',11,0)">line 11</a>)
+    [y,fs] = audioread(paths(i));
+} 
+resampleWav
+Found 24 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',11,1)">11  </a>    [y,fs] = audioread(paths{i});
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',12,1)">12  </a>end
+if system_dependent('IsDebugMode')==1, dbquit; end
+resampleWav
+Found 24 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',13,1)">13  </a>end
+if system_dependent('IsDebugMode')==1, dbquit; end
+resampleWav
+Found 24 files
+{Error using
+<a href="matlab:helpUtils.errorDocCallback('audiowrite')" style="font-weight:bold">audiowrite</a>
+The value of 'Fs'
+is invalid.
+Expected input to
+be positive.
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('audiowrite>parseInputs', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\audiowrite.m', 219)" style="font-weight:bold">audiowrite>parseInputs</a>
+(<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\audiowrite.m',219,0)">line 219</a>)
+parse(p,filename,
+y, Fs,
+pvpairs{:});
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('audiowrite', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\audiowrite.m', 103)" style="font-weight:bold">audiowrite</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\audiovideo\audiowrite.m',103,0)">line
+103</a>)
+props =
+parseInputs(filename,
+y, Fs, varargin);
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('resampleWav', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m', 13)" style="font-weight:bold">resampleWav</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',13,0)">line
+13</a>)
+    audiowrite(paths{i},
+    y, fs);
+} 
+resampleWav
+Found 24 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',13,1)">13  </a>    audiowrite(paths{i}, y, fs);
+if system_dependent('IsDebugMode')==1, dbquit; end
+resampleWav
+Found 24 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',17,1)">17  </a>a = 1;
+if system_dependent('IsDebugMode')==1, dbquit; end
+resampleWav
+Found 24 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\resampleWav.m',13,1)">13  </a>    y = resample(y, sampleRate, fs);
+if system_dependent('IsDebugMode')==1, dbquit; end

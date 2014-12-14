@@ -1,0 +1,29 @@
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD1_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', '', 0.05, 'isolated_cg03', 'offset0')
+Found 0 files
+edit testOnSomeFiles.m
+testOnSomeFiles('irm', 'MimMel_cg03real_mfpc19_ExtdWavRmxD1_nF250', 0, 'MimMelTune_cg03real_mfpc19_ExtdWavRmx_nF=490_trans', '', 0.05, 'isolated_cg03', 'offset0')
+Found 24 files
+1: 0dB\bbafzn.wav
+2: 0dB\brbs8n.wav
+3: 0dB\bwis6n.wav
+4: 0dB\pgwe7a.wav
+5: 0dB\prbc9s.wav
+6: 3dB\lbwr3a.wav
+7: 3dB\srin2n.wav
+8: 6dB\brbm4n.wav
+9: 6dB\lbip9s.wav
+10: 6dB\lrwe8n.wav
+11: 6dB\srbo2p.wav
+12: 6dB\swih5s.wav
+13: 9dB\briz6p.wav
+14: 9dB\lwik9a.wav
+15: m3dB\bbizzp.wav
+16: m3dB\bgwb5a.wav
+17: m3dB\bwam7s.wav
+18: m3dB\lbwk6n.wav
+19: m3dB\prbxzn.wav
+20: m6dB\brbg1s.wav
+21: m6dB\bwam8p.wav
+22: m6dB\lbaq2n.wav
+23: m6dB\pbwc7s.wav
+24: m6dB\sgwdzp.wav

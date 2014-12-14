@@ -1,0 +1,2 @@
+Unable to parse command history line: <command time_stamp="148c7c8523b">%-- 2014-09-30 ¿À</session>
+edit gaussianFilterExample.m

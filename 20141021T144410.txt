@@ -1,0 +1,26 @@
+edit makeAmrWav.m
+makeAmrWav('','','develOps');
+Found 24 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\makeAmrWav.m',36,1)">36  </a>end
+p = audioplayer(x, fs);
+play(p)
+p = audioplayer(x, 8000);
+play(p)
+if system_dependent('IsDebugMode')==1, dbquit; end
+makeAmrWav('','','develOps');
+Found 24 files
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\makeAmrWav.m',37,1)">37  </a>end
+p = audioplayer(x, 8000);
+play(p)
+p = audioplayer(x, fs);
+play(p)
+play(p)
+if system_dependent('IsDebugMode')==1, dbquit; end
+uiopen('C:\Temp\bbafzn_8k.wav',1)
+p = audioplayer(data, 8000);
+play(p)
+[x_16k h_16k] = resample(data, fs*2, fs);
+p = audioplayer(x_16k, 16000);
+play(p)
+uiopen('C:\Users\cho64_000\Documents\MATLAB\concatResyn\testOnSomeFiles.m',1)
+edit buildClsDataset.m

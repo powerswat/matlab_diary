@@ -1,0 +1,1 @@
+uiimport('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\results\result_26.mat')

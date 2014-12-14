@@ -1,0 +1,4 @@
+uiopen('C:\Users\cho64_000\Dropbox\Research\mmd_dnn_train_paired_mod.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Research\mmd_dnn_train_paired_mod.m',1)
+uiopen('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\softmax.m',1)
+uiopen('C:\Users\cho64_000\Documents\MATLAB\concatResyn\mmd_dnn_train_paired.m',1)

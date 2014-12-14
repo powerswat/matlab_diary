@@ -1,0 +1,26 @@
+run('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m')
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('restorehg', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\private\restorehg.m', 70)" style="font-weight:bold">restorehg</a>
+(<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\private\restorehg.m',70,0)">line 70</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('restore', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\private\restore.m', 32)" style="font-weight:bold">restore</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\private\restore.m',32,0)">line 32</a>)
+        pj = restorehg( pj, h );
+
+In <a href="matlab:helpUtils.errorDocCallback('print>LocalPrint', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\print.m', 287)" style="font-weight:bold">print>LocalPrint</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\print.m',287,0)">line 287</a>)
+        pj = restore( pj, h );
+
+In <a href="matlab:helpUtils.errorDocCallback('print', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\print.m', 233)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\graphics\print.m',233,0)">line 233</a>)
+    LocalPrint(pj);
+
+In <a href="matlab:helpUtils.errorDocCallback('trainRBFNet', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m', 122)" style="font-weight:bold">trainRBFNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',122,0)">line 122</a>)
+    print('-dpng',['images\seed'
+    num2str(rngVal) '\eta', num2str(eta*100)
+    'bases' num2str(numBase) '.png']);
+
+In <a href="matlab:helpUtils.errorDocCallback('runRBF', 'C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m', 11)" style="font-weight:bold">runRBF</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',11,0)">line 11</a>)
+            trainRBFNet(rngVals(i), etas(j),
+            numBases(k), var_types(1));
+
+In <a href="matlab:helpUtils.errorDocCallback('run', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\run.m', 63)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\lang\run.m',63,0)">line 63</a>)
+evalin('caller', [script ';']);
+} 

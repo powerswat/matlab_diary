@@ -1,0 +1,102 @@
+load('D:\Temp\clsTrainMimMel_cg03real_mfpc19_ClnIsoAMR_200000.mat')
+size(newCmbChunk16k)
+
+ans =
+
+      113762         836
+
+load('D:\Temp\clsTrainMimMel_cg03real_mfpc19_ClnAMR_200000.mat')
+imagesc(newCmbChunk16k)
+uiopen('D:\Temp\srit6n.wav',1)
+uiopen('D:\Temp\srit6n.wav',1)
+data1 = data;
+uiopen('D:\Temp\srit6nclnAMR.wav',1)
+plot(data1,data)
+uiopen('D:\Temp\swwv5s.wav',1)
+data1 = data;
+uiopen('D:\Temp\swwv5sRevAMR.wav',1)
+plot(data1,data)
+K = [9 1 1 1; 1 9 1 1; 1 1 9 1; 1 1 19]
+{Error using <a href="matlab:helpUtils.errorDocCallback('vertcat')" style="font-weight:bold">vertcat</a>
+Dimensions of
+matrices being
+concatenated are not
+consistent.
+} 
+K = [9 1 1 1; 1 9 1 1; 1 1 9 1; 1 1 1 9]
+
+K =
+
+     9     1     1     1
+     1     9     1     1
+     1     1     9     1
+     1     1     1     9
+
+d = [-1 1 1 -1]
+
+d =
+
+  Columns 1 through 2
+
+    -1     1
+
+  Columns 3 through 4
+
+     1    -1
+
+K * d * d
+{Error using <a href="matlab:helpUtils.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Inner matrix
+dimensions must
+agree.
+} 
+K * d
+{Error using <a href="matlab:helpUtils.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Inner matrix
+dimensions must
+agree.
+} 
+d' * K
+{Error using <a href="matlab:helpUtils.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Inner matrix
+dimensions must
+agree.
+} 
+d * K
+
+ans =
+
+  Columns 1 through 2
+
+    -8     8
+
+  Columns 3 through 4
+
+     8    -8
+
+dK = bsxfun(@times, d,K);
+_K = bsxfun(@times, dK,d);
+ _K = bsxfun(@times, dK,d);
+ |
+{Error: The input
+character is not
+valid in MATLAB
+statements or
+expressions.
+} 
+_K = bsxfun(@times, dK,d');
+ _K = bsxfun(@times, dK,d');
+ |
+{Error: The input
+character is not
+valid in MATLAB
+statements or
+expressions.
+} 
+K_ = bsxfun(@times, dK,d);
+K_ = bsxfun(@times, K,d, d);
+{Error using
+<a href="matlab:helpUtils.errorDocCallback('bsxfun')" style="font-weight:bold">bsxfun</a>
+Too many input
+arguments.
+} 

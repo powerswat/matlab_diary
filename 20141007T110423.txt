@@ -1,0 +1,9 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',1)
+ECE_779_HW_2
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('mean', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\datafun\mean.m', 44)" style="font-weight:bold">mean</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\datafun\mean.m',44,0)">line 44</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('ECE_779_HW_2', 'C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m', 117)" style="font-weight:bold">ECE_779_HW_2</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',117,0)">line 117</a>)
+                KmeansNew(i) = mean(xvals(whichK == i));
+} 
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',1)

@@ -1,0 +1,37 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\runSVM.m',1)
+runSVM
+*
+optimization finished, #iter = 787
+nu = 0.645000
+obj = -63.429948, rho = 2.246144
+nSV = 1036, nBSV = 1030
+Total nSV = 1036
+*
+optimization finished, #iter = 755
+nu = 0.647500
+obj = -63.683674, rho = 2.205988
+nSV = 1041, nBSV = 1031
+Total nSV = 1041
+*
+optimization finished, #iter = 764
+nu = 0.635000
+obj = -62.493021, rho = 2.227069
+nSV = 1018, nBSV = 1013
+Total nSV = 1018
+*
+optimization finished, #iter = 838
+nu = 0.642500
+obj = -63.222511, rho = 2.203900
+nSV = 1032, nBSV = 1022
+Total nSV = 1032
+*
+optimization finished, #iter = 776
+nu = 0.650000
+obj = -63.898495, rho = 2.250173
+nSV = 1044, nBSV = 1036
+Total nSV = 1044
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj3\runSVM.m',28,1)">28  </a>    for j=1:length(model)
+if system_dependent('IsDebugMode')==1, dbquit; end
+uiopen('C:\Users\cho64_000\Documents\MATLAB\libsvm\matlab\make.m',1)
+make
+If make.m fails, please check README about detailed instructions.

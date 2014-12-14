@@ -1,0 +1,46 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\runRBF.m',1)
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',84,1)">84  </a>end
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',83,1)">83  </a>    predictions = [predictions [1 varphi_gauss(var_j', i, new_u_j)] * w];
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',1)
+1 varphi_gauss(var_j', i, new_u_j)
+ 1 varphi_gauss(var_j', i, new_u_j)
+   |
+{Error: Unexpected MATLAB expression.
+} 
+[1 varphi_gauss(var_j', i, new_u_j)]
+
+ans =
+
+    1.0000    0.3141    0.0000
+
+predictions [1 varphi_gauss(var_j', i, new_u_j)] * w
+{Error: "predictions" was previously used as a variable, conflicting with its
+use here as the name of a function or command.
+See <a href="matlab: helpview([docroot '/techdoc/matlab_prog/matlab_prog.map'],'function_call_command_syntax')">"How MATLAB Recognizes Command Syntax" in the MATLAB documentation</a> for
+details.
+} 
+[predictions [1 varphi_gauss(var_j', i, new_u_j)] * w]
+
+ans =
+
+    0.6102
+
+[1 varphi_gauss(var_j', i, new_u_j)] * w
+
+ans =
+
+    0.6102
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+runRBF
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',83,1)">83  </a>    predictions = [1 varphi_gauss(var_j', i, new_u_j)] * w;
+[1 varphi_gauss(var_j', i, new_u_j)] * w
+
+ans =
+
+    0.6102
+
+if system_dependent('IsDebugMode')==1, dbquit; end

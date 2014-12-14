@@ -1,0 +1,21 @@
+load('D:\Temp\clsTrainMimMel_cg03real_mfpc19_AMR_200000.mat')
+imagesc(newCmbChunk16k)
+newCmbChunk16k1 = newCmbChunk16k;
+load('D:\Temp\clsTrainMimMel_cg03real_mfpc19_ClnAMR_200000.mat')
+plot(newCmbChunk16k1, newCmbChunk16k)
+{Error using <a href="matlab:helpUtils.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Vectors must be the same lengths.
+} 
+size(newCmbChunk16k1)
+
+ans =
+
+      113762         836
+
+size(newCmbChunk16k)
+
+ans =
+
+      108722         836
+
+plot(newCmbChunk16k1(1:108722,:), newCmbChunk16k)

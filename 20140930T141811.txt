@@ -1,0 +1,83 @@
+uiopen('C:\Users\cho64_000\Dropbox\Class materials\2012-2014\CSE 5526\Prev_year\Homework\ECE_779_HW_2.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\runMLP.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProject\trainModule.m',1)
+edit postProcBuildData.m
+postProcBuildData('Ext', '/data/data8/scratch/choyoun/explains/datasets/clsTrainMimMel_cg03real_mfpc19_ExtdWavRmxD2_nF1000_200000.mat', '/data/data8/scratch/choyoun/explains/datasets/clsTrainMimMel_cg03real_mfpc19_Pair_ExtdWavRmxD2Ext_nF1000_irmOff0_200000.mat', 'ExtdWavRmxD1_nF250', 11, '_offset0')
+{Error using <a href="matlab:helpUtils.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file
+'/data/data8/scratch/choyoun/explains/datasets/clsTrainMimMel_cg03real_mfpc19_ExtdWavRmxD2_nF1000_200000.mat':
+no such file or directory.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('postProcBuildData', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m', 13)" style="font-weight:bold">postProcBuildData</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m',13,0)">line 13</a>)
+load(inFile);
+} 
+postProcBuildData('Ext', '/data/data8/scratch/choyoun/explains/datasets/clsTrainMimMel_cg03real_mfpc19_ExtdWavRmxD2_nF1000_200000.mat', '/data/data8/scratch/choyoun/explains/datasets/clsTrainMimMel_cg03real_mfpc19_Pair_ExtdWavRmxD2Ext_nF1000_irmOff0_200000.mat', 'ExtdWavRmxD1_nF250', 11, '_offset0')
+{Error using <a href="matlab:helpUtils.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file
+'/data/data8/scratch/choyoun/explains/datasets/clsTrainMimMel_cg03real_mfpc19_ExtdWavRmxD2_nF1000_200000.mat':
+no such file or directory.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('postProcBuildData', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m', 13)" style="font-weight:bold">postProcBuildData</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m',13,0)">line 13</a>)
+load(inFile);
+} 
+postProcBuildData('ExtDBIrm', 'C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2_nF1000_200000.mat', 'C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2ExtDBIrm_nF1000_200000.mat', 'D1', 11)
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('postProcBuildData', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m', 13)" style="font-weight:bold">postProcBuildData</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m',13,0)">line 13</a>)
+
+} 
+postProcBuildData('ExtDBIrm', 'C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2_nF1000_200000.mat', 'C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2ExtDBIrm_nF1000_200000.mat', 'D1', 11)
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('postProcBuildData', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m', 13)" style="font-weight:bold">postProcBuildData</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m',13,0)">line 13</a>)
+
+} 
+postProcBuildData('ExtDBIrm', 'C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2_nF1000_200000.mat', 'C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2ExtDBIrm_nF1000_200000.mat', 'D1', 11)
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m',18,1)">18  </a>if strcmp(execMode, 'IRM')
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Out of memory. Type HELP MEMORY for your options.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('relu', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\relu.m', 8)" style="font-weight:bold">relu</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\relu.m',8,0)">line 8</a>)
+   mask = single(x>0);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('compute_unit_activation', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\compute_unit_activation.m', 14)" style="font-weight:bold">compute_unit_activation</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\compute_unit_activation.m',14,0)">line 14</a>)
+        net_activation = relu(net_potential);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('getOutputFromNet', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\getOutputFromNet.m', 35)" style="font-weight:bold">getOutputFromNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\getOutputFromNet.m',35,0)">line 35</a>)
+            net_activation = compute_unit_activation(net_potential,
+            opts.unit_type_hidden,bound);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('postProcBuildData', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m', 45)" style="font-weight:bold">postProcBuildData</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m',45,0)">line 45</a>)
+    melMask = pow2db(gather(getOutputFromNet(best_model, test_x, opts)));
+} 
+postProcBuildData('ExtDBIrm', 'C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2_nF1000_200000.mat', 'C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2ExtDBIrm_nF1000_200000.mat', 'D1', 11)
+{Out of memory. Type HELP MEMORY for your options.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('relu', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\relu.m', 8)" style="font-weight:bold">relu</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\relu.m',8,0)">line 8</a>)
+   mask = single(x>0);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('compute_unit_activation', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\compute_unit_activation.m', 14)" style="font-weight:bold">compute_unit_activation</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\compute_unit_activation.m',14,0)">line 14</a>)
+        net_activation = relu(net_potential);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('getOutputFromNet', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\getOutputFromNet.m', 35)" style="font-weight:bold">getOutputFromNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\getOutputFromNet.m',35,0)">line 35</a>)
+            net_activation = compute_unit_activation(net_potential,
+            opts.unit_type_hidden,bound);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('postProcBuildData', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m', 45)" style="font-weight:bold">postProcBuildData</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m',45,0)">line 45</a>)
+    melMask = pow2db(gather(getOutputFromNet(best_model, test_x, opts)));
+} 
+postProcBuildData('ExtDBIrm', 'C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2_nF1000_200000.mat', 'C:\Temp\explains\datasets\clsTrainMimMel_cg03real_mfpc19_D2ExtDBIrm_nF1000_200000.mat', 'D1', 11)
+{Out of memory. Type HELP MEMORY for your options.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('relu', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\relu.m', 8)" style="font-weight:bold">relu</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\relu.m',8,0)">line 8</a>)
+   mask = single(x>0);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('compute_unit_activation', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\compute_unit_activation.m', 14)" style="font-weight:bold">compute_unit_activation</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\utility\compute_unit_activation.m',14,0)">line 14</a>)
+        net_activation = relu(net_potential);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('getOutputFromNet', 'C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\getOutputFromNet.m', 35)" style="font-weight:bold">getOutputFromNet</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\ywDnn\main\getOutputFromNet.m',35,0)">line 35</a>)
+            net_activation = compute_unit_activation(net_potential,
+            opts.unit_type_hidden,bound);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('postProcBuildData', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m', 45)" style="font-weight:bold">postProcBuildData</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\postProcBuildData.m',45,0)">line 45</a>)
+    melMask = pow2db(gather(getOutputFromNet(best_model, test_x, opts)));
+} 

@@ -1,0 +1,808 @@
+edit nnmf.m
+A = magic(4,4)
+{Error using <a href="matlab:helpUtils.errorDocCallback('magic')" style="font-weight:bold">magic</a>
+Too many input
+arguments.
+} 
+A = magic(10)
+
+A =
+
+  Columns 1 through 3
+
+    92    99     1
+    98    80     7
+     4    81    88
+    85    87    19
+    86    93    25
+    17    24    76
+    23     5    82
+    79     6    13
+    10    12    94
+    11    18   100
+
+  Columns 4 through 6
+
+     8    15    67
+    14    16    73
+    20    22    54
+    21     3    60
+     2     9    61
+    83    90    42
+    89    91    48
+    95    97    29
+    96    78    35
+    77    84    36
+
+  Columns 7 through 9
+
+    74    51    58
+    55    57    64
+    56    63    70
+    62    69    71
+    68    75    52
+    49    26    33
+    30    32    39
+    31    38    45
+    37    44    46
+    43    50    27
+
+  Column 10
+
+    40
+    41
+    47
+    28
+    34
+    65
+    66
+    72
+    53
+    59
+
+B = magic(10)
+
+B =
+
+  Columns 1 through 3
+
+    92    99     1
+    98    80     7
+     4    81    88
+    85    87    19
+    86    93    25
+    17    24    76
+    23     5    82
+    79     6    13
+    10    12    94
+    11    18   100
+
+  Columns 4 through 6
+
+     8    15    67
+    14    16    73
+    20    22    54
+    21     3    60
+     2     9    61
+    83    90    42
+    89    91    48
+    95    97    29
+    96    78    35
+    77    84    36
+
+  Columns 7 through 9
+
+    74    51    58
+    55    57    64
+    56    63    70
+    62    69    71
+    68    75    52
+    49    26    33
+    30    32    39
+    31    38    45
+    37    44    46
+    43    50    27
+
+  Column 10
+
+    40
+    41
+    47
+    28
+    34
+    65
+    66
+    72
+    53
+    59
+
+C = [A;B]
+
+C =
+
+  Columns 1 through 3
+
+    92    99     1
+    98    80     7
+     4    81    88
+    85    87    19
+    86    93    25
+    17    24    76
+    23     5    82
+    79     6    13
+    10    12    94
+    11    18   100
+    92    99     1
+    98    80     7
+     4    81    88
+    85    87    19
+    86    93    25
+    17    24    76
+    23     5    82
+    79     6    13
+    10    12    94
+    11    18   100
+
+  Columns 4 through 6
+
+     8    15    67
+    14    16    73
+    20    22    54
+    21     3    60
+     2     9    61
+    83    90    42
+    89    91    48
+    95    97    29
+    96    78    35
+    77    84    36
+     8    15    67
+    14    16    73
+    20    22    54
+    21     3    60
+     2     9    61
+    83    90    42
+    89    91    48
+    95    97    29
+    96    78    35
+    77    84    36
+
+  Columns 7 through 9
+
+    74    51    58
+    55    57    64
+    56    63    70
+    62    69    71
+    68    75    52
+    49    26    33
+    30    32    39
+    31    38    45
+    37    44    46
+    43    50    27
+    74    51    58
+    55    57    64
+    56    63    70
+    62    69    71
+    68    75    52
+    49    26    33
+    30    32    39
+    31    38    45
+    37    44    46
+    43    50    27
+
+  Column 10
+
+    40
+    41
+    47
+    28
+    34
+    65
+    66
+    72
+    53
+    59
+    40
+    41
+    47
+    28
+    34
+    65
+    66
+    72
+    53
+    59
+
+nnmf(C,3)
+
+ans =
+
+  Column 1
+
+  180.3125
+  168.5972
+   64.6230
+  163.0308
+  165.9740
+         0
+         0
+   39.2165
+         0
+         0
+  180.3125
+  168.5972
+   64.6230
+  163.0308
+  165.9740
+         0
+         0
+   39.2165
+         0
+         0
+
+  Column 2
+
+    2.2236
+    2.9372
+  144.9411
+   27.3241
+   34.4216
+  102.2386
+  102.9521
+         0
+  127.3391
+  134.4366
+    2.2236
+    2.9372
+  144.9411
+   27.3241
+   34.4216
+  102.2386
+  102.9521
+         0
+  127.3391
+  134.4366
+
+  Column 3
+
+   17.4489
+   28.7983
+         0
+    7.6203
+         0
+  107.2431
+  118.5925
+  170.5074
+   97.4145
+   86.9508
+   17.4489
+   28.7983
+         0
+    7.6203
+         0
+  107.2431
+  118.5925
+  170.5074
+   97.4145
+   86.9508
+
+[W H D] = nnmf(C,3)
+
+W =
+
+  Column 1
+
+  180.4518
+  167.8649
+   75.1574
+  164.8952
+  168.7295
+         0
+         0
+   30.7790
+         0
+         0
+  180.4518
+  167.8649
+   75.1574
+  164.8952
+  168.7295
+         0
+         0
+   30.7790
+         0
+         0
+
+  Column 2
+
+         0
+    0.7763
+  142.4686
+   24.7951
+   31.9065
+  103.3072
+  104.4052
+         0
+  128.4240
+  135.5353
+         0
+    0.7763
+  142.4686
+   24.7951
+   31.9065
+  103.3072
+  104.4052
+         0
+  128.4240
+  135.5353
+
+  Column 3
+
+   18.8957
+   30.7740
+         0
+    7.9304
+         0
+  102.9092
+  114.7875
+  173.5986
+   91.9439
+   80.7964
+   18.8957
+   30.7740
+         0
+    7.9304
+         0
+  102.9092
+  114.7875
+  173.5986
+   91.9439
+   80.7964
+
+
+H =
+
+  Column 1
+
+    0.4987
+         0
+    0.3661
+
+  Column 2
+
+    0.5157
+    0.2389
+         0
+
+  Column 3
+
+    0.0081
+    0.7249
+    0.0902
+
+  Column 4
+
+         0
+    0.2525
+    0.5653
+
+  Column 5
+
+         0
+    0.2402
+    0.5758
+
+  Column 6
+
+    0.3441
+    0.2264
+    0.1432
+
+  Column 7
+
+    0.3432
+    0.2496
+    0.1210
+
+  Column 8
+
+    0.3351
+    0.2762
+    0.1071
+
+  Column 9
+
+    0.3330
+    0.2311
+    0.1533
+
+  Column 10
+
+    0.1612
+    0.2295
+    0.3698
+
+
+D =
+
+    8.8715
+
+WH = W * H;
+plot(C,WH)
+plot
+{Error using <a href="matlab:helpUtils.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Not enough input
+arguments.
+} 
+figure
+subplot(1,2,1);
+imagesc(C)
+colorbar
+subplot(1,2,2);
+imagesc(WH)
+colorbar
+[W H D] = nnmf(C,3)
+
+W =
+
+  Column 1
+
+  178.8224
+  164.3768
+   98.9977
+  167.5262
+  173.4990
+         0
+         0
+   11.2799
+         0
+         0
+  178.8224
+  164.3768
+   98.9977
+  167.5262
+  173.4990
+         0
+         0
+   11.2799
+         0
+         0
+
+  Column 2
+
+         0
+         0
+  137.0656
+   20.4394
+   26.3273
+  118.1313
+  120.8187
+   18.6712
+  142.1181
+  148.0060
+         0
+         0
+  137.0656
+   20.4394
+   26.3273
+  118.1313
+  120.8187
+   18.6712
+  142.1181
+  148.0060
+
+  Column 3
+
+   22.6038
+   35.0404
+         0
+    9.1692
+         0
+   83.8898
+   96.3264
+  170.3422
+   70.4552
+   58.4536
+   22.6038
+   35.0404
+         0
+    9.1692
+         0
+   83.8898
+   96.3264
+  170.3422
+   70.4552
+   58.4536
+
+
+H =
+
+  Column 1
+
+    0.4781
+         0
+    0.4500
+
+  Column 2
+
+    0.5276
+    0.1616
+         0
+
+  Column 3
+
+    0.0267
+    0.7187
+    0.0098
+
+  Column 4
+
+         0
+    0.3244
+    0.5266
+
+  Column 5
+
+         0
+    0.3132
+    0.5395
+
+  Column 6
+
+    0.3462
+    0.2027
+    0.1629
+
+  Column 7
+
+    0.3464
+    0.2231
+    0.1372
+
+  Column 8
+
+    0.3398
+    0.2436
+    0.1247
+
+  Column 9
+
+    0.3361
+    0.2014
+    0.1820
+
+  Column 10
+
+    0.1552
+    0.2516
+    0.3673
+
+
+D =
+
+    9.1545
+
+[W H D] = nnmf(C,3,'alg','mult')
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\stats\stats\nnmf.m',291,1)">291 </a>        numer = w0'*a;
+if system_dependent('IsDebugMode')==1, dbcont; end
+
+W =
+
+  181.8570   17.6000    1.7311
+  171.2977   26.8895    3.1387
+   66.2452    0.0123  131.7292
+  164.9295    7.5236   25.9024
+  166.9432    0.7574   31.1983
+    3.3675  109.6429   90.8174
+    0.1144  117.6907   90.1715
+   52.3777  162.0754    0.1282
+    0.0119   97.3606  111.2104
+    0.0297   87.1288  119.4600
+  181.8727   17.6200    1.6890
+  171.4866   27.1068    2.6463
+   66.2451    0.0034  131.7349
+  164.9505    7.7324   25.7363
+  166.9716    1.2134   30.8722
+    3.3546  109.6432   90.8244
+    0.1071  117.6906   90.1759
+   52.3965  162.0936    0.0850
+    0.0090   97.3604  111.2124
+    0.0252   87.1287  119.4628
+
+
+H =
+
+  Columns 1 through 4
+
+    0.5009    0.5091    0.0013    0.0003
+    0.2165    0.0000    0.1099    0.6089
+    0.0000    0.2012    0.7245    0.2108
+
+  Columns 5 through 8
+
+    0.0004    0.3452    0.3442    0.3359
+    0.6197    0.1187    0.0963    0.0778
+    0.1983    0.2507    0.2753    0.3064
+
+  Columns 9 through 10
+
+    0.3350    0.1649
+    0.1224    0.3768
+    0.2609    0.2240
+
+
+D =
+
+    7.6121
+
+figure
+subplot(1,2,1);
+imagesc(C)
+colorbar
+subplot(1,2,2);
+imagesc(WH)
+colorbar
+[W H D] = nnmf(C,3,'alg','mult')
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\stats\stats\nnmf.m',291,1)">291 </a>        numer = w0'*a;
+if system_dependent('IsDebugMode')==1, dbquit; end
+[W H D] = nnmf(C,3,'alg','mult')
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\stats\stats\nnmf.m',108,1)">108 </a>alg = internal.stats.getParamVal(alg,{'mult' 'als'},'ALGORITHM');
+dbstep in
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\stats\stats\+internal\+stats\getParamVal.m',21,1)">21  </a>if nargin<4
+dbstep in
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\stats\stats\+internal\+stats\getParamVal.m',22,1)">22  </a>    multok = false;
+dbstep in
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\stats\stats\+internal\+stats\getParamVal.m',23,1)">23  </a>end
+dbstep in
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\stats\stats\+internal\+stats\getParamVal.m',25,1)">25  </a>[selected,locs] = statslib.internal.getParamVal(inputs,kwds,argname,multok);
+dbstep in
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\shared\statslib\+statslib\+internal\getParamVal.m',22,1)">22  </a>if nargin<4
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+edit eye
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+[W H D] = nnmf(C,3,'alg','mult')
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\stats\stats\nnmf.m',146,1)">146 </a>if usePool
+dbstep in
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\stats\stats\nnmf.m',150,1)">150 </a>else
+dbstep in
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\stats\stats\nnmf.m',152,1)">152 </a>    ws = warning('off','MATLAB:rankDeficientMatrix');
+dbstep in
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\stats\stats\nnmf.m',153,1)">153 </a>end
+dbstep in
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\stats\stats\nnmf.m',156,1)">156 </a>if dispnum > 1 % 'iter' or 'final'
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+edit eps
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbquit; end

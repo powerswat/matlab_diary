@@ -1,0 +1,127 @@
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',40,1)">40  </a>            if (~isempty(find([Kmeans == KmeansNew] ==0, 1 )))
+Kmeans == KmeansNew
+
+ans =
+
+     0     0     0     0     0
+
+Kmeans
+
+Kmeans =
+
+    0.9340    0.6787    0.9058    0.9595    0.0344
+
+KmeansNew
+
+KmeansNew =
+
+    0.9316    0.6109    0.8512    0.9599    0.1768
+
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',40,1)">40  </a>            if (~isempty(find([Kmeans == KmeansNew] ==0, 1 )))
+Kmeans == KmeansNew
+
+ans =
+
+     0     0     0     1     0
+
+Kmeans
+
+Kmeans =
+
+    0.9316    0.6109    0.8512    0.9599    0.1768
+
+KmeansNew
+
+KmeansNew =
+
+    0.9196    0.5894    0.7995    0.9599    0.1924
+
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',40,1)">40  </a>            if (~isempty(find([Kmeans == KmeansNew] ==0, 1 )))
+Kmeans == KmeansNew
+
+ans =
+
+     0     0     0     1     0
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',42,1)">42  </a>            if (~isempty(find([Kmeans == KmeansNew] ==0, 1 )))
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',47,1)">47  </a>        kvars = zeros(1,b);
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',47,1)">47  </a>        kvars = zeros(1,b);
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',53,1)">53  </a>        kvars(kvars == 0) = mean(kvars(kvars ~=0));
+kvars
+
+kvars =
+
+    0.0032    0.0040    0.0034    0.0031    0.0009
+
+kvars ~=0
+{Error: "kvars" was previously used as a variable, conflicting with its use
+here as the name of a function or command.
+See <a href="matlab: helpview([docroot '/techdoc/matlab_prog/matlab_prog.map'],'function_call_command_syntax')">"How MATLAB Recognizes Command Syntax" in the MATLAB documentation</a> for
+details.
+} 
+kvars(kvars ~=0)
+
+ans =
+
+    0.0032    0.0040    0.0034    0.0031    0.0009
+
+kvar(4) = 0
+
+kvar =
+
+     0     0     0     0
+
+kvars(kvars ~=0)
+
+ans =
+
+    0.0032    0.0040    0.0034    0.0031    0.0009
+
+kvars(4) = 0
+
+kvars =
+
+    0.0032    0.0040    0.0034         0    0.0009
+
+kvars(kvars ~=0)
+
+ans =
+
+    0.0032    0.0040    0.0034    0.0009
+
+mean(kvars(kvars ~=0))
+
+ans =
+
+    0.0029
+
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',54,1)">54  </a>        outWeights = -1 + 2*rand(b+1,1);
+kvars
+
+kvars =
+
+    0.0032    0.0040    0.0034    0.0029    0.0009
+
+if system_dependent('IsDebugMode')==1, dbquit; end

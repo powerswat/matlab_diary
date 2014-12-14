@@ -1,0 +1,476 @@
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\reverberated_cg03\devel', 'C:\Temp\explains\inputs\isolated_cg03_amr\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+..{Error using <a href="matlab:helpUtils.errorDocCallback('buildClsDataset', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m', 51)" style="font-weight:bold">buildClsDataset</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',51,0)">line 51</a>)
+Assertion failed.
+} 
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\reverberated_cg03\devel', 'C:\Temp\explains\inputs\isolated_cg03_amr\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',51,1)">51  </a>    assert(all(size(cc{i}) == size(nc{i})))
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+.if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+nc{2}(120:end, :)
+
+ans =
+
+  Columns 1 through 7
+
+   17.4403   17.4403   22.8025   27.9642   30.2856   28.8207   25.6218
+   23.7571   23.7571   32.4139   35.0209   33.8834   32.7658   29.4652
+   24.9722   24.9722   32.5957   36.3258   37.1579   34.2059   30.4664
+
+  Columns 8 through 14
+
+   22.4179   22.0497   24.1246   21.0395   20.7064   24.1053   26.5763
+   26.0362   25.2021   26.7684   25.0202   23.6983   26.5470   31.4335
+   29.1052   28.8210   28.3861   34.5488   35.5278   32.3896   36.5431
+
+  Columns 15 through 21
+
+   26.2771   19.6912   17.4437    9.6622      -Inf      -Inf      -Inf
+   29.5797   24.9263   20.9275   15.4820      -Inf      -Inf      -Inf
+   31.9501   28.8133   24.9380   17.6051      -Inf      -Inf      -Inf
+
+  Columns 22 through 28
+
+      -Inf   23.7571   23.7571   32.4139   35.0209   33.8834   32.7658
+      -Inf   24.9722   24.9722   32.5957   36.3258   37.1579   34.2059
+      -Inf   23.3192   23.3192   33.2687   37.6631   35.6228   32.8129
+
+  Columns 29 through 35
+
+   29.4652   26.0362   25.2021   26.7684   25.0202   23.6983   26.5470
+   30.4664   29.1052   28.8210   28.3861   34.5488   35.5278   32.3896
+   28.0727   25.7455   25.3000   27.0172   30.6429   37.3843   34.2341
+
+  Columns 36 through 42
+
+   31.4335   29.5797   24.9263   20.9275   15.4820      -Inf      -Inf
+   36.5431   31.9501   28.8133   24.9380   17.6051      -Inf      -Inf
+   38.9847   35.2154   28.2839   27.2420   21.1579      -Inf      -Inf
+
+  Columns 43 through 49
+
+      -Inf      -Inf   24.9722   24.9722   32.5957   36.3258   37.1579
+      -Inf      -Inf   23.3192   23.3192   33.2687   37.6631   35.6228
+      -Inf      -Inf   23.0746   23.0746   31.7159   37.7214   35.5777
+
+  Columns 50 through 56
+
+   34.2059   30.4664   29.1052   28.8210   28.3861   34.5488   35.5278
+   32.8129   28.0727   25.7455   25.3000   27.0172   30.6429   37.3843
+   30.9311   28.1025   24.2178   22.9054   24.8066   30.6367   35.4055
+
+  Columns 57 through 63
+
+   32.3896   36.5431   31.9501   28.8133   24.9380   17.6051      -Inf
+   34.2341   38.9847   35.2154   28.2839   27.2420   21.1579      -Inf
+   35.4547   36.5709   32.6225   28.1441   26.5988   13.4136      -Inf
+
+  Columns 64 through 70
+
+      -Inf      -Inf      -Inf   23.3192   23.3192   33.2687   37.6631
+      -Inf      -Inf      -Inf   23.0746   23.0746   31.7159   37.7214
+      -Inf      -Inf      -Inf   24.3955   24.3955   33.7261   36.5573
+
+  Columns 71 through 77
+
+   35.6228   32.8129   28.0727   25.7455   25.3000   27.0172   30.6429
+   35.5777   30.9311   28.1025   24.2178   22.9054   24.8066   30.6367
+   35.2115   28.9750   23.1141   24.7475   22.5850   23.2824   33.0572
+
+  Columns 78 through 84
+
+   37.3843   34.2341   38.9847   35.2154   28.2839   27.2420   21.1579
+   35.4055   35.4547   36.5709   32.6225   28.1441   26.5988   13.4136
+   35.3095   34.0414   34.8882   33.3489   29.4879   28.2229   18.7643
+
+  Columns 85 through 91
+
+      -Inf      -Inf      -Inf      -Inf   23.0746   23.0746   31.7159
+      -Inf      -Inf      -Inf      -Inf   24.3955   24.3955   33.7261
+      -Inf      -Inf      -Inf      -Inf   23.8128   23.8128   32.4506
+
+  Columns 92 through 98
+
+   37.7214   35.5777   30.9311   28.1025   24.2178   22.9054   24.8066
+   36.5573   35.2115   28.9750   23.1141   24.7475   22.5850   23.2824
+   36.0616   33.1038   26.0427   23.1395   21.9421   23.2806   24.1336
+
+  Columns 99 through 105
+
+   30.6367   35.4055   35.4547   36.5709   32.6225   28.1441   26.5988
+   33.0572   35.3095   34.0414   34.8882   33.3489   29.4879   28.2229
+   29.2482   32.5829   35.0690   33.7274   32.3743   27.7791   26.4693
+
+  Columns 106 through 112
+
+   13.4136      -Inf      -Inf      -Inf      -Inf   24.3955   24.3955
+   18.7643      -Inf      -Inf      -Inf      -Inf   23.8128   23.8128
+   20.6852      -Inf      -Inf      -Inf      -Inf   25.6671   25.6671
+
+  Columns 113 through 119
+
+   33.7261   36.5573   35.2115   28.9750   23.1141   24.7475   22.5850
+   32.4506   36.0616   33.1038   26.0427   23.1395   21.9421   23.2806
+   34.2048   37.5284   33.1790   29.7818   25.6160   23.2011   19.4993
+
+  Columns 120 through 126
+
+   23.2824   33.0572   35.3095   34.0414   34.8882   33.3489   29.4879
+   24.1336   29.2482   32.5829   35.0690   33.7274   32.3743   27.7791
+   20.2090   24.5914   31.2462   35.4762   33.5909   30.4733   26.1613
+
+  Columns 127 through 133
+
+   28.2229   18.7643      -Inf      -Inf      -Inf      -Inf   23.8128
+   26.4693   20.6852      -Inf      -Inf      -Inf      -Inf   25.6671
+   25.2257   18.8262      -Inf      -Inf      -Inf      -Inf   26.8549
+
+  Columns 134 through 140
+
+   23.8128   32.4506   36.0616   33.1038   26.0427   23.1395   21.9421
+   25.6671   34.2048   37.5284   33.1790   29.7818   25.6160   23.2011
+   26.8549   35.3121   38.0577   33.5956   27.7478   21.7423   20.2990
+
+  Columns 141 through 147
+
+   23.2806   24.1336   29.2482   32.5829   35.0690   33.7274   32.3743
+   19.4993   20.2090   24.5914   31.2462   35.4762   33.5909   30.4733
+   20.4406   20.6919   24.6063   29.9205   33.1224   31.5256   29.3930
+
+  Columns 148 through 154
+
+   27.7791   26.4693   20.6852      -Inf      -Inf      -Inf      -Inf
+   26.1613   25.2257   18.8262      -Inf      -Inf      -Inf      -Inf
+   26.5485   23.5238   14.3887      -Inf      -Inf      -Inf      -Inf
+
+  Columns 155 through 161
+
+   25.6671   25.6671   34.2048   37.5284   33.1790   29.7818   25.6160
+   26.8549   26.8549   35.3121   38.0577   33.5956   27.7478   21.7423
+   27.0696   27.0696   35.6837   35.1096   30.5393   25.9436   21.0661
+
+  Columns 162 through 168
+
+   23.2011   19.4993   20.2090   24.5914   31.2462   35.4762   33.5909
+   20.2990   20.4406   20.6919   24.6063   29.9205   33.1224   31.5256
+   17.5016   14.9662   18.4097   21.0781   29.7571   31.9581   31.7295
+
+  Columns 169 through 175
+
+   30.4733   26.1613   25.2257   18.8262      -Inf      -Inf      -Inf
+   29.3930   26.5485   23.5238   14.3887      -Inf      -Inf      -Inf
+   27.7483   23.6779   22.8655   11.0355      -Inf      -Inf      -Inf
+
+  Columns 176 through 182
+
+      -Inf   26.8549   26.8549   35.3121   38.0577   33.5956   27.7478
+      -Inf   27.0696   27.0696   35.6837   35.1096   30.5393   25.9436
+      -Inf   24.0594   24.0594   32.6264   28.9656   24.9211   23.2750
+
+  Columns 183 through 189
+
+   21.7423   20.2990   20.4406   20.6919   24.6063   29.9205   33.1224
+   21.0661   17.5016   14.9662   18.4097   21.0781   29.7571   31.9581
+   20.9477   17.6098   14.7311   14.2940   18.1686   26.4653   30.1518
+
+  Columns 190 through 196
+
+   31.5256   29.3930   26.5485   23.5238   14.3887      -Inf      -Inf
+   31.7295   27.7483   23.6779   22.8655   11.0355      -Inf      -Inf
+   31.7902   28.4238   21.5419   19.5172   12.0903      -Inf      -Inf
+
+  Columns 197 through 203
+
+      -Inf      -Inf   27.0696   27.0696   35.6837   35.1096   30.5393
+      -Inf      -Inf   24.0594   24.0594   32.6264   28.9656   24.9211
+      -Inf      -Inf   23.2103   23.2103   31.3448   33.2508   30.2421
+
+  Columns 204 through 210
+
+   25.9436   21.0661   17.5016   14.9662   18.4097   21.0781   29.7571
+   23.2750   20.9477   17.6098   14.7311   14.2940   18.1686   26.4653
+   23.7304   21.3167   18.4037   17.3718   13.2118   15.5090   22.1847
+
+  Columns 211 through 217
+
+   31.9581   31.7295   27.7483   23.6779   22.8655   11.0355      -Inf
+   30.1518   31.7902   28.4238   21.5419   19.5172   12.0903      -Inf
+   31.2837   30.1784   24.3812   19.6770   16.7334   10.4037      -Inf
+
+  Columns 218 through 224
+
+      -Inf      -Inf      -Inf   24.0594   24.0594   32.6264   28.9656
+      -Inf      -Inf      -Inf   23.2103   23.2103   31.3448   33.2508
+      -Inf      -Inf      -Inf   24.3078   24.3078   30.6663   32.3188
+
+  Columns 225 through 231
+
+   24.9211   23.2750   20.9477   17.6098   14.7311   14.2940   18.1686
+   30.2421   23.7304   21.3167   18.4037   17.3718   13.2118   15.5090
+   28.3313   24.2466   19.3352   16.9412   13.5845   12.3402   14.4276
+
+  Columns 232 through 238
+
+   26.4653   30.1518   31.7902   28.4238   21.5419   19.5172   12.0903
+   22.1847   31.2837   30.1784   24.3812   19.6770   16.7334   10.4037
+   19.1563   28.7288   27.7717   22.0084   17.4369   16.3426    4.0982
+
+  Columns 239 through 245
+
+      -Inf      -Inf      -Inf      -Inf   23.2103   23.2103   31.3448
+      -Inf      -Inf      -Inf      -Inf   24.3078   24.3078   30.6663
+      -Inf      -Inf      -Inf      -Inf   24.4912   24.4912   32.1322
+
+  Columns 246 through 252
+
+   33.2508   30.2421   23.7304   21.3167   18.4037   17.3718   13.2118
+   32.3188   28.3313   24.2466   19.3352   16.9412   13.5845   12.3402
+   27.9788   24.5677   23.2185   18.5686   13.3500   14.8347   14.0000
+
+  Columns 253 through 259
+
+   15.5090   22.1847   31.2837   30.1784   24.3812   19.6770   16.7334
+   14.4276   19.1563   28.7288   27.7717   22.0084   17.4369   16.3426
+   15.5852   18.7645   26.4374   24.3387   23.5123   17.8068   13.9147
+
+  Columns 260 through 266
+
+   10.4037      -Inf      -Inf      -Inf      -Inf   24.3078   24.3078
+    4.0982      -Inf      -Inf      -Inf      -Inf   24.4912   24.4912
+    6.6504      -Inf      -Inf      -Inf      -Inf   23.8307   23.8307
+
+  Columns 267 through 273
+
+   30.6663   32.3188   28.3313   24.2466   19.3352   16.9412   13.5845
+   32.1322   27.9788   24.5677   23.2185   18.5686   13.3500   14.8347
+   29.7327   28.7214   26.3109   21.3216   18.6589   11.9526   10.7442
+
+  Columns 274 through 280
+
+   12.3402   14.4276   19.1563   28.7288   27.7717   22.0084   17.4369
+   14.0000   15.5852   18.7645   26.4374   24.3387   23.5123   17.8068
+   12.9476   13.6465   22.2617   25.8144   24.3183   22.2564   15.6462
+
+  Columns 281 through 287
+
+   16.3426    4.0982      -Inf      -Inf      -Inf      -Inf   24.4912
+   13.9147    6.6504      -Inf      -Inf      -Inf      -Inf   23.8307
+   11.4299    1.9930      -Inf      -Inf      -Inf      -Inf   23.0273
+
+  Columns 288 through 294
+
+   24.4912   32.1322   27.9788   24.5677   23.2185   18.5686   13.3500
+   23.8307   29.7327   28.7214   26.3109   21.3216   18.6589   11.9526
+   23.0273   30.8552   32.4018   25.4555   20.5205   20.5049   14.9964
+
+  Columns 295 through 301
+
+   14.8347   14.0000   15.5852   18.7645   26.4374   24.3387   23.5123
+   10.7442   12.9476   13.6465   22.2617   25.8144   24.3183   22.2564
+   10.7792   12.1856   19.6854   22.7425   23.0071   24.9180   22.4896
+
+  Columns 302 through 308
+
+   17.8068   13.9147    6.6504      -Inf      -Inf      -Inf      -Inf
+   15.6462   11.4299    1.9930      -Inf      -Inf      -Inf      -Inf
+   14.6307   12.3879    6.0275      -Inf      -Inf      -Inf      -Inf
+
+  Columns 309 through 315
+
+   23.8307   23.8307   29.7327   28.7214   26.3109   21.3216   18.6589
+   23.0273   23.0273   30.8552   32.4018   25.4555   20.5205   20.5049
+   21.1027   21.1027   29.2422   31.6259   23.0660   16.7655   14.1291
+
+  Columns 316 through 322
+
+   11.9526   10.7442   12.9476   13.6465   22.2617   25.8144   24.3183
+   14.9964   10.7792   12.1856   19.6854   22.7425   23.0071   24.9180
+   13.2476   12.7711   14.4807   20.2460   27.4711   24.5011   28.6048
+
+  Columns 323 through 329
+
+   22.2564   15.6462   11.4299    1.9930      -Inf      -Inf      -Inf
+   22.4896   14.6307   12.3879    6.0275      -Inf      -Inf      -Inf
+   25.8712   19.4095   16.5082    7.5544      -Inf      -Inf      -Inf
+
+  Columns 330 through 336
+
+      -Inf   23.0273   23.0273   30.8552   32.4018   25.4555   20.5205
+      -Inf   21.1027   21.1027   29.2422   31.6259   23.0660   16.7655
+      -Inf   18.6064   18.6064   27.5838   29.6668   19.0248   15.0153
+
+  Columns 337 through 343
+
+   20.5049   14.9964   10.7792   12.1856   19.6854   22.7425   23.0071
+   14.1291   13.2476   12.7711   14.4807   20.2460   27.4711   24.5011
+   15.6189   13.5623   16.7669   17.2122   24.6048   27.6606   23.1104
+
+  Columns 344 through 350
+
+   24.9180   22.4896   14.6307   12.3879    6.0275      -Inf      -Inf
+   28.6048   25.8712   19.4095   16.5082    7.5544      -Inf      -Inf
+   27.6757   24.9893   25.1608   20.0489    9.3957      -Inf      -Inf
+
+  Columns 351 through 357
+
+      -Inf      -Inf   21.1027   21.1027   29.2422   31.6259   23.0660
+      -Inf      -Inf   18.6064   18.6064   27.5838   29.6668   19.0248
+      -Inf      -Inf   17.5553   17.5553   26.7842   24.3339   20.3231
+
+  Columns 358 through 364
+
+   16.7655   14.1291   13.2476   12.7711   14.4807   20.2460   27.4711
+   15.0153   15.6189   13.5623   16.7669   17.2122   24.6048   27.6606
+   19.6432   16.0690   15.0157   12.8826   15.9764   21.4770   22.9395
+
+  Columns 365 through 371
+
+   24.5011   28.6048   25.8712   19.4095   16.5082    7.5544      -Inf
+   23.1104   27.6757   24.9893   25.1608   20.0489    9.3957      -Inf
+   21.1108   26.7666   23.8142   21.7740   19.1443   10.0978      -Inf
+
+  Columns 372 through 378
+
+      -Inf      -Inf      -Inf   18.6064   18.6064   27.5838   29.6668
+      -Inf      -Inf      -Inf   17.5553   17.5553   26.7842   24.3339
+      -Inf      -Inf      -Inf   17.1370   17.1370   25.4236   25.6587
+
+  Columns 379 through 385
+
+   19.0248   15.0153   15.6189   13.5623   16.7669   17.2122   24.6048
+   20.3231   19.6432   16.0690   15.0157   12.8826   15.9764   21.4770
+   18.9082   17.5622   17.7428   16.3386   13.3996   15.9896   20.1000
+
+  Columns 386 through 392
+
+   27.6606   23.1104   27.6757   24.9893   25.1608   20.0489    9.3957
+   22.9395   21.1108   26.7666   23.8142   21.7740   19.1443   10.0978
+   22.4768   21.6233   26.1982   23.9277   19.9162   17.8803    9.3324
+
+  Columns 393 through 399
+
+      -Inf      -Inf      -Inf      -Inf   17.5553   17.5553   26.7842
+      -Inf      -Inf      -Inf      -Inf   17.1370   17.1370   25.4236
+      -Inf      -Inf      -Inf      -Inf   14.1671   14.1671   21.8504
+
+  Columns 400 through 406
+
+   24.3339   20.3231   19.6432   16.0690   15.0157   12.8826   15.9764
+   25.6587   18.9082   17.5622   17.7428   16.3386   13.3996   15.9896
+   22.5007   21.3676   14.5834   15.3834   16.4553   14.7031   15.6736
+
+  Columns 407 through 413
+
+   21.4770   22.9395   21.1108   26.7666   23.8142   21.7740   19.1443
+   20.1000   22.4768   21.6233   26.1982   23.9277   19.9162   17.8803
+   20.1031   21.5837   20.0825   26.1598   23.3890   20.5151   17.2959
+
+  Columns 414 through 418
+
+   10.0978      -Inf      -Inf      -Inf      -Inf
+    9.3324      -Inf      -Inf      -Inf      -Inf
+   10.9859      -Inf      -Inf      -Inf      -Inf
+
+imagsc(ans)
+{Undefined function 'imagsc' for input arguments of type 'double'.
+} 
+imagesc(ans)
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\reverberated_cg03\devel', 'C:\Temp\explains\inputs\isolated_cg03_amr\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\loadMelChunksFromWav.m',8,1)">8   </a>wintime = 0.032;
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+.if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\reverberated_cg03\devel', 'C:\Temp\explains\inputs\isolated_cg03_amr\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\loadMelChunksFromWav.m',8,1)">8   </a>wintime = 0.032;
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+.if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\reverberated_cg03\devel', 'C:\Temp\explains\inputs\isolated_cg03_amr\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',49,1)">49  </a>    [cc{i},~,~,fs,hop,win] = loadChunkFn(cfi, framesPerChunk);
+dbcont
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\loadMelChunksFromWav.m',6,1)">6   </a>x = mean(x, 2);
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+.if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\reverberated_cg03\devel', 'C:\Temp\explains\inputs\isolated_cg03_amr\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',49,1)">49  </a>    [cc{i},~,~,fs,hop,win] = loadChunkFn(cfi, framesPerChunk);
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+17760*2
+
+ans =
+
+       35520
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+.if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+18080*2
+
+ans =
+
+       36160
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Error using <a href="matlab:helpUtils.errorDocCallback('buildClsDataset', 'C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m', 51)" style="font-weight:bold">buildClsDataset</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',51,0)">line 51</a>)
+Assertion failed.
+} 
+buildClsDataset('C:\Temp\datasets\clsDevelMimMel_cg03real_mfpc19_AMR_20000.mat', 2000, 10000000, 19, 22, @loadMelChunksFromWav, 'C:\Temp\explains\inputs\reverberated_cg03\devel', 'C:\Temp\explains\inputs\isolated_cg03_amr\devel')
+Found 144 files
+Found 144 files
+Kept all 144 files
+.<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\concatResyn\buildClsDataset.m',49,1)">49  </a>    [cc{i},~,~,fs,hop,win] = loadChunkFn(cfi, framesPerChunk);
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end

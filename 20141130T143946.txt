@@ -1,0 +1,3 @@
+demo2
+nmf_kl: final_err=654.4976
+nmf_alg: final err=654.4976

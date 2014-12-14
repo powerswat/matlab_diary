@@ -1,0 +1,3 @@
+edit testOn
+edit testONSomeFiles.m
+uiopen('C:\Users\cho64_000\Documents\MATLAB\concatResyn\mmd_dnn_train_paired.m',1)

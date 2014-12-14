@@ -1,0 +1,7 @@
+ECE_779_HW_2
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',133,1)">133 </a>        for i = 1:100 % Train for 100 epochs
+if system_dependent('IsDebugMode')==1, dbquit; end
+ECE_779_HW_2
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',129,1)">129 </a>        dmax = ordered(end) - ordered(1);
+if system_dependent('IsDebugMode')==1, dbquit; end

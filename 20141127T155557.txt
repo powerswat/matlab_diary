@@ -1,0 +1,266 @@
+example_usage_multinmf_inst_em
+Input time-frequency representation
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',53,1)">53  </a>X=stft_multi(x,stft_win_len);
+p = audioplayer(x, 16000);
+play(p)
+play(p)
+dbcont
+Random initialization of multichannel NMF parameters
+EM iteration 1 of 500
+   E-step
+Log-likelihood: 11.637557
+   M-step
+EM iteration 2 of 500
+   E-step
+Log-likelihood: 12.288238   Log-likelihood improvement: 0.650681
+   M-step
+EM iteration 3 of 500
+   E-step
+Log-likelihood: 12.886369   Log-likelihood improvement: 0.598131
+   M-step
+EM iteration 4 of 500
+   E-step
+Log-likelihood: 13.452629   Log-likelihood improvement: 0.566260
+   M-step
+EM iteration 5 of 500
+   E-step
+Log-likelihood: 13.994057   Log-likelihood improvement: 0.541429
+   M-step
+EM iteration 6 of 500
+   E-step
+Log-likelihood: 14.512714   Log-likelihood improvement: 0.518656
+   M-step
+EM iteration 7 of 500
+   E-step
+Log-likelihood: 15.008429   Log-likelihood improvement: 0.495716
+{Operation terminated by user during
+<a href="matlab:helpUtils.errorDocCallback('squeeze', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\elmat\squeeze.m', 22)" style="font-weight:bold">squeeze</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\elmat\squeeze.m',22,0)">line 22</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('multinmf_inst_em', 'C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\multinmf_inst_em.m', 212)" style="font-weight:bold">multinmf_inst_em</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\multinmf_inst_em.m',212,0)">line 212</a>)
+        bar_Rss(f,:,:) =
+        (squeeze(bar_Rss(f,:,:)) +
+        squeeze(bar_Rss(f,:,:))') / 2;
+
+In <a href="matlab:helpUtils.errorDocCallback('example_usage_multinmf_inst_em', 'C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m', 74)" style="font-weight:bold">example_usage_multinmf_inst_em</a> (<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',74,0)">line
+74</a>)
+[W_EM, H_EM, Ae_EM, Sigma_b_EM, Se_EM,
+log_like_arr] = ...
+} 
+example_usage_multinmf_inst_em
+Input time-frequency representation
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',53,1)">53  </a>X=stft_multi(x,stft_win_len);
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',55,1)">55  </a>nbin = size(X,1);
+imagesc(X)
+{Error using <a href="matlab:helpUtils.errorDocCallback('image')" style="font-weight:bold">image</a>
+Indexed CData must be size [MxN],
+TrueColor CData must be size [MxNx3]
+
+Error in <a href="matlab:helpUtils.errorDocCallback('imagesc', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\imagesc.m', 18)" style="font-weight:bold">imagesc</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\imagesc.m',18,0)">line 18</a>)
+    hh =
+    image(varargin{1},'CDataMapping','scaled');} 
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+A = full(X);
+imagesc(A)
+{Error using <a href="matlab:helpUtils.errorDocCallback('image')" style="font-weight:bold">image</a>
+Indexed CData must be size [MxN],
+TrueColor CData must be size [MxNx3]
+
+Error in <a href="matlab:helpUtils.errorDocCallback('imagesc', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\imagesc.m', 18)" style="font-weight:bold">imagesc</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\specgraph\imagesc.m',18,0)">line 18</a>)
+    hh =
+    image(varargin{1},'CDataMapping','scaled');} 
+if system_dependent('IsDebugMode')==1, dbstep; end
+Random initialization of multichannel NMF parameters
+plot(X)
+{Error using <a href="matlab:helpUtils.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Data may not have more than 2 dimensions
+} 
+surf(X)
+{Error using <a href="matlab:helpUtils.errorDocCallback('surf', 'C:\Program Files\MATLAB\R2014a\toolbox\matlab\graph3d\surf.m', 78)" style="font-weight:bold">surf</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2014a\toolbox\matlab\graph3d\surf.m',78,0)">line 78</a>)
+X, Y, Z, and C cannot be complex
+} 
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',61,1)">61  </a>source_NMF_ind = cell(1,nsrc);
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',62,1)">62  </a>for j = 1:nsrc
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',63,1)">63  </a>    source_NMF_ind{j} = [1:NMF_CompPerSrcNum] + (j-1)*NMF_CompPerSrcNum;
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',64,1)">64  </a>end;
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',63,1)">63  </a>    source_NMF_ind{j} = [1:NMF_CompPerSrcNum] + (j-1)*NMF_CompPerSrcNum;
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',64,1)">64  </a>end;
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',63,1)">63  </a>    source_NMF_ind{j} = [1:NMF_CompPerSrcNum] + (j-1)*NMF_CompPerSrcNum;
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',64,1)">64  </a>end;
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',65,1)">65  </a>mix_psd = 0.5 * (mean(abs(X(:,:,1)).^2 + abs(X(:,:,2)).^2, 2));
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',66,1)">66  </a>A_init = 0.5 * (1.9 * abs(randn(2, nsrc)) + 0.1 * ones(2, nsrc));
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',68,1)">68  </a>W_init = 0.5 * (abs(randn(nbin,K)) + ones(nbin,K)) .* (mix_psd * ones(1,K));
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',69,1)">69  </a>H_init = 0.5 * (abs(randn(K,nfram)) + ones(K,nfram));
+dbstep
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',70,1)">70  </a>Sigma_b_init = mix_psd / 100;
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+nargin
+
+ans =
+
+     7
+
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\multinmf_inst_em.m',60,1)">60  </a>if nargin < 8 || isempty(SimAnneal_flag)
+dbstep in
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\multinmf_inst_em.m',61,1)">61  </a>    SimAnneal_flag = 1;
+SimAnne
+{Undefined function or variable 'SimAnne'.
+} 
+SimAnneal_flag
+{Not enough input arguments.
+} 
+iter_num
+
+iter_num =
+
+   500
+
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+EM iteration 1 of 500
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+   E-step
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+edit nnmf.m
+example_usage_multinmf_inst_em
+Input time-frequency representation
+<a href="matlab: opentoline('C:\Users\cho64_000\Documents\MATLAB\multi_nmf_toolbox\example_usage_multinmf_inst_em.m',53,1)">53  </a>X=stft_multi(x,stft_win_len);
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+Random initialization of multichannel NMF parameters
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+EM iteration 1 of 500
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+   E-step
+0+1
+
+ans =
+
+     1
+
+if system_dependent('IsDebugMode')==1, dbstep in; end

@@ -1,0 +1,3 @@
+uiopen('C:\Users\cho64_000\Documents\GitHub\libsvm\matlab\make.m',1)
+make
+If make.m fails, please check README about detailed instructions.

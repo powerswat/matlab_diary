@@ -1,0 +1,225 @@
+K = [9 1 1 1; 1 9 1 1; 1 1 9 1; 1 1 1 9]
+
+K =
+
+     9     1     1     1
+     1     9     1     1
+     1     1     9     1
+     1     1     1     9
+
+K_1 = inv(K)
+
+K_1 =
+
+    0.1146   -0.0104   -0.0104   -0.0104
+   -0.0104    0.1146   -0.0104   -0.0104
+   -0.0104   -0.0104    0.1146   -0.0104
+   -0.0104   -0.0104   -0.0104    0.1146
+
+K = [9 -1 -1 1; -1 9 1 -1; -1 1 9 -1; 1 -1 -1 9]
+
+K =
+
+     9    -1    -1     1
+    -1     9     1    -1
+    -1     1     9    -1
+     1    -1    -1     9
+
+K_1 = inv(K)
+
+K_1 =
+
+    0.1146    0.0104    0.0104   -0.0104
+    0.0104    0.1146   -0.0104    0.0104
+    0.0104   -0.0104    0.1146    0.0104
+   -0.0104    0.0104    0.0104    0.1146
+
+K * [1;1;1;1]
+
+ans =
+
+     8
+     8
+     8
+     8
+
+K_1 * [1;1;1;1]
+
+ans =
+
+    0.1250
+    0.1250
+    0.1250
+    0.1250
+
+edit make
+edit README
+svm-train svmguide1
+ svm-train svmguide1
+           |
+{Error: Unexpected MATLAB
+expression.
+} 
+[heart_scale_label, heart_scale_inst] = libsvmread('../heart_scale');
+model = svmtrain(heart_scale_label, heart_scale_inst, '-c 1 -g 0.07');
+*
+optimization finished, #iter = 134
+nu = 0.433785
+obj = -101.855060, rho = 0.426412
+nSV = 130, nBSV = 107
+Total nSV = 130
+[predict_label, accuracy, dec_values] = svmpredict(heart_scale_label, heart_scale_inst, model);
+Accuracy = 86.6667% (234/270) (classification)
+imagesc(heart_scale_inst);
+imagesc(heart_scale_label);
+imagesc(heart_scale_inst);
+colormap
+
+ans =
+
+         0         0    0.5625
+         0         0    0.6250
+         0         0    0.6875
+         0         0    0.7500
+         0         0    0.8125
+         0         0    0.8750
+         0         0    0.9375
+         0         0    1.0000
+         0    0.0625    1.0000
+         0    0.1250    1.0000
+         0    0.1875    1.0000
+         0    0.2500    1.0000
+         0    0.3125    1.0000
+         0    0.3750    1.0000
+         0    0.4375    1.0000
+         0    0.5000    1.0000
+         0    0.5625    1.0000
+         0    0.6250    1.0000
+         0    0.6875    1.0000
+         0    0.7500    1.0000
+         0    0.8125    1.0000
+         0    0.8750    1.0000
+         0    0.9375    1.0000
+         0    1.0000    1.0000
+    0.0625    1.0000    0.9375
+    0.1250    1.0000    0.8750
+    0.1875    1.0000    0.8125
+    0.2500    1.0000    0.7500
+    0.3125    1.0000    0.6875
+    0.3750    1.0000    0.6250
+    0.4375    1.0000    0.5625
+    0.5000    1.0000    0.5000
+    0.5625    1.0000    0.4375
+    0.6250    1.0000    0.3750
+    0.6875    1.0000    0.3125
+    0.7500    1.0000    0.2500
+    0.8125    1.0000    0.1875
+    0.8750    1.0000    0.1250
+    0.9375    1.0000    0.0625
+    1.0000    1.0000         0
+    1.0000    0.9375         0
+    1.0000    0.8750         0
+    1.0000    0.8125         0
+    1.0000    0.7500         0
+    1.0000    0.6875         0
+    1.0000    0.6250         0
+    1.0000    0.5625         0
+    1.0000    0.5000         0
+    1.0000    0.4375         0
+    1.0000    0.3750         0
+    1.0000    0.3125         0
+    1.0000    0.2500         0
+    1.0000    0.1875         0
+    1.0000    0.1250         0
+    1.0000    0.0625         0
+    1.0000         0         0
+    0.9375         0         0
+    0.8750         0         0
+    0.8125         0         0
+    0.7500         0         0
+    0.6875         0         0
+    0.6250         0         0
+    0.5625         0         0
+    0.5000         0         0
+
+colorbar
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\proj3_test.lsv',1)
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\proj3_train.lsv',1)
+subplot(1,2,1)
+imagesc(heart_scale_inst);
+colorbar
+subplot(1,2,2)
+imagesc(heart_scale_label);
+colorbar
+subplot(1,2,1)
+uiopen('C:\Users\cho64_000\Documents\MATLAB\libsvm\heart_scale',1)
+[train_d, train_x] = libsvmread('proj3_train.lsv');
+[test_d, test_x] = libsvmread('proj3_test.lsv');
+edit svmtrain.m
+edit svmtrain.c
+subplot(1,2,1)
+imagesc(train_x)
+colorbar
+subplot(1,2,2)
+imagesc(train_d)
+colorbar
+subplot(1,2,1)
+imagesc(test_x)
+subplot(1,2,2)
+imagesc(test_d)
+model = svmtrain(train_d, train_x, '-c 1 -g 0.07 -b 1');
+*
+optimization finished, #iter = 785
+nu = 0.633750
+obj = -978.601509, rho = 0.446281
+nSV = 1019, nBSV = 1008
+Total nSV = 1019
+*
+optimization finished, #iter = 781
+nu = 0.655000
+obj = -1009.659709, rho = 0.439140
+nSV = 1053, nBSV = 1043
+Total nSV = 1053
+*
+optimization finished, #iter = 767
+nu = 0.637500
+obj = -983.367040, rho = 0.651379
+nSV = 1028, nBSV = 1016
+Total nSV = 1028
+*
+optimization finished, #iter = 791
+nu = 0.646250
+obj = -997.506114, rho = 0.816655
+nSV = 1039, nBSV = 1031
+Total nSV = 1039
+*
+optimization finished, #iter = 781
+nu = 0.647500
+obj = -999.053715, rho = 0.768559
+nSV = 1043, nBSV = 1030
+Total nSV = 1043
+*
+optimization finished, #iter = 925
+nu = 0.644000
+obj = -1230.849137, rho = 0.542218
+nSV = 1295, nBSV = 1284
+Total nSV = 1295
+[predict_label, accuracy, prob_estimates] = svmpredict(test_y, test_x, model, '-b 1');
+{Undefined function or variable 'test_y'.
+} 
+[predict_label, accuracy, prob_estimates] = svmpredict(test_d, test_x, model, '-b 1');
+Accuracy = 92.8072% (929/1001) (classification)
+imagesc(predict_label)
+colorbar
+subplot(1,2,2)
+subplot(1,2,1)
+imagesc(predict_label)
+colorbar
+subplot(1,2,2)
+imagesc(test_d)
+colorbar
+edit ../svm.h
+edit svm_model_matlab.h
+edit mex.h
+edit crossvalind.m
+edit crossval.m

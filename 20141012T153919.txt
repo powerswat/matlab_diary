@@ -1,0 +1,3 @@
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\NNProj_2\trainRBFNet.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',1)
+uiopen('C:\Users\cho64_000\Dropbox\Neural Net\Prev_year\Homework\ECE_779_HW_2.m',1)

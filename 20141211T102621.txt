@@ -1,0 +1,35 @@
+3/2ln3
+ 3/2ln3
+    |
+{Error: Unexpected MATLAB expression.
+} 
+3/2ln(3)
+ 3/2ln(3)
+    |
+{Error: Unexpected MATLAB expression.
+} 
+3/2*ln(3)
+{Undefined function 'ln' for input
+arguments of type 'double'.
+} 
+3/2*ln(3.0)
+{Undefined function 'ln' for input
+arguments of type 'double'.
+} 
+ln(3)
+{Undefined function 'ln' for input
+arguments of type 'double'.
+} 
+edit ln
+edit log
+3/2log(3)
+ 3/2log(3)
+    |
+{Error: Unexpected MATLAB expression.
+} 
+3/(2*log(3))
+
+ans =
+
+    1.3654
+
